@@ -438,3 +438,9 @@ dialog#lightbox[open] { display: grid; place-items: center; animation: fade .3s 
 .hero-eq .katex { font-size: 1.22rem; }
 .hero-eq small .katex { font-size: 1rem; }
 .footer .tex .katex { font-size: 1em; }
+
+.pair-next { padding-left: .9rem; border-left: 2px solid var(--gold); font-size: .9rem !important; }
+.pair-next b { color: var(--gold-2) !important; }
+.win-grid { grid-template-columns: 1fr 1fr; }
+.mini-grid { grid-template-columns: 1fr 1fr; }
+@media (max-width: 960px) { .win-grid, .mini-grid { grid-template-columns: 1fr; } }
