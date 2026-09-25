@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <script>document.documentElement.classList.add('js')</script>
 </head>
@@ -63,10 +64,10 @@
       </div>
 
       <p class="hero-eq" aria-hidden="true">
-        <span>dx/dt = σ(y − x)</span>
-        <span>dy/dt = x(ρ − z) − y</span>
-        <span>dz/dt = xy − βz</span>
-        <small>σ = 10 · ρ = 28 · β = 8/3</small>
+        <span class="tex" data-tex="\dot{x}=\sigma\,(y-x)">dx/dt = σ(y − x)</span>
+        <span class="tex" data-tex="\dot{y}=x\,(\rho-z)-y">dy/dt = x(ρ − z) − y</span>
+        <span class="tex" data-tex="\dot{z}=xy-\beta z">dz/dt = xy − βz</span>
+        <small class="tex" data-tex="\sigma=10,\ \rho=28,\ \beta=8/3">σ = 10 · ρ = 28 · β = 8/3</small>
       </p>
 
       <a class="scroll-cue" href="#sobre-mi" aria-label="Bajar"><span></span></a>
@@ -86,7 +87,7 @@
         <header class="sec-head reveal">
           <span class="sec-num">01</span>
           <h2>Sobre <em>mí</em></h2>
-          <span class="sec-eq" aria-hidden="true">lim (1 + 1/n)ⁿ = e</span>
+          <span class="sec-eq" aria-hidden="true"><span class="tex" data-tex="\lim_{n\to\infty}\left(1+\tfrac{1}{n}\right)^{n}=e">lim (1 + 1/n)ⁿ = e</span></span>
         </header>
 
         <div class="about">
@@ -124,7 +125,7 @@
         <header class="sec-head reveal">
           <span class="sec-num">02</span>
           <h2>Proyectos de <em>investigación</em></h2>
-          <span class="sec-eq" aria-hidden="true">θ* = argmin L(θ)</span>
+          <span class="sec-eq" aria-hidden="true"><span class="tex" data-tex="\theta^{*}=\arg\min_{\theta}\,\mathcal{L}(\theta)">θ* = argmin L(θ)</span></span>
         </header>
 
         <!-- CryptoRisk -->
@@ -292,7 +293,7 @@
         <header class="sec-head reveal">
           <span class="sec-num">03</span>
           <h2>Trayectoria</h2>
-          <span class="sec-eq" aria-hidden="true">dx/dt = f(x, t)</span>
+          <span class="sec-eq" aria-hidden="true"><span class="tex" data-tex="\tfrac{dx}{dt}=f(x,t)">dx/dt = f(x, t)</span></span>
         </header>
 
         <div class="two-col">
@@ -352,7 +353,7 @@
         <header class="sec-head reveal">
           <span class="sec-num">04</span>
           <h2>Programas y <em>cursos</em></h2>
-          <span class="sec-eq" aria-hidden="true">S = ∑ aprendizajeᵢ</span>
+          <span class="sec-eq" aria-hidden="true"><span class="tex" data-tex="S=\sum_{i}\text{aprendizaje}_{i}">S = ∑ aprendizajeᵢ</span></span>
         </header>
 
         <div class="prog-grid">
@@ -412,7 +413,7 @@
         <header class="sec-head reveal">
           <span class="sec-num">05</span>
           <h2>Logros y <em>reconocimientos</em></h2>
-          <span class="sec-eq" aria-hidden="true">Q.E.D.</span>
+          <span class="sec-eq" aria-hidden="true"><span class="tex" data-tex="\blacksquare">Q.E.D.</span></span>
         </header>
 
         <div class="win-grid">
@@ -451,7 +452,7 @@
         <header class="sec-head reveal">
           <span class="sec-num">06</span>
           <h2>Caja de <em>herramientas</em></h2>
-          <span class="sec-eq" aria-hidden="true">f : ideas → código</span>
+          <span class="sec-eq" aria-hidden="true"><span class="tex" data-tex="f:\text{ideas}\to\text{código}">f : ideas → código</span></span>
         </header>
 
         <div class="how card reveal" data-spot>
@@ -508,7 +509,7 @@
         <header class="sec-head reveal">
           <span class="sec-num">07</span>
           <h2>Certificados</h2>
-          <span class="sec-eq" aria-hidden="true">∀ curso ∃ evidencia</span>
+          <span class="sec-eq" aria-hidden="true"><span class="tex" data-tex="\forall\,\text{curso}\;\exists\,\text{evidencia}">∀ curso ∃ evidencia</span></span>
         </header>
 
         <div class="filters reveal" role="group" aria-label="Filtrar certificados">
@@ -574,7 +575,7 @@
         <header class="sec-head reveal">
           <span class="sec-num">08</span>
           <h2>Hablemos<em>.</em></h2>
-          <span class="sec-eq" aria-hidden="true">P(colaborar | hablar) ↑</span>
+          <span class="sec-eq" aria-hidden="true"><span class="tex" data-tex="P(\text{colaborar}\mid\text{hablar})\uparrow">P(colaborar | hablar) ↑</span></span>
         </header>
         <p class="contact-lead reveal">
           Abierto a colaboraciones de investigación, becas y oportunidades en finanzas cuantitativas,
@@ -593,7 +594,7 @@
   <footer class="footer">
     <div class="wrap">
       <span>© 2026 Mario Marroquín</span>
-      <span class="muted">Hecho a mano con HTML, CSS y JavaScript · e<sup>iπ</sup> + 1 = 0</span>
+      <span class="muted">Hecho a mano con HTML, CSS y JavaScript · <span class="tex" data-tex="e^{i\pi}+1=0">e<sup>iπ</sup> + 1 = 0</span></span>
       <a href="#inicio">Volver arriba ↑</a>
     </div>
   </footer>
@@ -610,6 +611,7 @@
     </div>
   </dialog>
 
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

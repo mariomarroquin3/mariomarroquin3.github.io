@@ -451,4 +451,13 @@
   }));
   $('#lbClose').addEventListener('click', () => lb.close());
   lb.addEventListener('click', (e) => { if (!e.target.closest('.lb-inner')) lb.close(); });
+
+  /* ───────── Fórmulas con KaTeX (si no carga, queda el texto plano de respaldo) ───────── */
+  addEventListener('DOMContentLoaded', () => {
+    if (!window.katex) return;
+    $$('.tex[data-tex]').forEach((el) => {
+      try { window.katex.render(el.dataset.tex, el, { throwOnError: true, displayMode: false }); }
+      catch { /* se conserva el respaldo */ }
+    });
+  });
 })();
