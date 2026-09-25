@@ -460,3 +460,8 @@ dialog#lightbox[open] { display: grid; place-items: center; animation: fade .3s 
 .side-links { display: flex; flex-wrap: wrap; gap: .3rem 1rem; margin-top: .4rem; }
 .side-links a { font: 400 .72rem/1.4 var(--mono); color: var(--ink-2); border-bottom: 1px solid var(--gold); transition: color .2s; }
 .side-links a:hover { color: var(--gold-2); }
+
+.tl-list { display: grid; gap: .55rem; margin-top: .35rem; max-width: 38rem; }
+.tl-list li { position: relative; padding-left: 1.1rem; color: var(--ink-2); font-size: .95rem; }
+.tl-list li::before { content: ""; position: absolute; left: 0; top: .72em; width: 5px; height: 5px; border-radius: 50%; background: var(--gold); }
+.tl-list b { color: var(--ink); font-weight: 500; }
