@@ -63,6 +63,27 @@
     $$('.reveal').filter((el) => !el.closest('.hero')).forEach((el) => io.observe(el));
   }
 
+  /* ───────── Símbolos matemáticos flotantes (parallax) ───────── */
+  (function floatingMath() {
+    const glyphs = ['∑', '∫', '∂', 'π', 'λ', 'σ', '∇', '≈', '∞', 'θ', 'ε', '√', '∈', 'μ', 'Δ', 'ℝ'];
+    const rnd = mulberry32(31416);
+    const perSection = innerWidth < 700 ? 2 : 4;
+    $$('.section').forEach((sec) => {
+      for (let i = 0; i < perSection; i++) {
+        const el = document.createElement('span');
+        el.className = 'mf';
+        el.setAttribute('aria-hidden', 'true');
+        el.textContent = glyphs[Math.floor(rnd() * glyphs.length)];
+        const left = i % 2 ? 60 + rnd() * 35 : 2 + rnd() * 30; // alternamos lados
+        el.style.left = left.toFixed(1) + '%';
+        el.style.top = (18 + rnd() * 72).toFixed(1) + '%';
+        el.style.fontSize = (2.4 + rnd() * 3.6).toFixed(2) + 'rem';
+        el.dataset.speed = ((rnd() > 0.5 ? 1 : -1) * (0.08 + rnd() * 0.22)).toFixed(2);
+        sec.prepend(el);
+      }
+    });
+  })();
+
   /* ───────── Parallax + scroll (un solo rAF) ───────── */
   const px = $$('[data-speed]').map((el) => ({ el, speed: parseFloat(el.dataset.speed), py: 0 }));
   let ticking = false;
@@ -98,17 +119,19 @@
 
   /* ───────── Roles rotativos ───────── */
   const role = $('#role');
-  const roles = ['Riesgo cuantitativo', 'Criptografía', 'Machine learning', 'Series temporales', 'Econometría', 'Automatización'];
+  const roles = ['Riesgo cuantitativo', 'Criptografía', 'Machine learning', 'Series temporales', 'Econometría', 'Álgebra lineal'];
   if (!reduced) {
     const ease = 'cubic-bezier(.2,.7,.2,1)';
     let i = 0;
     setInterval(async () => {
-      role.getAnimations().forEach((a) => a.cancel());
-      await role.animate([{ transform: 'none', opacity: 1 }, { transform: 'translateY(-110%)', opacity: 0 }], { duration: 380, easing: ease, fill: 'forwards' }).finished;
-      i = (i + 1) % roles.length;
-      role.textContent = roles[i];
-      role.getAnimations().forEach((a) => a.cancel());
-      role.animate([{ transform: 'translateY(110%)', opacity: 0 }, { transform: 'none', opacity: 1 }], { duration: 480, easing: ease });
+      try {
+        role.getAnimations().forEach((a) => a.cancel());
+        await role.animate([{ transform: 'none', opacity: 1 }, { transform: 'translateY(-110%)', opacity: 0 }], { duration: 380, easing: ease, fill: 'forwards' }).finished;
+        i = (i + 1) % roles.length;
+        role.textContent = roles[i];
+        role.getAnimations().forEach((a) => a.cancel());
+        role.animate([{ transform: 'translateY(110%)', opacity: 0 }, { transform: 'none', opacity: 1 }], { duration: 480, easing: ease });
+      } catch { /* animación cancelada (pestaña en segundo plano): se reintenta en el siguiente ciclo */ }
     }, 2600);
   }
 
