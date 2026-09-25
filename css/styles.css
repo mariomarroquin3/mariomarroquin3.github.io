@@ -465,3 +465,5 @@ dialog#lightbox[open] { display: grid; place-items: center; animation: fade .3s 
 .tl-list li { position: relative; padding-left: 1.1rem; color: var(--ink-2); font-size: .95rem; }
 .tl-list li::before { content: ""; position: absolute; left: 0; top: .72em; width: 5px; height: 5px; border-radius: 50%; background: var(--gold); }
 .tl-list b { color: var(--ink); font-weight: 500; }
+
+.win code { font: 400 .82em var(--mono); color: var(--gold-2); background: rgba(216, 181, 106, .08); padding: .1em .35em; border-radius: 4px; }
