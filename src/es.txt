@@ -864,7 +864,7 @@ Ganador · Nacional · 2025
 Primer Hackathon Nacional de Inteligencia Artificial
 
 ### logros.005
-Ganador en la categoría de <b>clasificación de calidad de café</b>, el primer hackathon de IA a nivel nacional. Lo resolví con un modelo <b>Random Forest</b> (<code>RandomForestRegressor</code> de scikit-learn).
+Ganador en la categoría de <b>clasificación de calidad de café</b>, el primer hackathon de IA a nivel nacional. Lo resolví con <b>Grainy</b>, una app con un modelo <b>Random Forest</b> (<code>RandomForestRegressor</code> de scikit-learn). <a class="inline-link" href="#p-grainy">Ver el proyecto ↓</a>
 
 ### logros.006
 Distrital · Departamental
@@ -1416,4 +1416,37 @@ Econometría
 
 ### js.certalt
 Certificado: 
+
+### subnav.009
+Grainy
+
+### grainy.001
+IA aplicada · Hackathon
+
+### grainy.002
+Ganador · Hackathon Nacional de IA 2025
+
+### grainy.003
+Predicción de calidad de café
+
+### grainy.004
+Grainy · Calidad de café con Random Forest
+
+### grainy.005
+¿Puede un modelo estimar la calidad de un café y explicar en qué se basa?
+
+### grainy.006
+App en Streamlit donde se ingresan las características de un lote de café (origen, altitud, variedad, proceso, defectos y puntajes de catación) y un <b>Random Forest</b> estima su puntaje total y su categoría. Genera un reporte en PDF e incluye un chatbot con Gemini que responde dudas de evaluación de café a partir de una guía técnica.
+
+### grainy.007
+<b>En mejora:</b> fue mi primer proyecto de datos y entonces solo buscaba porcentajes altos. Ahora sé que usar los puntajes sensoriales como entradas filtra información del objetivo, porque el puntaje total es casi su suma. Estoy construyendo un modelo «antes de catar» y una validación más rigurosa.
+
+### grainy.008
+Resumen
+
+### grainy.009
+Entrena un <code>RandomForestRegressor</code> (500 árboles) y un <code>RandomForestClassifier</code> con datos de calidad de café del Coffee Quality Institute (dos conjuntos combinados). La versión del hackathon obtuvo un R² de 0.95 y un 95 % de exactitud en prueba, pero esas cifras incluyen los puntajes sensoriales como entradas y por eso sobreestiman la capacidad real de predecir. El trabajo actual apunta a predecir sin ellos, eliminar duplicados entre conjuntos y validar por origen.
+
+### grainy.010
+Repositorio próximamente
 

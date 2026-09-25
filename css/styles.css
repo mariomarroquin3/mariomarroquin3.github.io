@@ -535,3 +535,6 @@ dialog#lightbox[open] { display: grid; place-items: center; animation: fade .3s 
 .langhint a { color: var(--gold-2); border-bottom: 1px solid var(--gold); white-space: nowrap; }
 .langhint button { width: 30px; height: 30px; border-radius: 50%; color: var(--muted); font-size: 1.1rem; line-height: 1; }
 .langhint button:hover { color: var(--ink); background: rgba(255, 255, 255, .06); }
+
+.pair-grid.one { grid-template-columns: 1fr; }
+.pair-grid.one .pair { max-width: 62rem; }

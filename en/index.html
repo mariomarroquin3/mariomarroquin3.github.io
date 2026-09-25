@@ -144,6 +144,7 @@
 <a href="#p-cryptorisk">CryptoRisk</a>
 <a href="#p-entropy">Entropy Arena</a>
 <a href="#p-retina">RetinoVisionAI</a>
+<a href="#p-grainy">Grainy</a>
 <a href="#p-infra">Infrastructure and IoT</a>
 <a href="#p-datos">Data and security</a>
 <a href="#p-otros">Studies and ERP</a>
@@ -224,6 +225,21 @@
 </div>
 </article>
 <!-- Infraestructura e IoT -->
+<!-- Grainy: hackathon -->
+<h3 class="col-title reveal side-title" id="p-grainy" style="margin-top:0">Applied AI · Hackathon</h3>
+<div class="pair-grid one">
+<article class="card pair reveal" data-spot="">
+<p class="tag-row"><span class="pill pill-hot"><i></i>Winner · National AI Hackathon 2025</span><span class="mono muted">Coffee quality prediction</span></p>
+<h4>Grainy · Coffee quality with Random Forest</h4>
+<p class="rq">Can a model estimate a coffee's quality and explain what it is based on?</p>
+<p>A Streamlit app where you enter the characteristics of a coffee lot (origin, altitude, variety, processing, defects and cupping scores) and a <b>Random Forest</b> estimates its total score and category. It generates a PDF report and includes a Gemini chatbot that answers coffee-evaluation questions from a technical guide.</p>
+<p class="pair-next"><b>Improving:</b> it was my first data project and back then I only cared about high percentages. I now know that using the sensory scores as inputs leaks information about the target, because the total score is almost their sum. I'm building a “pre-cupping” model and a more rigorous validation.</p>
+<details class="abs"><summary>Summary</summary><p>Trains a <code>RandomForestRegressor</code> (500 trees) and a <code>RandomForestClassifier</code> on coffee quality data from the Coffee Quality Institute (two datasets combined). The hackathon version reached an R² of 0.95 and 95% accuracy on the test set, but those figures include the sensory scores as inputs and therefore overstate real predictive ability. Current work aims to predict without them, remove duplicates across datasets and validate by origin.</p></details>
+<p class="chips"><span>Python</span><span>scikit-learn</span><span>Streamlit</span><span>Plotly</span><span>Altair</span><span>Gemini</span><span>FAISS</span></p>
+<p class="mono muted">Repository coming soon</p>
+</article>
+</div>
+
 <h3 class="col-title reveal side-title" id="p-infra" style="margin-top:0">Infrastructure and IoT</h3>
 <div class="pair-grid">
 <article class="card pair reveal" data-spot="">
@@ -452,7 +468,7 @@
 </span>
 <p class="win-kind">Winner · National · 2025</p>
 <h4>First National Artificial Intelligence Hackathon</h4>
-<p>Winner in the <b>coffee quality classification</b> category of the first national AI hackathon. I solved it with a <b>Random Forest</b> model (scikit-learn's <code>RandomForestRegressor</code>).</p>
+<p>Winner in the <b>coffee quality classification</b> category of the first national AI hackathon. I solved it with <b>Grainy</b>, an app built around a <b>Random Forest</b> model (scikit-learn's <code>RandomForestRegressor</code>). <a class="inline-link" href="#p-grainy">See the project ↓</a></p>
 </article>
 <article class="card win reveal" data-spot="" style="--d:.08s">
 <span aria-hidden="true" class="win-icon">
