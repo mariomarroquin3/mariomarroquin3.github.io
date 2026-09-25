@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mario Alejandro Marroquín</title>
+  <meta name="description" content="Matemáticas, riesgo cuantitativo y machine learning · Mathematics, quantitative risk and machine learning. El Salvador.">
+  <meta name="theme-color" content="#07080b">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mario Alejandro Marroquín">
+  <meta property="og:description" content="Matemáticas, riesgo y machine learning · Mathematics, risk and machine learning">
+  <meta property="og:url" content="https://mariomarroquin3.github.io/">
+  <meta property="og:image" content="https://mariomarroquin3.github.io/assets/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://mariomarroquin3.github.io/assets/og.jpg">
+  <link rel="alternate" hreflang="es" href="https://mariomarroquin3.github.io/es/">
+  <link rel="alternate" hreflang="en" href="https://mariomarroquin3.github.io/en/">
+  <link rel="alternate" hreflang="x-default" href="https://mariomarroquin3.github.io/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script>
+    /* Elige el idioma: preferencia guardada > idioma del navegador > español. Conserva #sección y ?consulta. */
+    (function () {
+      var l = null;
+      try { l = localStorage.getItem('lang'); } catch (e) {}
+      if (l !== 'es' && l !== 'en') {
+        var p = ((navigator.languages && navigator.languages[0]) || navigator.language || 'es').slice(0, 2).toLowerCase();
+        l = p === 'en' ? 'en' : 'es';
+      }
+      location.replace(l + '/' + location.search + location.hash);
+    })();
+  </script>
+  <style>
+    :root { color-scheme: dark; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #07080b; color: #ece7dc; font: 400 1.05rem/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; text-align: center; padding: 2rem; }
+    h1 { font: 400 clamp(2.4rem, 8vw, 4.5rem)/1.05 Georgia, "Times New Roman", serif; margin: 0 0 .4rem; }
+    h1 em { background: linear-gradient(100deg, #f2d99f, #d8b56a 45%, #b58a3d); -webkit-background-clip: text; background-clip: text; color: transparent; padding-right: .06em; }
+    p { color: #c3bfb5; margin: 0 0 1.8rem; }
+    nav { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    a { color: #ece7dc; border: 1px solid rgba(236, 231, 220, .25); border-radius: 999px; padding: .8rem 1.6rem; text-decoration: none; transition: background .25s, color .25s, border-color .25s; }
+    a:hover, a:focus-visible { background: #d8b56a; color: #17130a; border-color: #d8b56a; outline: none; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Mario Alejandro <em>Marroquín</em></h1>
+    <p>Matemáticas, riesgo cuantitativo y machine learning<br>Mathematics, quantitative risk and machine learning</p>
+    <nav aria-label="Idioma / Language">
+      <a href="es/" hreflang="es" lang="es" onclick="try{localStorage.setItem('lang','es')}catch(e){}">Español</a>
+      <a href="en/" hreflang="en" lang="en" onclick="try{localStorage.setItem('lang','en')}catch(e){}">English</a>
+    </nav>
+  </main>
+</body>
+</html>

@@ -521,3 +521,17 @@ dialog#lightbox[open] { display: grid; place-items: center; animation: fade .3s 
   .menu a { padding: .4rem .6rem; }
   .cert-meta .badge-links { gap: .1rem 1.2rem; }
 }
+
+/* ───────── Selector de idioma ───────── */
+.langswitch { display: inline-flex; border: 1px solid var(--line-2); border-radius: 999px; padding: 2px; margin-left: .2rem; }
+.langswitch a { font: 500 .7rem/1 var(--mono); letter-spacing: .1em; padding: .42rem .65rem; border-radius: 999px; color: var(--muted) !important; transition: background .25s, color .25s; }
+.langswitch a::after { display: none; }
+.langswitch a:hover { color: var(--ink) !important; }
+.langswitch a[aria-current] { background: rgba(216, 181, 106, .16); color: var(--gold-2) !important; }
+@media (max-width: 760px) { .langswitch { margin: .6rem 0 0; } .langswitch a { font-size: .8rem; padding: .6rem .95rem; } }
+
+.langhint { position: fixed; left: 50%; bottom: 1rem; transform: translateX(-50%); z-index: 130; display: flex; align-items: center; gap: .9rem; max-width: calc(100% - 2rem); padding: .65rem .8rem .65rem 1.1rem; border: 1px solid var(--line-2); border-radius: 999px; background: rgba(12, 14, 19, .94); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); font-size: .85rem; box-shadow: 0 12px 40px -12px #000; }
+.langhint[hidden] { display: none; }
+.langhint a { color: var(--gold-2); border-bottom: 1px solid var(--gold); white-space: nowrap; }
+.langhint button { width: 30px; height: 30px; border-radius: 50%; color: var(--muted); font-size: 1.1rem; line-height: 1; }
+.langhint button:hover { color: var(--ink); background: rgba(255, 255, 255, .06); }

@@ -5,6 +5,7 @@
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+  const I18N = window.I18N || {}; // textos que viven en JS (los inyecta build.py)
 
   /** PRNG determinista para que las visualizaciones se vean igual siempre. */
   const mulberry32 = (a) => () => {
@@ -146,7 +147,7 @@
 
   /* ───────── Roles rotativos ───────── */
   const role = $('#role');
-  const roles = ['Riesgo cuantitativo', 'Criptografía', 'Machine learning', 'Series temporales', 'Econometría', 'Álgebra lineal'];
+  const roles = I18N.roles && I18N.roles.length ? I18N.roles : ['Riesgo cuantitativo', 'Criptografía', 'Machine learning', 'Series temporales', 'Econometría', 'Álgebra lineal'];
   if (!reduced) {
     const ease = 'cubic-bezier(.2,.7,.2,1)';
     let i = 0;
@@ -468,7 +469,7 @@
   const lb = $('#lightbox');
   certs.filter((c) => c.dataset.img).forEach((c) => c.addEventListener('click', () => {
     $('#lbImg').src = c.dataset.img;
-    $('#lbImg').alt = 'Certificado: ' + c.dataset.title;
+    $('#lbImg').alt = (I18N.certAlt || 'Certificado: ') + c.dataset.title;
     $('#lbTitle').textContent = c.dataset.title;
     $('#lbPdf').href = c.dataset.pdf;
     const v = $('#lbVerify');
@@ -487,4 +488,20 @@
       catch { /* se conserva el respaldo */ }
     });
   });
+
+  /* ───────── Idioma: recuerda la elección y conserva la sección actual al cambiar ───────── */
+  const remember = (code) => { try { localStorage.setItem('lang', code); } catch { /* sin almacenamiento */ } };
+  $$('.langswitch a, .langhint a').forEach((a) => a.addEventListener('click', () => {
+    remember(a.dataset.lang);
+    a.href = a.getAttribute('href').split('#')[0] + location.hash;
+  }));
+  const hint = $('#langhint');
+  if (hint) {
+    let stored = null;
+    try { stored = localStorage.getItem('lang'); } catch { /* sin almacenamiento */ }
+    const cur = document.documentElement.lang;
+    const pref = ((navigator.languages && navigator.languages[0]) || navigator.language || '').slice(0, 2).toLowerCase();
+    if (!stored && (pref === 'es' || pref === 'en') && pref !== cur) hint.hidden = false;
+    $('button', hint).addEventListener('click', () => { hint.hidden = true; remember(cur); });
+  }
 })();

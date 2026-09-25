@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Mario Marroquín — Mathematics, risk and machine learning</title>
+<meta content="Portfolio of Mario Alejandro Marroquín: quantitative financial risk, cryptography and machine learning. El Salvador." name="description"/>
+<meta content="#07080b" name="theme-color"/>
+<meta content="Mario Marroquín — Mathematics, risk and machine learning" property="og:title"/>
+<meta content="Research in quantitative risk, cryptography and ML. Projects, background and certifications." property="og:description"/>
+<meta content="website" property="og:type"/>
+<link href="https://mariomarroquin3.github.io/en/" rel="canonical"/>
+<link href="https://mariomarroquin3.github.io/es/" hreflang="es" rel="alternate"/>
+<link href="https://mariomarroquin3.github.io/en/" hreflang="en" rel="alternate"/>
+<link href="https://mariomarroquin3.github.io/" hreflang="x-default" rel="alternate"/>
+<meta content="https://mariomarroquin3.github.io/en/" property="og:url"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="es_SV" property="og:locale:alternate"/>
+
+
+<meta content="https://mariomarroquin3.github.io/assets/og.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="https://mariomarroquin3.github.io/assets/og.jpg" name="twitter:image"/>
+<meta content="Mario Alejandro Marroquín" name="author"/>
+
+<link href="../favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Inter:wght@300;400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet"/>
+<link href="../css/styles.css" rel="stylesheet"/>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#proyectos">Skip to content</a>
+<div aria-hidden="true" id="progress"></div>
+<div class="langhint" id="langhint" hidden><span>Esta página también está disponible en español.</span> <a data-lang="es" href="../es/">Versión en español →</a><button aria-label="Dismiss" type="button">×</button></div>
+<!-- ───────────── NAV ───────────── -->
+<header class="nav" id="nav">
+<a aria-label="Home" class="brand" href="#inicio">M<span>.</span></a>
+<span aria-hidden="true" class="here" id="here"></span>
+<button aria-controls="menu" aria-expanded="false" aria-label="Open menu" class="burger" id="burger"><i></i><i></i></button>
+<nav aria-label="Main" class="menu" id="menu">
+<a href="#sobre-mi">About me</a>
+<a href="#proyectos">Projects</a>
+<a href="#trayectoria">Background</a>
+<a href="#programas">Programs</a>
+<a href="#logros">Achievements</a>
+<a href="#habilidades">Skills</a>
+<a href="#certificados">Certificates</a>
+<a class="menu-cta" href="#contacto">Contact</a>
+<div aria-label="Language" class="langswitch" role="group"><a data-lang="es" href="../es/" hreflang="es" lang="es">ES</a><a data-lang="en" href="../en/" hreflang="en" lang="en" aria-current="true">EN</a></div>
+</nav>
+</header>
+<nav aria-label="Sections" class="rail" id="rail">
+<a data-label="Inicio" href="#inicio"><i></i><span>Home</span></a>
+<a data-label="Sobre mí" href="#sobre-mi"><i></i><span>About me</span></a>
+<a data-label="Proyectos" href="#proyectos"><i></i><span>Projects</span></a>
+<a data-label="Trayectoria" href="#trayectoria"><i></i><span>Background</span></a>
+<a data-label="Programas" href="#programas"><i></i><span>Programs</span></a>
+<a data-label="Logros" href="#logros"><i></i><span>Achievements</span></a>
+<a data-label="Habilidades" href="#habilidades"><i></i><span>Skills</span></a>
+<a data-label="Certificados" href="#certificados"><i></i><span>Certificates</span></a>
+<a data-label="Contacto" href="#contacto"><i></i><span>Contact</span></a>
+</nav>
+<main>
+<!-- ───────────── HERO ───────────── -->
+<section class="hero" id="inicio">
+<canvas aria-hidden="true" data-speed="0.25" id="lorenz"></canvas>
+<div aria-hidden="true" class="hero-vignette"></div>
+<div class="hero-inner wrap" data-speed="-0.06">
+<p class="eyebrow reveal"><span class="dot"></span> El Salvador · Portfolio 2026</p>
+<h1 class="hero-name">
+<span class="line"><span class="reveal" style="--d:.05s">Mario Alejandro</span></span>
+<span class="line"><em class="reveal" style="--d:.18s">Marroquín</em></span>
+</h1>
+<p class="hero-lead reveal" style="--d:.32s">I study and build systems where <strong>mathematics</strong> meets data:
+          financial risk, cryptography and machine learning. I care about understanding <em>why</em> things work, not just that they work.</p>
+<p aria-label="Areas of interest" class="hero-roles reveal" style="--d:.42s">
+<span class="roles-label">Lately I'm obsessed with</span>
+<span class="roles-window"><span class="role" id="role">Quantitative risk</span></span>
+</p>
+<div class="hero-cta reveal" style="--d:.52s">
+<a class="btn btn-solid" href="#proyectos">View projects <span aria-hidden="true">→</span></a>
+<a class="btn btn-ghost" href="#contacto">Contact</a>
+</div>
+</div>
+<p aria-hidden="true" class="hero-eq">
+<span class="tex" data-tex="\dot{x}=\sigma\,(y-x)">dx/dt = σ(y − x)</span>
+<span class="tex" data-tex="\dot{y}=x\,(\rho-z)-y">dy/dt = x(ρ − z) − y</span>
+<span class="tex" data-tex="\dot{z}=xy-\beta z">dz/dt = xy − βz</span>
+<small class="tex" data-tex="\sigma=10,\ \rho=28,\ \beta=8/3">σ = 10 · ρ = 28 · β = 8/3</small>
+</p>
+<a aria-label="Scroll down" class="scroll-cue" href="#sobre-mi"><span></span></a>
+</section>
+<!-- ───────────── MARQUEE ───────────── -->
+<div aria-hidden="true" class="marquee">
+<div class="marquee-track">
+<span>Python</span><i>◆</i><span>PyTorch</span><i>◆</i><span>SQL</span><i>◆</i><span>LaTeX</span><i>◆</i><span>scikit-learn</span><i>◆</i><span>statsmodels</span><i>◆</i><span>Time series</span><i>◆</i><span>Econometrics</span><i>◆</i><span>Cryptography</span><i>◆</i><span>Linear algebra</span><i>◆</i><span>∑</span><i>◆</i><span>∫</span><i>◆</i><span>∇</span><i>◆</i><span>Probability</span><i>◆</i><span>AI agents</span><i>◆</i><span>MCP</span><i>◆</i><span>Python</span><i>◆</i><span>PyTorch</span><i>◆</i><span>SQL</span><i>◆</i><span>LaTeX</span><i>◆</i><span>scikit-learn</span><i>◆</i><span>statsmodels</span><i>◆</i><span>Time series</span><i>◆</i><span>Econometrics</span><i>◆</i><span>Cryptography</span><i>◆</i><span>Linear algebra</span><i>◆</i><span>∑</span><i>◆</i><span>∫</span><i>◆</i><span>∇</span><i>◆</i><span>Probability</span><i>◆</i><span>AI agents</span><i>◆</i><span>MCP</span><i>◆</i>
+</div>
+</div>
+<!-- ───────────── SOBRE MÍ ───────────── -->
+<section class="section" id="sobre-mi">
+<span aria-hidden="true" class="ghost-num" data-speed="0.12">π</span>
+<div class="wrap">
+<header class="sec-head reveal">
+<span class="sec-num">01</span>
+<h2>About <em>me</em></h2>
+<span aria-hidden="true" class="sec-eq"><span class="tex" data-tex="\lim_{n\to\infty}\left(1+\tfrac{1}{n}\right)^{n}=e">lim (1 + 1/n)ⁿ = e</span></span>
+</header>
+<div class="about">
+<div class="about-text">
+<p class="big reveal">I'm a Salvadoran student who moves between <em>applied mathematics</em>,
+              <em>machine learning</em> and building systems.</p>
+<p class="reveal" style="--d:.08s">I'm finishing my Technical Baccalaureate in Technology Infrastructure and IT Services.
+              Before that I took part in mathematics olympiads for two consecutive years, and ever since
+              I look for the rigorous side of everything I build.</p>
+<p class="reveal" style="--d:.14s">Meanwhile I do research on my own: I compare more than twenty risk models for crypto-assets,
+              I break pseudorandom number generators to understand why “looking random”
+              is not the same as “being unpredictable”, and I work with AI agents: I decide what gets built and how; they help me with a lot of the syntax.</p>
+</div>
+<ul class="stats">
+<li class="reveal" style="--d:.05s"><b data-count="20" data-suffix="+">20+</b><span>volatility and tail-risk models compared</span></li>
+<li class="reveal" style="--d:.12s"><b data-count="0.02" data-decimals="2" data-suffix=" s">0.02 s</b><span>to recover the full state of an MT19937</span></li>
+<li class="reveal" style="--d:.19s"><b data-count="14">14</b><span>certificates and badges in AI, data, mathematics and programming</span></li>
+<li class="reveal" style="--d:.26s"><b data-count="2">2</b><span>papers in preparation for arXiv</span></li>
+</ul>
+</div>
+</div>
+</section>
+<!-- ───────────── PROYECTOS ───────────── -->
+<section class="section" id="proyectos">
+<span aria-hidden="true" class="ghost-num" data-speed="0.12">∇</span>
+<div class="wrap">
+<header class="sec-head reveal">
+<span class="sec-num">02</span>
+<h2><em>Research</em> projects</h2>
+<span aria-hidden="true" class="sec-eq"><span class="tex" data-tex="\theta^{*}=\arg\min_{\theta}\,\mathcal{L}(\theta)">θ* = argmin L(θ)</span></span>
+</header>
+<nav aria-label="Projects index" class="subnav" id="subnav">
+<a href="#p-cryptorisk">CryptoRisk</a>
+<a href="#p-entropy">Entropy Arena</a>
+<a href="#p-retina">RetinoVisionAI</a>
+<a href="#p-infra">Infrastructure and IoT</a>
+<a href="#p-datos">Data and security</a>
+<a href="#p-otros">Studies and ERP</a>
+<a href="#p-side">Side projects</a>
+</nav>
+<!-- CryptoRisk -->
+<article class="feature" id="p-cryptorisk">
+<div class="feature-visual reveal">
+<div class="viz-frame card" data-spot="">
+<div class="viz-bar"><span>Illustration · simulated returns</span><span class="mono-gold">GARCH-t · VaR 99%</span></div>
+<svg aria-label="Serie de retornos con banda de Value-at-Risk y excedencias marcadas" id="viz-risk" role="img" viewbox="0 0 600 280"></svg>
+<div class="viz-legend"><span><i class="k-line"></i>return</span><span><i class="k-var"></i>−VaR</span><span><i class="k-hit"></i>exceedance</span></div>
+</div>
+</div>
+<div class="feature-body">
+<p class="tag-row reveal"><span class="pill pill-live"><i></i>Live</span><span class="mono muted">CryptoRisk / CUBO+ Risk Terminal</span></p>
+<h3 class="reveal" style="--d:.05s">Tail risk for Bitcoin and Ethereum</h3>
+<p class="rq reveal" style="--d:.07s">Which models best predict the tail risk of Bitcoin and Ethereum, and which ones fail?</p>
+<p class="reveal" style="--d:.1s"><em>Out-of-sample</em> comparison of more than 20 volatility models that predict
+              Value-at-Risk and Expected Shortfall one day ahead with a walk-forward protocol on a rolling 500-day window.</p>
+<ul class="facts reveal" style="--d:.15s">
+<li><b>Models.</b> GARCH-t, GJR, EGARCH, EWMA, FHS, GARCH-EVT, HAR-RV, Realized-GARCH, CAViaR, MS-GARCH, RF-QR, LSTM-Vol…</li>
+<li><b>Evaluation.</b> Kupiec, Christoffersen, Dynamic Quantile, Acerbi-Szekely, FZO, Diebold-Mariano, MCS and Berkowitz.</li>
+<li><b>Finding.</b> Realized-GARCH and CAViaR lead the FZO ranking; MS-GARCH fails to identify regimes with a 500-day window.</li>
+</ul>
+<details class="abs reveal" style="--d:.18s"><summary>Summary</summary><p><em>Out-of-sample</em> comparison of more than 20 volatility and tail-risk models (GARCH family, HAR, CAViaR, MS-GARCH, RF-QR and LSTM) for BTC and ETH. Each model predicts one-day VaR and Expected Shortfall on a rolling 500-day window and is evaluated with coverage tests (Kupiec, Christoffersen), loss-based scores (FZO, Acerbi-Szekely) and comparison tests (Diebold-Mariano, MCS). Realized-GARCH and CAViaR lead the ranking; MS-GARCH fails to identify stable regimes with that window.</p></details>
+<p class="chips reveal" style="--d:.2s"><span>Python</span><span>PyTorch</span><span>arch</span><span>Next.js</span><span>Recharts</span><span>LaTeX</span></p>
+<p class="links reveal" style="--d:.25s"><a class="link" href="https://cryptorisk-mauve.vercel.app/" rel="noopener" target="_blank">Open dashboard <span>↗</span></a><a class="link" href="https://github.com/mariomarroquin3/cryptorisk" rel="noopener" target="_blank">Code <span>↗</span></a></p>
+</div>
+</article>
+<!-- Entropy Arena -->
+<article class="feature flip" id="p-entropy">
+<div class="feature-visual reveal">
+<div class="viz-frame card" data-spot="">
+<div class="viz-bar"><span>Rule 30 · cellular automaton</span><span class="mono-gold">deterministic</span></div>
+<canvas aria-label="Autómata celular Regla 30 generándose fila por fila" height="240" id="viz-rule30" role="img" width="483"></canvas>
+<p class="viz-quote">“Looking random is not the same as being unpredictable.”</p>
+</div>
+</div>
+<div class="feature-body">
+<p class="tag-row reveal"><span class="pill">Cryptography</span><span class="mono muted">Mathematical framework</span></p>
+<h3 class="reveal" style="--d:.05s">Entropy Arena</h3>
+<p class="rq reveal" style="--d:.07s">How unpredictable is a source that only looks random?</p>
+<p class="reveal" style="--d:.1s">Compares randomness sources for generating cryptographic keys (BIP39/32/48/67, 2-of-3 and 3-of-5 multisig),
+              separating <em>statistical quality</em> (NIST SP 800-22) from <em>real entropy</em> (min-entropy, NIST SP 800-90B).</p>
+<ul class="facts reveal" style="--d:.15s">
+<li><b>Sources.</b> CSPRNG, Mersenne Twister, RANDU, logistic map, Lorenz attractor, Rule 30, digits of π, CPU jitter, dice and card shuffles.</li>
+<li><b>Attacks.</b> State recovery of MT19937 in 0.02 s and of RANDU in 0.26 s, plus π-offset and clock-seed attacks.</li>
+<li><b>Pipeline.</b> BIP39 → BIP32 → BIP48 → BIP67, bech32 addresses (BIP173) and descriptors (BIP380).</li>
+</ul>
+<details class="abs reveal" style="--d:.18s"><summary>Summary</summary><p>Looking random is not the same as being unpredictable. The framework separates a source's statistical quality (NIST SP 800-22 tests) from its real entropy (min-entropy, NIST SP 800-90B) and measures how well an attacker can predict it. It recovers the MT19937 state in 0.02 s and the RANDU state in 0.26 s, and follows the impact all the way to BIP39/32/48 keys and multisig.</p></details>
+<p class="chips reveal" style="--d:.2s"><span>Python</span><span>secp256k1</span><span>NIST SP 800-22 / 90B</span><span>LaTeX</span></p>
+<p class="links reveal" style="--d:.25s"><a class="link" href="https://github.com/mariomarroquin3/entropy-arena" rel="noopener" target="_blank">Code <span>↗</span></a></p>
+</div>
+</article>
+<!-- RetinoVision -->
+<article class="feature" id="p-retina">
+<div class="feature-visual reveal">
+<div class="viz-frame card viz-retina" data-spot="">
+<div class="viz-bar"><span>Fundus · illustration</span><span class="mono-gold">CNN</span></div>
+<svg aria-label="Ilustración estilizada de un fondo de ojo con regiones marcadas" id="viz-retina" role="img" viewbox="0 0 400 400"></svg>
+</div>
+</div>
+<div class="feature-body">
+<p class="tag-row reveal"><span class="pill">Project</span><span class="mono muted">Presented at the EUREKA challenge</span></p>
+<h3 class="reveal" style="--d:.05s">RetinoVisionAI</h3>
+<p class="rq reveal" style="--d:.07s">Can a neural network help detect diabetic retinopathy where ophthalmologists are scarce?</p>
+<p class="reveal" style="--d:.1s">Classification of diabetic retinopathy in fundus images with convolutional neural networks.
+              A computer-aided diagnosis tool designed for communities with limited access to ophthalmologists.</p>
+<ul class="facts reveal" style="--d:.15s">
+<li><b>Model.</b> CNN in PyTorch (EfficientNet-B3) with data augmentation, illumination normalization and stratified cross-validation.</li>
+<li><b>Interpretability.</b> Web app with Grad-CAM to see which regions of the retina drive each prediction.</li>
+<li><b>Challenges.</b> Noisy medical images, class imbalance and variability between patients.</li>
+</ul>
+<details class="abs reveal" style="--d:.18s"><summary>Summary</summary><p>A CNN (EfficientNet-B3, PyTorch) classifies diabetic retinopathy in fundus images. It is trained with data augmentation, illumination normalization and stratified cross-validation to handle noisy images, imbalanced classes and variability between patients. A web app with Grad-CAM shows which regions of the retina drive each prediction.</p></details>
+<p class="chips reveal" style="--d:.2s"><span>PyTorch</span><span>OpenCV</span><span>NumPy</span><span>Pandas</span><span>Flask</span></p>
+<p class="links reveal" style="--d:.25s"><a class="link" href="https://github.com/mariomarroquin3/Diabetic-Retinopathy-Classifier" rel="noopener" target="_blank">Code <span>↗</span></a></p>
+</div>
+</article>
+<!-- Infraestructura e IoT -->
+<h3 class="col-title reveal side-title" id="p-infra" style="margin-top:0">Infrastructure and IoT</h3>
+<div class="pair-grid">
+<article class="card pair reveal" data-spot="">
+<p class="tag-row"><span class="pill">Team project</span><span class="mono muted">Module 3.3 · Data centers</span></p>
+<h4>Data center monitoring</h4>
+<p>I set up <b>Zabbix</b> on an Ubuntu virtual machine to collect certain metrics from my classmates' computers and watch their status from a single place.</p>
+<p>We also built a React web dashboard with the module's report: an interview with an engineer from a Tier 4 data center and its analysis under ISO standards such as 22237 (infrastructure) and 22301 (continuity), with strengths, weaknesses and recommendations.</p>
+<p class="chips"><span>Zabbix</span><span>Ubuntu</span><span>Virtual machines</span><span>React</span><span>Framer Motion</span><span>Netlify</span></p>
+<a class="link" href="https://github.com/mariomarroquin3/modulo3.3" rel="noopener" target="_blank">Code <span>↗</span></a>
+</article>
+<article class="card pair reveal" data-spot="" style="--d:.08s">
+<p class="tag-row"><span class="pill pill-hot">IoT</span><span class="mono muted">Hardware + real time</span></p>
+<h4>RFID access control</h4>
+<p>An <b>ESP32</b> with an RFID reader validates each card against <b>Firebase Realtime Database</b>, opens the barriers with servo motors (entry and exit) and logs each event as allowed, denied or inconsistent.</p>
+<p>A React and TypeScript web dashboard shows events and statistics live, and lets you register new credentials by connecting the board from the browser with Web Serial.</p>
+<p class="chips"><span>ESP32</span><span>C++</span><span>Firebase</span><span>React</span><span>TypeScript</span><span>Recharts</span></p>
+<a class="link" href="https://github.com/mariomarroquin3/logger" rel="noopener" target="_blank">Code <span>↗</span></a>
+</article>
+</div>
+<!-- Datos y seguridad de la información -->
+<h3 class="col-title reveal side-title" id="p-datos" style="margin-top:3rem">Data and information security</h3>
+<div class="pair-grid">
+<article class="card pair reveal" data-spot="">
+<p class="tag-row"><span class="pill">Code in Place final project</span><span class="mono muted">Generative AI</span></p>
+<h4>Financial data synthesizer with a VAE</h4>
+<p class="rq">Can accounting systems be tested and audited without exposing real data?</p>
+<p>A <b>Variational Autoencoder</b> in PyTorch learns the statistical patterns of real financial transactions and generates new records, designed to test accounting software and audits <b>without exposing customer data</b>.</p>
+<p>It includes the preprocessing pipeline (log transforms and one-hot encoding) and a Streamlit app where you upload a dataset, control how many records are generated, validate the resemblance with PCA and export the CSV.</p>
+<p class="pair-next"><b>Improving:</b> measuring re-identification risk and comparing data fidelity with more complete metrics.</p>
+<details class="abs"><summary>Summary</summary><p>A VAE learns the joint distribution of financial transactions (amounts with a log transform and categorical variables with one-hot encoding) and samples its latent space to generate new records. A Streamlit app lets you upload a dataset, choose the volume, validate the resemblance with PCA and export the CSV. Re-identification risk still needs to be measured formally.</p></details>
+<p class="chips"><span>PyTorch</span><span>VAE</span><span>Streamlit</span><span>PCA</span><span>Altair</span></p>
+<a class="link" href="https://github.com/mariomarroquin3/data_generator" rel="noopener" target="_blank">Code <span>↗</span></a>
+</article>
+<article class="card pair reveal" data-spot="" style="--d:.08s">
+<p class="tag-row"><span class="pill">Technical baccalaureate</span><span class="mono muted">ISO/IEC 27001</span></p>
+<h4>Information security audit</h4>
+<p>Internal audit of a savings and credit cooperative based on the <b>ISO 27001</b> standard: risk analysis, review of access controls and policies, and a report with gaps and improvement recommendations.</p>
+<p><b>The link with the VAE:</b> audits and software testing often touch sensitive data. Synthetic data is one way to apply the standard's controls on protecting test information and masking data, though it does not replace assessing leakage risk.</p>
+<p class="chips"><span>ISO 27001</span><span>Risk analysis</span><span>Access controls</span></p>
+</article>
+</div>
+<!-- Otros -->
+<div class="mini-grid" id="p-otros">
+<article class="card mini reveal" data-spot="">
+<span aria-hidden="true" class="mini-icon">
+<svg viewbox="0 0 24 24"><path d="M3 20h18M6 16V9m5 7V5m5 11v-6m5 6V8"></path></svg>
+</span>
+<h4>Security and economic growth in Central America</h4>
+<p class="rq">Does violence affect growth through institutions and investment?</p>
+<p>Studies whether violence affects growth through institutional quality and foreign direct investment in Central America, Colombia and the Dominican Republic (2000–2024). A reproducible fixed-effects pipeline with inference robust to few clusters, plus an ML layer for triangulation.</p>
+<details class="abs"><summary>Summary</summary><p>Analyzes whether violence (homicides) deteriorates institutional quality (WGI) and, through that channel, foreign investment and growth, in 8 countries of Central America, Colombia and the Dominican Republic between 2000 and 2024. It uses two-way fixed effects with few-cluster inference (wild cluster bootstrap, CR2, Driscoll-Kraay), diagnostics and ML as triangulation. It is still under methodological review and makes no causal claim.</p></details>
+<p class="chips"><span>Python</span><span>statsmodels</span><span>Panel data</span></p>
+<a class="link" href="https://github.com/mariomarroquin3/data_analyzer" rel="noopener" target="_blank">Code <span>↗</span></a>
+</article>
+<article class="card mini reveal" data-spot="" style="--d:.08s">
+<span aria-hidden="true" class="mini-icon">
+<svg viewbox="0 0 24 24"><path d="M3 9l9-5 9 5v10H3zM9 19v-6h6v6"></path></svg>
+</span>
+<h4>ERP for a maquila</h4>
+<p>A system for a maquila manufacturer with inventory, invoicing, production control and reports. It started as a technical baccalaureate project.</p>
+<p class="chips"><span>TypeScript</span><span>Inventory</span><span>Invoicing</span></p>
+<a class="link" href="https://github.com/mariomarroquin3/ERP_maquila" rel="noopener" target="_blank">Code <span>↗</span></a>
+</article>
+</div>
+<h3 class="col-title reveal side-title" id="p-side">Side projects</h3>
+<div class="side-grid">
+<a class="card side reveal" data-spot="" href="https://github.com/mariomarroquin3/av-matrix" rel="noopener" target="_blank">
+<span class="side-tag">For fun</span>
+<h4>AVMatrix · Virtual switcher</h4>
+<p>Web simulator of an HVS0403U video switcher, with its button panel and PGM/PVW lights.</p>
+<span class="side-go">HTML · CSS · JS ↗</span>
+</a>
+<a class="card side reveal" data-spot="" href="https://github.com/mariomarroquin3/GamePort" rel="noopener" style="--d:.06s" target="_blank">
+<span class="side-tag">For fun</span>
+<h4>GamePort</h4>
+<p>Web portal with sign-up, login and user profile, with a SQL database and its own backend.</p>
+<span class="side-go">HTML · SQL · Node ↗</span>
+</a>
+<div class="card side reveal" data-spot="" style="--d:.12s">
+<span class="side-tag">Born at work</span>
+<h4>DTE invoice tools</h4>
+<p>Two desktop apps that merge electronic invoices into a single PDF, one starting from the accounting entry and the other from the Purchases Ledger. They cut a task that took a whole afternoon to under a minute.</p>
+<span class="side-links"><a href="https://github.com/mariomarroquin3/partidas_dte" rel="noopener" target="_blank">Partidas DTE ↗</a><a href="https://github.com/mariomarroquin3/IVAs" rel="noopener" target="_blank">DTE Joiner ↗</a></span>
+</div>
+<a class="card side side-more reveal" data-spot="" href="https://github.com/mariomarroquin3?tab=repositories" rel="noopener" style="--d:.18s" target="_blank">
+<span class="side-tag">GitHub</span>
+<h4>And more experiments</h4>
+<p>More than 30 repositories of exercises, games and prototypes.</p>
+<span class="side-go">See all ↗</span>
+</a>
+</div>
+</div>
+</section>
+<!-- ───────────── TRAYECTORIA ───────────── -->
+<section class="section" id="trayectoria">
+<span aria-hidden="true" class="ghost-num" data-speed="0.12">∫</span>
+<div class="wrap">
+<header class="sec-head reveal">
+<span class="sec-num">03</span>
+<h2>Background</h2>
+<span aria-hidden="true" class="sec-eq"><span class="tex" data-tex="\tfrac{dx}{dt}=f(x,t)">dx/dt = f(x, t)</span></span>
+</header>
+<div class="two-col">
+<div>
+<h3 class="col-title reveal">Experience</h3>
+<ol class="timeline">
+<li class="tl reveal">
+<span class="tl-dot now"></span>
+<p class="tl-when">Feb 2026 — Present</p>
+<h4>Accounting assistant · Process automation</h4>
+<ul class="tl-list">
+<li><a class="inline-link" href="https://github.com/mariomarroquin3/partidas_dte" rel="noopener" target="_blank">Partidas DTE</a>: desktop app that reads the identifiers of an accounting entry (PDF) and merges the matching electronic invoices into a single file. A task that took a whole afternoon (~4 hours) now takes under a minute, every month and for several clients.</li>
+<li><a class="inline-link" href="https://github.com/mariomarroquin3/IVAs" rel="noopener" target="_blank">DTE Joiner</a>: starts from the Purchases Ledger in Excel, finds the invoices across several folders and builds the PDF in ledger order, with resumable progress, missing-invoice alerts and a log. It achieves a similar time reduction.</li>
+<li><b>Payroll and journal-entry macros (Excel/VBA)</b>: generate payroll sheets and accounting entries with automatic balance checks. They save an estimated 30 to 40% of the time.</li>
+<li><b>Python</b>: extraction, cleaning and validation of financial data. I also help implement an ERP for a maquila.</li>
+</ul>
+</li>
+</ol>
+<h3 class="col-title reveal" style="margin-top:3rem">Education</h3>
+<ol class="timeline">
+<li class="tl reveal">
+<span class="tl-dot now"></span>
+<p class="tl-when">In progress · finishing 3rd year</p>
+<h4>Technical Baccalaureate in Technology Infrastructure and IT Services</h4>
+<p>Networks, operating systems, information security and programming. Straight-10 grades and first place every year. Featured project: ISO 27001 audit.</p>
+</li>
+<li class="tl reveal">
+<span class="tl-dot"></span>
+<p class="tl-when">Planned · after the baccalaureate</p>
+<h4>Software Technician</h4>
+<p>Software development, databases and agile methodologies.</p>
+</li>
+</ol>
+</div>
+<div>
+<h3 class="col-title reveal">Right now</h3>
+<div class="horizons">
+<div class="horizon card reveal" data-spot="">
+<span class="h-label">Learning</span>
+<p>Finish CUBO+ and CUBO_ai, and take Stanford's <b>Probability for AI</b> (admitted, starts in October) to strengthen my foundation in probability.</p>
+</div>
+<div class="horizon card reveal" data-spot="" style="--d:.08s">
+<span class="h-label">Publishing</span>
+<p>Prepare CryptoRisk and Entropy Arena for arXiv, with their LaTeX write-ups.</p>
+</div>
+<div class="horizon card reveal" data-spot="" style="--d:.16s">
+<span class="h-label">Competing</span>
+<p>Aim for a <b>standout result in GCI World</b> (Matsuo Lab, University of Tokyo), the biggest goal of the year.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ───────────── PROGRAMAS ───────────── -->
+<section class="section" id="programas">
+<span aria-hidden="true" class="ghost-num" data-speed="0.12">∑</span>
+<div class="wrap">
+<header class="sec-head reveal">
+<span class="sec-num">04</span>
+<h2>Programs and <em>courses</em></h2>
+<span aria-hidden="true" class="sec-eq"><span class="tex" data-tex="S=\sum_{i}\text{learning}_{i}">S = ∑ learningᵢ</span></span>
+</header>
+<div class="prog-grid">
+<article class="card prog prog-wide reveal" data-spot="">
+<div>
+<span class="status s-live">Member</span>
+<h4>Cohere Labs · Open Science Community</h4>
+<p class="prog-sub">Global community for ML research</p>
+</div>
+<p>Part of Cohere Labs' open science community. I took part in its <b>ML Summer School 2026</b> and received a diploma for my participation and contribution.
+              <a class="inline-link" href="https://credsverse.com/credentials/fadb3379-f0ad-4ca5-b507-8ec345106fd5" rel="noopener" target="_blank">View credential ↗</a></p>
+</article>
+<article class="card prog reveal" data-spot="">
+<span class="status s-live">In progress</span>
+<h4>CUBO+</h4>
+<p class="prog-sub">El Salvador · Bitcoin education</p>
+<p>National program with demanding assignments, testing, networking and asymmetric cryptography. CryptoRisk came out of it.</p>
+</article>
+<article class="card prog reveal" data-spot="" style="--d:.06s">
+<span class="status s-live">In progress</span>
+<h4>CUBO_ai</h4>
+<p class="prog-sub">Artificial intelligence</p>
+<p>Foundations of ML and neural networks.</p>
+</article>
+<article class="card prog reveal" data-spot="" style="--d:.12s">
+<span class="status s-live">In progress</span>
+<h4>GCI · Matsuo Lab</h4>
+<p class="prog-sub">University of Tokyo</p>
+<p>Three-month online course in AI, ML and Data Science, with emphasis on time series, supervised learning, feature engineering and SQL.</p>
+</article>
+<article class="card prog reveal" data-spot="" style="--d:.18s">
+<span class="status s-done">Completed</span>
+<h4>AWS ML Scholars</h4>
+<p class="prog-sub">Amazon Web Services</p>
+<p>Solid foundation in machine learning: preprocessing, training, evaluation and deployment.</p>
+</article>
+<article class="card prog reveal" data-spot="" style="--d:.24s">
+<span class="status s-done">Completed</span>
+<h4>Code in Place</h4>
+<p class="prog-sub">Stanford University · CS106A</p>
+<p>Introduction to programming in Python: control flow, lists, dictionaries and graphics. April–May 2026.</p>
+</article>
+<article class="card prog reveal" data-spot="" style="--d:.3s">
+<span class="status s-pause">Paused</span>
+<h4>Kaggle · Enveda CASMI 2026</h4>
+<p class="prog-sub">Competition</p>
+<p>Identifying molecules from mass spectra. Registered; resuming in 2027.</p>
+</article>
+</div>
+</div>
+</section>
+<!-- ───────────── LOGROS ───────────── -->
+<section class="section" id="logros">
+<span aria-hidden="true" class="ghost-num" data-speed="0.12">∎</span>
+<div class="wrap">
+<header class="sec-head reveal">
+<span class="sec-num">05</span>
+<h2>Achievements and <em>recognition</em></h2>
+<span aria-hidden="true" class="sec-eq"><span class="tex" data-tex="\blacksquare">Q.E.D.</span></span>
+</header>
+<div class="win-grid">
+<article class="card win win-main reveal" data-spot="">
+<span aria-hidden="true" class="win-icon">
+<svg viewbox="0 0 24 24"><path d="M8 4h8v5a4 4 0 0 1-8 0zM8 6H4v1a3 3 0 0 0 4 3M16 6h4v1a3 3 0 0 1-4 3M12 13v4M8 21h8M10 17h4v4h-4z"></path></svg>
+</span>
+<p class="win-kind">Winner · National · 2025</p>
+<h4>First National Artificial Intelligence Hackathon</h4>
+<p>Winner in the <b>coffee quality classification</b> category of the first national AI hackathon. I solved it with a <b>Random Forest</b> model (scikit-learn's <code>RandomForestRegressor</code>).</p>
+</article>
+<article class="card win reveal" data-spot="" style="--d:.08s">
+<span aria-hidden="true" class="win-icon">
+<svg viewbox="0 0 24 24"><path d="M12 3a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zM6 11a6 6 0 0 0 12 0M12 17v4M9 21h6"></path></svg>
+</span>
+<p class="win-kind">District · Departmental</p>
+<h4>Public speaking contests</h4>
+<p>Took part in multiple contests at district and departmental level, with several wins.</p>
+</article>
+<article class="card win reveal" data-spot="" style="--d:.16s">
+<span aria-hidden="true" class="win-icon">
+<svg viewbox="0 0 24 24"><path d="M5 19l14-14M5 5h6M5 5v6M19 19h-6M19 19v-6"></path></svg>
+</span>
+<p class="win-kind">2 consecutive years</p>
+<h4>Mathematics olympiads</h4>
+<p>Took part in two consecutive editions of the mathematics olympiads.</p>
+</article>
+<article class="card win reveal" data-spot="" style="--d:.24s">
+<span aria-hidden="true" class="win-icon">
+<svg viewbox="0 0 24 24"><path d="M4 5h16v11H4zM8 20h8M12 16v4M8 9h8M8 12h5"></path></svg>
+</span>
+<p class="win-kind">200 hours of community service</p>
+<h4>Math teaching</h4>
+<p>Most of my community service hours were spent teaching mathematics, including to grades above my own.</p>
+</article>
+</div>
+</div>
+</section>
+<!-- ───────────── HABILIDADES ───────────── -->
+<section class="section" id="habilidades">
+<span aria-hidden="true" class="ghost-num" data-speed="0.12">λ</span>
+<div class="wrap">
+<header class="sec-head reveal">
+<span class="sec-num">06</span>
+<h2>My <em>toolbox</em></h2>
+<span aria-hidden="true" class="sec-eq"><span class="tex" data-tex="f:\text{ideas}\to\text{code}">f : ideas → code</span></span>
+</header>
+<div class="how card reveal" data-spot="">
+<span class="how-label">How I work</span>
+<p>I take care of the <b>decisions, the features and the architecture</b>. Most of the code and syntax
+            (TypeScript, JavaScript/React, Java, VBA…) I write together with AI agents, so those languages are a
+            <em>work in progress</em>, not a specialty. What I bring is the reasoning behind it: mathematics, models and systems design.</p>
+</div>
+<div class="skills">
+<div class="skill-group reveal">
+<h4>Languages</h4>
+<p class="chips big"><span>Python</span><span>SQL</span><span>LaTeX</span></p>
+<p class="chips big wip-row"><span class="wip">TypeScript</span><span class="wip">JavaScript / React</span><span class="wip">Java</span><span class="wip">VBA</span><span class="wip">R</span></p>
+<p class="legend"><i></i> in progress, AI-assisted or learning</p>
+</div>
+<div class="skill-group reveal" style="--d:.06s">
+<h4>Applied AI</h4>
+<p class="chips big"><span>AI agents</span><span>MCP (Model Context Protocol)</span><span>Architecture design</span><span>Feature definition</span></p>
+<p class="skill-note">Familiar with AI agents and MCP servers, tools that software teams increasingly ask for.</p>
+</div>
+<div class="skill-group reveal" style="--d:.12s">
+<h4>Data science and ML</h4>
+<p class="chips big"><span>PyTorch</span><span>PyTorch Geometric</span><span>scikit-learn</span><span>NumPy</span><span>Pandas</span><span>Matplotlib</span><span>statsmodels</span><span>arch</span></p>
+</div>
+<div class="skill-group reveal" style="--d:.18s">
+<h4>Web and tools</h4>
+<p class="chips big"><span>Next.js</span><span>Recharts</span><span>Visx</span><span>TanStack Query</span><span>Flask</span><span>Firebase</span><span>Power BI</span><span>Git / GitHub</span><span>Vercel</span><span>Render</span><span>Jupyter</span><span>VS Code</span></p>
+</div>
+<div class="skill-group reveal" style="--d:.21s">
+<h4>Infrastructure and IoT</h4>
+<p class="chips big"><span>Zabbix</span><span>Ubuntu / Linux</span><span>Virtual machines</span><span>ESP32</span><span>RFID</span><span>Firebase RTDB</span></p>
+<p class="skill-note">Host monitoring and access control with hardware in real time.</p>
+</div>
+<div class="skill-group reveal" style="--d:.24s">
+<h4>Areas of study</h4>
+<p class="chips big"><span>Linear algebra</span><span>Statistics</span><span>Econometrics</span><span>Time series</span><span>Financial risk</span><span>Cryptography</span><span>Machine learning</span><span>Deep learning</span><span>GNNs</span></p>
+</div>
+<div class="skill-group reveal" style="--d:.3s">
+<h4>Communication</h4>
+<p class="chips big"><span>Public speaking</span><span>Math teaching</span><span>Presenting technical results</span><span>English · intermediate</span></p>
+<p class="skill-note">Several wins in district and departmental public speaking contests. Preparing for the advanced English level.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- ───────────── CERTIFICADOS ───────────── -->
+<section class="section" id="certificados">
+<span aria-hidden="true" class="ghost-num" data-speed="0.12">∀</span>
+<div class="wrap">
+<header class="sec-head reveal">
+<span class="sec-num">07</span>
+<h2>Certificates</h2>
+<span aria-hidden="true" class="sec-eq"><span class="tex" data-tex="\forall\,\text{course}\;\exists\,\text{evidence}">∀ course ∃ evidence</span></span>
+</header>
+<div aria-label="Filter certificates" class="filters reveal" role="group">
+<button class="filter is-on" data-filter="all">All <small>14</small></button>
+<button class="filter" data-filter="ml">AI and data <small>7</small></button>
+<button class="filter" data-filter="mat">Mathematics <small>4</small></button>
+<button class="filter" data-filter="idi">Languages <small>1</small></button>
+<button class="filter" data-filter="prog">Programming and cloud <small>2</small></button>
+</div>
+<div class="cert-grid" id="certGrid">
+<button class="cert card reveal" data-cat="ml" data-img="../assets/certs/thumbs/daxus-power-bi-ia.webp" data-pdf="../assets/certs/daxus-power-bi-ia.pdf" data-spot="" data-title="Daxus LATAM — Career Accelerator with Power BI + AI">
+<span class="cert-img"><img alt="Daxus LATAM participation certificate, Career Accelerator with Power BI + AI" height="853" loading="lazy" src="../assets/certs/thumbs/daxus-power-bi-ia.webp" width="1210"/></span>
+<span class="cert-meta"><small>Daxus LATAM</small><b>Career Accelerator with Power BI + AI <span class="nowrap">(8 h)</span></b><em>Apr 30, 2026</em></span>
+</button>
+<div class="cert card badge reveal" data-cat="ml" data-spot="">
+<span aria-hidden="true" class="cert-img badge-art"><span class="badge-t">Google</span><span class="badge-s">8 badges</span><span class="badge-pill">Member · Google Developer Program</span></span>
+<span class="cert-meta"><small>Google for Developers</small><b>Google Developer Program badges</b>
+<span class="badge-list">ML Crash Course: Linear regression and Logistic regression · Gemini Enterprise Agent Ready · Google Cloud &amp; NVIDIA community member · Chrome DevTools · DOM Detective · Android Studio</span>
+<span class="badge-links"><a href="https://g.dev/MarioMarroquin" rel="noopener" target="_blank">View my public profile ↗</a></span>
+<em>2025 – 2026</em></span>
+</div>
+<button class="cert card reveal" data-cat="idi" data-img="../assets/certs/thumbs/direct-english-intermediate.webp" data-pdf="../assets/certs/direct-english-intermediate.pdf" data-spot="" data-title="Direct English — English, Intermediate level">
+<span class="cert-img"><img alt="Direct English Intermediate certificate" height="781" loading="lazy" src="../assets/certs/thumbs/direct-english-intermediate.webp" width="1210"/></span>
+<span class="cert-meta"><small>Direct English</small><b>English · Intermediate level</b><em>Nov 2024</em></span>
+</button>
+<button class="cert card reveal" data-cat="ml" data-img="../assets/certs/thumbs/cohere-ml-summer-school.webp" data-pdf="../assets/certs/cohere-ml-summer-school.pdf" data-spot="" data-title="Cohere Labs — ML Summer School 2026" data-verify="https://credsverse.com/credentials/fadb3379-f0ad-4ca5-b507-8ec345106fd5">
+<span class="cert-img"><img alt="Cohere Labs ML Summer School 2026 participation certificate" height="855" loading="lazy" src="../assets/certs/thumbs/cohere-ml-summer-school.webp" width="1210"/></span>
+<span class="cert-meta"><small>Cohere Labs · Open Science Community</small><b>ML Summer School 2026 <span class="nowrap">(participation)</span></b><em>2026</em></span>
+</button>
+<button class="cert card reveal" data-cat="ml" data-img="../assets/certs/thumbs/aws-ml-engineer-associate.webp" data-pdf="../assets/certs/aws-ml-engineer-associate.pdf" data-spot="" data-title="AWS ML Engineer Associate — Curriculum Overview">
+<span class="cert-img"><img alt="AWS ML Engineer Associate Curriculum Overview certificate" height="935" loading="lazy" src="../assets/certs/thumbs/aws-ml-engineer-associate.webp" width="1210"/></span>
+<span class="cert-meta"><small>AWS Training &amp; Certification</small><b>ML Engineer Associate — Curriculum Overview</b><em>Aug 3, 2026</em></span>
+</button>
+<button class="cert card reveal" data-cat="prog" data-img="../assets/certs/thumbs/aws-simulearn-nube.webp" data-pdf="../assets/certs/aws-simulearn-nube.pdf" data-spot="" data-title="AWS SimuLearn — Cloud Computing Fundamentals">
+<span class="cert-img"><img alt="AWS SimuLearn Cloud Computing Fundamentals certificate" height="935" loading="lazy" src="../assets/certs/thumbs/aws-simulearn-nube.webp" width="1210"/></span>
+<span class="cert-meta"><small>AWS Training &amp; Certification</small><b>SimuLearn: Cloud Computing Fundamentals</b><em>Aug 2, 2026</em></span>
+</button>
+<button class="cert card reveal" data-cat="ml" data-img="../assets/certs/thumbs/aws-intro-machine-learning.webp" data-pdf="../assets/certs/aws-intro-machine-learning.pdf" data-spot="" data-title="AWS — Introduction to Machine Learning: Art of the Possible" style="--d:.05s">
+<span class="cert-img"><img alt="AWS Introduction to Machine Learning certificate" height="935" loading="lazy" src="../assets/certs/thumbs/aws-intro-machine-learning.webp" width="1210"/></span>
+<span class="cert-meta"><small>AWS Training &amp; Certification</small><b>Introduction to Machine Learning: Art of the Possible</b><em>Aug 2, 2026</em></span>
+</button>
+<button class="cert card reveal" data-cat="ml" data-img="../assets/certs/thumbs/cisco-intro-data-science.webp" data-pdf="../assets/certs/cisco-intro-data-science.pdf" data-spot="" data-title="Cisco — Introduction to Data Science" style="--d:.1s">
+<span class="cert-img"><img alt="Cisco Introduction to Data Science certificate" height="935" loading="lazy" src="../assets/certs/thumbs/cisco-intro-data-science.webp" width="1210"/></span>
+<span class="cert-meta"><small>Cisco Networking Academy</small><b>Introduction to Data Science</b><em>Jul 20, 2026</em></span>
+</button>
+<button class="cert card reveal" data-cat="ml" data-img="../assets/certs/thumbs/udacity-aws-ai-practitioner.webp" data-pdf="../assets/certs/udacity-aws-ai-practitioner.pdf" data-spot="" data-title="Udacity — AWS AI Practitioner Challenge" style="--d:.15s">
+<span class="cert-img"><img alt="Udacity AWS AI Practitioner Challenge certificate" height="935" loading="lazy" src="../assets/certs/thumbs/udacity-aws-ai-practitioner.webp" width="1210"/></span>
+<span class="cert-meta"><small>Udacity</small><b>AWS AI Practitioner Challenge</b><em>Jun 4, 2026</em></span>
+</button>
+<button class="cert card reveal" data-cat="prog" data-img="../assets/certs/thumbs/stanford-code-in-place.webp" data-pdf="../assets/certs/stanford-code-in-place.pdf" data-spot="" data-title="Stanford — Code in Place 2026">
+<span class="cert-img portrait"><img alt="Stanford Code in Place 2026 certificate" height="1210" loading="lazy" src="../assets/certs/thumbs/stanford-code-in-place.webp" width="935"/></span>
+<span class="cert-meta"><small>Stanford University</small><b>Code in Place 2026 <span class="nowrap">(CS106A · Python)</span></b><em>Apr 20 – May 29, 2026</em></span>
+</button>
+<button class="cert card reveal" data-cat="mat" data-img="../assets/certs/thumbs/platzi-algebra-lineal.webp" data-pdf="../assets/certs/platzi-algebra-lineal.pdf" data-spot="" data-title="Platzi — Linear Algebra for Machine Learning" style="--d:.05s">
+<span class="cert-img"><img alt="Platzi Linear Algebra for Machine Learning certificate" height="935" loading="lazy" src="../assets/certs/thumbs/platzi-algebra-lineal.webp" width="1210"/></span>
+<span class="cert-meta"><small>Platzi</small><b>Linear Algebra for Machine Learning</b><em>Jan 16, 2026 · 11 h</em></span>
+</button>
+<button class="cert card reveal" data-cat="mat" data-img="../assets/certs/thumbs/platzi-funciones-matematicas.webp" data-pdf="../assets/certs/platzi-funciones-matematicas.pdf" data-spot="" data-title="Platzi — Math Functions for Data Science and AI" style="--d:.1s">
+<span class="cert-img"><img alt="Platzi Math Functions for Data Science and AI certificate" height="935" loading="lazy" src="../assets/certs/thumbs/platzi-funciones-matematicas.webp" width="1210"/></span>
+<span class="cert-meta"><small>Platzi</small><b>Math Functions for Data Science and AI</b><em>Jan 16, 2026 · 12 h</em></span>
+</button>
+<button class="cert card reveal" data-cat="mat" data-img="../assets/certs/thumbs/platzi-lenguaje-notacion.webp" data-pdf="../assets/certs/platzi-lenguaje-notacion.pdf" data-spot="" data-title="Platzi — Math Language and Notation" style="--d:.15s">
+<span class="cert-img"><img alt="Platzi Math Language and Notation certificate" height="935" loading="lazy" src="../assets/certs/thumbs/platzi-lenguaje-notacion.webp" width="1210"/></span>
+<span class="cert-meta"><small>Platzi</small><b>Math Language and Notation</b><em>Jan 16, 2026 · 12 h</em></span>
+</button>
+<button class="cert card reveal" data-cat="mat" data-img="../assets/certs/thumbs/platzi-fundamentos-matematicas.webp" data-pdf="../assets/certs/platzi-fundamentos-matematicas.pdf" data-spot="" data-title="Platzi — Math Fundamentals" style="--d:.2s">
+<span class="cert-img"><img alt="Platzi Math Fundamentals certificate" height="935" loading="lazy" src="../assets/certs/thumbs/platzi-fundamentos-matematicas.webp" width="1210"/></span>
+<span class="cert-meta"><small>Platzi</small><b>Math Fundamentals</b><em>Feb 6, 2026 · 3 h</em></span>
+</button>
+</div>
+</div>
+</section>
+<!-- ───────────── CONTACTO ───────────── -->
+<section class="section contact" id="contacto">
+<span aria-hidden="true" class="ghost-num" data-speed="0.12">∞</span>
+<div class="wrap">
+<header class="sec-head reveal">
+<span class="sec-num">08</span>
+<h2>Let's talk<em>.</em></h2>
+<span aria-hidden="true" class="sec-eq"><span class="tex" data-tex="P(\text{collaborate}\mid\text{talk})\uparrow">P(collaborate | talk) ↑</span></span>
+</header>
+<p class="contact-lead reveal">Open to research collaborations, scholarships and opportunities in quantitative finance,
+          machine learning and AI safety.</p>
+<a class="mail reveal" href="mailto:mario.marroquin.2007@gmail.com" style="--d:.08s">mario.marroquin.2007@gmail.com</a>
+<ul class="social reveal" style="--d:.16s">
+<li><a href="https://github.com/mariomarroquin3" rel="noopener" target="_blank">GitHub <span>↗</span></a></li>
+<li><a href="https://www.linkedin.com/in/mario-alejandro-marroqu%C3%ADn-305a843a0/" rel="noopener" target="_blank">LinkedIn <span>↗</span></a></li>
+<li><a href="https://g.dev/MarioMarroquin" rel="noopener" target="_blank">Google Developer <span>↗</span></a></li>
+<li><a href="https://platzi.com/@mario.marroquin.2007/" rel="noopener" target="_blank">Platzi <span>↗</span></a></li>
+<li><a href="https://cryptorisk-mauve.vercel.app/" rel="noopener" target="_blank">CryptoRisk <span>↗</span></a></li>
+<li><a href="../assets/cv/CV_Mario_Marroquin_ES.pdf" rel="noopener" target="_blank">CV in Spanish <span>↓</span></a></li>
+<li><a href="../assets/cv/CV_Mario_Marroquin_EN.pdf" rel="noopener" target="_blank">CV in English <span>↓</span></a></li>
+</ul>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="wrap">
+<span>© 2026 Mario Marroquín</span>
+<span class="muted">Handmade with HTML, CSS and JavaScript · <span class="tex" data-tex="e^{i\pi}+1=0">e<sup>iπ</sup> + 1 = 0</span></span>
+<a href="#inicio">Back to top ↑</a>
+</div>
+</footer>
+<!-- Lightbox -->
+<dialog aria-label="Certificate view" id="lightbox">
+<div class="lb-inner">
+<button aria-label="Close" class="lb-close" id="lbClose">✕</button>
+<img alt="" id="lbImg"/>
+<div class="lb-bar">
+<span id="lbTitle"></span>
+<span class="lb-links"><a class="link" hidden="" href="#" id="lbVerify" rel="noopener" target="_blank">Verify <span>↗</span></a><a class="link" href="#" id="lbPdf" rel="noopener" target="_blank">Open PDF <span>↗</span></a></span>
+</div>
+</div>
+</dialog>
+<script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script>window.I18N={roles:["Quantitative risk","Cryptography","Machine learning","Time series","Econometrics","Linear algebra"],certAlt:"Certificate: "};</script>
+<script src="../js/main.js"></script>
+</body>
+</html>

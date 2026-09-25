@@ -1,21 +1,35 @@
 # Mario Marroquín — sitio personal
 
-Sitio estático (HTML + CSS + JavaScript, sin build ni dependencias) para GitHub Pages.
+Sitio estático bilingüe (HTML + CSS + JavaScript) para GitHub Pages. Las páginas se generan con un script de Python sin dependencias.
 
 ```
-index.html          contenido
+index.html          entrada: elige es/ o en/ según el navegador (generado por build.py)
+es/index.html       sitio en español (generado)
+en/index.html       sitio en inglés (generado)
+src/template.html   estructura de la página, con marcadores {{clave}}
+src/es.txt          textos en español
+src/en.txt          textos en inglés (lo que falte se hereda de common.txt o del español)
+src/common.txt      traducciones de textos repetidos
+build.py            genera las tres páginas a partir de src/ (solo biblioteca estándar)
 css/styles.css      estilos
 js/main.js          animaciones (Lorenz, parallax, reveal, visualizaciones, lightbox)
-assets/certs/       PDFs de los certificados y sus miniaturas (thumbs/)
+assets/             certificados (PDF y miniaturas), CV e imagen para redes
 ```
 
-## Probar en local
+## Editar el contenido
 
-```bash
-python -m http.server 8000
-```
+1. Cambiar el texto en `src/es.txt` y `src/en.txt` (bajo su clave `### sección.NNN`). Para cambios de estructura, editar `src/template.html`.
+2. Regenerar y probar:
 
-y abrir <http://localhost:8000>.
+   ```bash
+   python build.py
+   python -m http.server 8000
+   ```
+
+   y abrir <http://localhost:8000> (o `/es/`, `/en/`). `build.py` avisa si una traducción rompe las etiquetas HTML o si quedó un texto sin traducir.
+3. Publicar con `git add -A`, `git commit` y `git push`.
+
+**No editar a mano** `index.html`, `es/index.html` ni `en/index.html`: se sobrescriben al generar.
 
 ## Publicar
 

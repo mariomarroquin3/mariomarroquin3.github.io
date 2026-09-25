@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>{{head.title}}</title>
+<meta content="{{head.description}}" name="description"/>
+<meta content="#07080b" name="theme-color"/>
+<meta content="{{head.og_title}}" property="og:title"/>
+<meta content="{{head.og_description}}" property="og:description"/>
+<meta content="website" property="og:type"/>
+{{seo}}
+
+
+<meta content="https://mariomarroquin3.github.io/assets/og.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="https://mariomarroquin3.github.io/assets/og.jpg" name="twitter:image"/>
+<meta content="Mario Alejandro Marroquín" name="author"/>
+
+<link href="{{root}}favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Inter:wght@300;400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet"/>
+<link href="{{root}}css/styles.css" rel="stylesheet"/>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#proyectos">{{page.001}}</a>
+<div aria-hidden="true" id="progress"></div>
+<div class="langhint" id="langhint" hidden><span>{{lang.hint}}</span> <a data-lang="{{other_lang}}" href="{{other_href}}">{{lang.hint_link}}</a><button aria-label="{{lang.close}}" type="button">×</button></div>
+<!-- ───────────── NAV ───────────── -->
+<header class="nav" id="nav">
+<a aria-label="{{nav.001}}" class="brand" href="#inicio">{{nav.002}}</a>
+<span aria-hidden="true" class="here" id="here"></span>
+<button aria-controls="menu" aria-expanded="false" aria-label="{{nav.003}}" class="burger" id="burger"><i></i><i></i></button>
+<nav aria-label="{{menu.001}}" class="menu" id="menu">
+<a href="#sobre-mi">{{menu.002}}</a>
+<a href="#proyectos">{{menu.003}}</a>
+<a href="#trayectoria">{{menu.004}}</a>
+<a href="#programas">{{menu.005}}</a>
+<a href="#logros">{{menu.006}}</a>
+<a href="#habilidades">{{menu.007}}</a>
+<a href="#certificados">{{menu.008}}</a>
+<a class="menu-cta" href="#contacto">{{menu.009}}</a>
+{{langswitch}}
+</nav>
+</header>
+<nav aria-label="{{rail.001}}" class="rail" id="rail">
+<a data-label="Inicio" href="#inicio"><i></i><span>{{rail.002}}</span></a>
+<a data-label="Sobre mí" href="#sobre-mi"><i></i><span>{{rail.003}}</span></a>
+<a data-label="Proyectos" href="#proyectos"><i></i><span>{{rail.004}}</span></a>
+<a data-label="Trayectoria" href="#trayectoria"><i></i><span>{{rail.005}}</span></a>
+<a data-label="Programas" href="#programas"><i></i><span>{{rail.006}}</span></a>
+<a data-label="Logros" href="#logros"><i></i><span>{{rail.007}}</span></a>
+<a data-label="Habilidades" href="#habilidades"><i></i><span>{{rail.008}}</span></a>
+<a data-label="Certificados" href="#certificados"><i></i><span>{{rail.009}}</span></a>
+<a data-label="Contacto" href="#contacto"><i></i><span>{{rail.010}}</span></a>
+</nav>
+<main>
+<!-- ───────────── HERO ───────────── -->
+<section class="hero" id="inicio">
+<canvas aria-hidden="true" data-speed="0.25" id="lorenz"></canvas>
+<div aria-hidden="true" class="hero-vignette"></div>
+<div class="hero-inner wrap" data-speed="-0.06">
+<p class="eyebrow reveal">{{inicio.001}}</p>
+<h1 class="hero-name">
+<span class="line"><span class="reveal" style="--d:.05s">{{inicio.002}}</span></span>
+<span class="line"><em class="reveal" style="--d:.18s">{{inicio.003}}</em></span>
+</h1>
+<p class="hero-lead reveal" style="--d:.32s">{{inicio.004}}</p>
+<p aria-label="{{inicio.005}}" class="hero-roles reveal" style="--d:.42s">
+<span class="roles-label">{{inicio.006}}</span>
+<span class="roles-window"><span class="role" id="role">{{inicio.007}}</span></span>
+</p>
+<div class="hero-cta reveal" style="--d:.52s">
+<a class="btn btn-solid" href="#proyectos">{{inicio.008}}</a>
+<a class="btn btn-ghost" href="#contacto">{{inicio.009}}</a>
+</div>
+</div>
+<p aria-hidden="true" class="hero-eq">
+<span class="tex" data-tex="\dot{x}=\sigma\,(y-x)">{{inicio.010}}</span>
+<span class="tex" data-tex="\dot{y}=x\,(\rho-z)-y">{{inicio.011}}</span>
+<span class="tex" data-tex="\dot{z}=xy-\beta z">{{inicio.012}}</span>
+<small class="tex" data-tex="\sigma=10,\ \rho=28,\ \beta=8/3">σ = 10 · ρ = 28 · β = 8/3</small>
+</p>
+<a aria-label="{{inicio.013}}" class="scroll-cue" href="#sobre-mi"><span></span></a>
+</section>
+<!-- ───────────── MARQUEE ───────────── -->
+<div aria-hidden="true" class="marquee">
+<div class="marquee-track">
+<span>{{page.002}}</span><i>◆</i><span>{{page.003}}</span><i>◆</i><span>{{page.004}}</span><i>◆</i><span>{{page.005}}</span><i>◆</i><span>{{page.006}}</span><i>◆</i><span>{{page.007}}</span><i>◆</i><span>{{page.008}}</span><i>◆</i><span>{{page.009}}</span><i>◆</i><span>{{page.010}}</span><i>◆</i><span>{{page.011}}</span><i>◆</i><span>∑</span><i>◆</i><span>∫</span><i>◆</i><span>∇</span><i>◆</i><span>{{page.012}}</span><i>◆</i><span>{{page.013}}</span><i>◆</i><span>{{page.014}}</span><i>◆</i><span>{{page.015}}</span><i>◆</i><span>{{page.016}}</span><i>◆</i><span>{{page.017}}</span><i>◆</i><span>{{page.018}}</span><i>◆</i><span>{{page.019}}</span><i>◆</i><span>{{page.020}}</span><i>◆</i><span>{{page.021}}</span><i>◆</i><span>{{page.022}}</span><i>◆</i><span>{{page.023}}</span><i>◆</i><span>{{page.024}}</span><i>◆</i><span>∑</span><i>◆</i><span>∫</span><i>◆</i><span>∇</span><i>◆</i><span>{{page.025}}</span><i>◆</i><span>{{page.026}}</span><i>◆</i><span>{{page.027}}</span><i>◆</i>
+</div>
+</div>
+<!-- ───────────── SOBRE MÍ ───────────── -->
+<section class="section" id="sobre-mi">
+<span aria-hidden="true" class="ghost-num" data-speed="0.12">π</span>
+<div class="wrap">
+<header class="sec-head reveal">
+<span class="sec-num">01</span>
+<h2>{{sobre-mi.001}}</h2>
+<span aria-hidden="true" class="sec-eq"><span class="tex" data-tex="\lim_{n\to\infty}\left(1+\tfrac{1}{n}\right)^{n}=e">{{sobre-mi.002}}</span></span>
+</header>
+<div class="about">
+<div class="about-text">
+<p class="big reveal">{{sobre-mi.003}}</p>
+<p class="reveal" style="--d:.08s">{{sobre-mi.004}}</p>
+<p class="reveal" style="--d:.14s">{{sobre-mi.005}}</p>
+</div>
+<ul class="stats">
+<li class="reveal" style="--d:.05s"><b data-count="20" data-suffix="+">20+</b><span>{{sobre-mi.006}}</span></li>
+<li class="reveal" style="--d:.12s"><b data-count="0.02" data-decimals="2" data-suffix=" s">{{sobre-mi.007}}</b><span>{{sobre-mi.008}}</span></li>
+<li class="reveal" style="--d:.19s"><b data-count="14">14</b><span>{{sobre-mi.009}}</span></li>
+<li class="reveal" style="--d:.26s"><b data-count="2">2</b><span>{{sobre-mi.010}}</span></li>
+</ul>
+</div>
+</div>
+</section>
+<!-- ───────────── PROYECTOS ───────────── -->
+<section class="section" id="proyectos">
+<span aria-hidden="true" class="ghost-num" data-speed="0.12">∇</span>
+<div class="wrap">
+<header class="sec-head reveal">
+<span class="sec-num">02</span>
+<h2>{{proyectos.001}}</h2>
+<span aria-hidden="true" class="sec-eq"><span class="tex" data-tex="\theta^{*}=\arg\min_{\theta}\,\mathcal{L}(\theta)">{{proyectos.002}}</span></span>
+</header>
+<nav aria-label="{{subnav.001}}" class="subnav" id="subnav">
+<a href="#p-cryptorisk">{{subnav.002}}</a>
+<a href="#p-entropy">{{subnav.003}}</a>
+<a href="#p-retina">{{subnav.004}}</a>
+<a href="#p-infra">{{subnav.005}}</a>
+<a href="#p-datos">{{subnav.006}}</a>
+<a href="#p-otros">{{subnav.007}}</a>
+<a href="#p-side">{{subnav.008}}</a>
+</nav>
+<!-- CryptoRisk -->
+<article class="feature" id="p-cryptorisk">
+<div class="feature-visual reveal">
+<div class="viz-frame card" data-spot="">
+<div class="viz-bar"><span>{{proyectos.003}}</span><span class="mono-gold">{{proyectos.004}}</span></div>
+<svg aria-label="Serie de retornos con banda de Value-at-Risk y excedencias marcadas" id="viz-risk" role="img" viewbox="0 0 600 280"></svg>
+<div class="viz-legend"><span>{{proyectos.005}}</span><span>{{proyectos.006}}</span><span>{{proyectos.007}}</span></div>
+</div>
+</div>
+<div class="feature-body">
+<p class="tag-row reveal"><span class="pill pill-live">{{proyectos.008}}</span><span class="mono muted">{{proyectos.009}}</span></p>
+<h3 class="reveal" style="--d:.05s">{{proyectos.010}}</h3>
+<p class="rq reveal" style="--d:.07s">{{proyectos.011}}</p>
+<p class="reveal" style="--d:.1s">{{proyectos.012}}</p>
+<ul class="facts reveal" style="--d:.15s">
+<li>{{proyectos.013}}</li>
+<li>{{proyectos.014}}</li>
+<li>{{proyectos.015}}</li>
+</ul>
+<details class="abs reveal" style="--d:.18s"><summary>{{proyectos.016}}</summary><p>{{proyectos.017}}</p></details>
+<p class="chips reveal" style="--d:.2s"><span>{{proyectos.018}}</span><span>{{proyectos.019}}</span><span>{{proyectos.020}}</span><span>{{proyectos.021}}</span><span>{{proyectos.022}}</span><span>{{proyectos.023}}</span></p>
+<p class="links reveal" style="--d:.25s"><a class="link" href="https://cryptorisk-mauve.vercel.app/" rel="noopener" target="_blank">{{proyectos.024}}</a><a class="link" href="https://github.com/mariomarroquin3/cryptorisk" rel="noopener" target="_blank">{{proyectos.025}}</a></p>
+</div>
+</article>
+<!-- Entropy Arena -->
+<article class="feature flip" id="p-entropy">
+<div class="feature-visual reveal">
+<div class="viz-frame card" data-spot="">
+<div class="viz-bar"><span>{{proyectos.026}}</span><span class="mono-gold">{{proyectos.027}}</span></div>
+<canvas aria-label="Autómata celular Regla 30 generándose fila por fila" height="240" id="viz-rule30" role="img" width="483"></canvas>
+<p class="viz-quote">{{proyectos.028}}</p>
+</div>
+</div>
+<div class="feature-body">
+<p class="tag-row reveal"><span class="pill">{{proyectos.029}}</span><span class="mono muted">{{proyectos.030}}</span></p>
+<h3 class="reveal" style="--d:.05s">{{proyectos.031}}</h3>
+<p class="rq reveal" style="--d:.07s">{{proyectos.032}}</p>
+<p class="reveal" style="--d:.1s">{{proyectos.033}}</p>
+<ul class="facts reveal" style="--d:.15s">
+<li>{{proyectos.034}}</li>
+<li>{{proyectos.035}}</li>
+<li>{{proyectos.036}}</li>
+</ul>
+<details class="abs reveal" style="--d:.18s"><summary>{{proyectos.037}}</summary><p>{{proyectos.038}}</p></details>
+<p class="chips reveal" style="--d:.2s"><span>{{proyectos.039}}</span><span>{{proyectos.040}}</span><span>{{proyectos.041}}</span><span>{{proyectos.042}}</span></p>
+<p class="links reveal" style="--d:.25s"><a class="link" href="https://github.com/mariomarroquin3/entropy-arena" rel="noopener" target="_blank">{{proyectos.043}}</a></p>
+</div>
+</article>
+<!-- RetinoVision -->
+<article class="feature" id="p-retina">
+<div class="feature-visual reveal">
+<div class="viz-frame card viz-retina" data-spot="">
+<div class="viz-bar"><span>{{proyectos.044}}</span><span class="mono-gold">{{proyectos.045}}</span></div>
+<svg aria-label="Ilustración estilizada de un fondo de ojo con regiones marcadas" id="viz-retina" role="img" viewbox="0 0 400 400"></svg>
+</div>
+</div>
+<div class="feature-body">
+<p class="tag-row reveal"><span class="pill">{{proyectos.046}}</span><span class="mono muted">{{proyectos.047}}</span></p>
+<h3 class="reveal" style="--d:.05s">{{proyectos.048}}</h3>
+<p class="rq reveal" style="--d:.07s">{{proyectos.049}}</p>
+<p class="reveal" style="--d:.1s">{{proyectos.050}}</p>
+<ul class="facts reveal" style="--d:.15s">
+<li>{{proyectos.051}}</li>
+<li>{{proyectos.052}}</li>
+<li>{{proyectos.053}}</li>
+</ul>
+<details class="abs reveal" style="--d:.18s"><summary>{{proyectos.054}}</summary><p>{{proyectos.055}}</p></details>
+<p class="chips reveal" style="--d:.2s"><span>{{proyectos.056}}</span><span>{{proyectos.057}}</span><span>{{proyectos.058}}</span><span>{{proyectos.059}}</span><span>{{proyectos.060}}</span></p>
+<p class="links reveal" style="--d:.25s"><a class="link" href="https://github.com/mariomarroquin3/Diabetic-Retinopathy-Classifier" rel="noopener" target="_blank">{{proyectos.061}}</a></p>
+</div>
+</article>
+<!-- Infraestructura e IoT -->
+<h3 class="col-title reveal side-title" id="p-infra" style="margin-top:0">{{proyectos.062}}</h3>
+<div class="pair-grid">
+<article class="card pair reveal" data-spot="">
+<p class="tag-row"><span class="pill">{{proyectos.063}}</span><span class="mono muted">{{proyectos.064}}</span></p>
+<h4>{{proyectos.065}}</h4>
+<p>{{proyectos.066}}</p>
+<p>{{proyectos.067}}</p>
+<p class="chips"><span>{{proyectos.068}}</span><span>{{proyectos.069}}</span><span>{{proyectos.070}}</span><span>{{proyectos.071}}</span><span>{{proyectos.072}}</span><span>{{proyectos.073}}</span></p>
+<a class="link" href="https://github.com/mariomarroquin3/modulo3.3" rel="noopener" target="_blank">{{proyectos.074}}</a>
+</article>
+<article class="card pair reveal" data-spot="" style="--d:.08s">
+<p class="tag-row"><span class="pill pill-hot">{{proyectos.075}}</span><span class="mono muted">{{proyectos.076}}</span></p>
+<h4>{{proyectos.077}}</h4>
+<p>{{proyectos.078}}</p>
+<p>{{proyectos.079}}</p>
+<p class="chips"><span>{{proyectos.080}}</span><span>{{proyectos.081}}</span><span>{{proyectos.082}}</span><span>{{proyectos.083}}</span><span>{{proyectos.084}}</span><span>{{proyectos.085}}</span></p>
+<a class="link" href="https://github.com/mariomarroquin3/logger" rel="noopener" target="_blank">{{proyectos.086}}</a>
+</article>
+</div>
+<!-- Datos y seguridad de la información -->
+<h3 class="col-title reveal side-title" id="p-datos" style="margin-top:3rem">{{proyectos.087}}</h3>
+<div class="pair-grid">
+<article class="card pair reveal" data-spot="">
+<p class="tag-row"><span class="pill">{{proyectos.088}}</span><span class="mono muted">{{proyectos.089}}</span></p>
+<h4>{{proyectos.090}}</h4>
+<p class="rq">{{proyectos.091}}</p>
+<p>{{proyectos.092}}</p>
+<p>{{proyectos.093}}</p>
+<p class="pair-next">{{proyectos.094}}</p>
+<details class="abs"><summary>{{proyectos.095}}</summary><p>{{proyectos.096}}</p></details>
+<p class="chips"><span>{{proyectos.097}}</span><span>{{proyectos.098}}</span><span>{{proyectos.099}}</span><span>{{proyectos.100}}</span><span>{{proyectos.101}}</span></p>
+<a class="link" href="https://github.com/mariomarroquin3/data_generator" rel="noopener" target="_blank">{{proyectos.102}}</a>
+</article>
+<article class="card pair reveal" data-spot="" style="--d:.08s">
+<p class="tag-row"><span class="pill">{{proyectos.103}}</span><span class="mono muted">{{proyectos.104}}</span></p>
+<h4>{{proyectos.105}}</h4>
+<p>{{proyectos.106}}</p>
+<p>{{proyectos.107}}</p>
+<p class="chips"><span>{{proyectos.108}}</span><span>{{proyectos.109}}</span><span>{{proyectos.110}}</span></p>
+</article>
+</div>
+<!-- Otros -->
+<div class="mini-grid" id="p-otros">
+<article class="card mini reveal" data-spot="">
+<span aria-hidden="true" class="mini-icon">
+<svg viewbox="0 0 24 24"><path d="M3 20h18M6 16V9m5 7V5m5 11v-6m5 6V8"></path></svg>
+</span>
+<h4>{{proyectos.111}}</h4>
+<p class="rq">{{proyectos.112}}</p>
+<p>{{proyectos.113}}</p>
+<details class="abs"><summary>{{proyectos.114}}</summary><p>{{proyectos.115}}</p></details>
+<p class="chips"><span>{{proyectos.116}}</span><span>{{proyectos.117}}</span><span>{{proyectos.118}}</span></p>
+<a class="link" href="https://github.com/mariomarroquin3/data_analyzer" rel="noopener" target="_blank">{{proyectos.119}}</a>
+</article>
+<article class="card mini reveal" data-spot="" style="--d:.08s">
+<span aria-hidden="true" class="mini-icon">
+<svg viewbox="0 0 24 24"><path d="M3 9l9-5 9 5v10H3zM9 19v-6h6v6"></path></svg>
+</span>
+<h4>{{proyectos.120}}</h4>
+<p>{{proyectos.121}}</p>
+<p class="chips"><span>{{proyectos.122}}</span><span>{{proyectos.123}}</span><span>{{proyectos.124}}</span></p>
+<a class="link" href="https://github.com/mariomarroquin3/ERP_maquila" rel="noopener" target="_blank">{{proyectos.125}}</a>
+</article>
+</div>
+<h3 class="col-title reveal side-title" id="p-side">{{proyectos.126}}</h3>
+<div class="side-grid">
+<a class="card side reveal" data-spot="" href="https://github.com/mariomarroquin3/av-matrix" rel="noopener" target="_blank">
+<span class="side-tag">{{proyectos.127}}</span>
+<h4>{{proyectos.128}}</h4>
+<p>{{proyectos.129}}</p>
+<span class="side-go">{{proyectos.130}}</span>
+</a>
+<a class="card side reveal" data-spot="" href="https://github.com/mariomarroquin3/GamePort" rel="noopener" style="--d:.06s" target="_blank">
+<span class="side-tag">{{proyectos.131}}</span>
+<h4>{{proyectos.132}}</h4>
+<p>{{proyectos.133}}</p>
+<span class="side-go">{{proyectos.134}}</span>
+</a>
+<div class="card side reveal" data-spot="" style="--d:.12s">
+<span class="side-tag">{{proyectos.135}}</span>
+<h4>{{proyectos.136}}</h4>
+<p>{{proyectos.137}}</p>
+<span class="side-links"><a href="https://github.com/mariomarroquin3/partidas_dte" rel="noopener" target="_blank">{{proyectos.138}}</a><a href="https://github.com/mariomarroquin3/IVAs" rel="noopener" target="_blank">{{proyectos.139}}</a></span>
+</div>
+<a class="card side side-more reveal" data-spot="" href="https://github.com/mariomarroquin3?tab=repositories" rel="noopener" style="--d:.18s" target="_blank">
+<span class="side-tag">{{proyectos.140}}</span>
+<h4>{{proyectos.141}}</h4>
+<p>{{proyectos.142}}</p>
+<span class="side-go">{{proyectos.143}}</span>
+</a>
+</div>
+</div>
+</section>
+<!-- ───────────── TRAYECTORIA ───────────── -->
+<section class="section" id="trayectoria">
+<span aria-hidden="true" class="ghost-num" data-speed="0.12">∫</span>
+<div class="wrap">
+<header class="sec-head reveal">
+<span class="sec-num">03</span>
+<h2>{{trayectoria.001}}</h2>
+<span aria-hidden="true" class="sec-eq"><span class="tex" data-tex="\tfrac{dx}{dt}=f(x,t)">{{trayectoria.002}}</span></span>
+</header>
+<div class="two-col">
+<div>
+<h3 class="col-title reveal">{{trayectoria.003}}</h3>
+<ol class="timeline">
+<li class="tl reveal">
+<span class="tl-dot now"></span>
+<p class="tl-when">{{trayectoria.004}}</p>
+<h4>{{trayectoria.005}}</h4>
+<ul class="tl-list">
+<li>{{trayectoria.006}}</li>
+<li>{{trayectoria.007}}</li>
+<li>{{trayectoria.008}}</li>
+<li>{{trayectoria.009}}</li>
+</ul>
+</li>
+</ol>
+<h3 class="col-title reveal" style="margin-top:3rem">{{trayectoria.010}}</h3>
+<ol class="timeline">
+<li class="tl reveal">
+<span class="tl-dot now"></span>
+<p class="tl-when">{{trayectoria.011}}</p>
+<h4>{{trayectoria.012}}</h4>
+<p>{{trayectoria.013}}</p>
+</li>
+<li class="tl reveal">
+<span class="tl-dot"></span>
+<p class="tl-when">{{trayectoria.014}}</p>
+<h4>{{trayectoria.015}}</h4>
+<p>{{trayectoria.016}}</p>
+</li>
+</ol>
+</div>
+<div>
+<h3 class="col-title reveal">{{trayectoria.017}}</h3>
+<div class="horizons">
+<div class="horizon card reveal" data-spot="">
+<span class="h-label">{{trayectoria.018}}</span>
+<p>{{trayectoria.019}}</p>
+</div>
+<div class="horizon card reveal" data-spot="" style="--d:.08s">
+<span class="h-label">{{trayectoria.020}}</span>
+<p>{{trayectoria.021}}</p>
+</div>
+<div class="horizon card reveal" data-spot="" style="--d:.16s">
+<span class="h-label">{{trayectoria.022}}</span>
+<p>{{trayectoria.023}}</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ───────────── PROGRAMAS ───────────── -->
+<section class="section" id="programas">
+<span aria-hidden="true" class="ghost-num" data-speed="0.12">∑</span>
+<div class="wrap">
+<header class="sec-head reveal">
+<span class="sec-num">04</span>
+<h2>{{programas.001}}</h2>
+<span aria-hidden="true" class="sec-eq"><span class="tex" data-tex="{{programas.002}}">{{programas.003}}</span></span>
+</header>
+<div class="prog-grid">
+<article class="card prog prog-wide reveal" data-spot="">
+<div>
+<span class="status s-live">{{programas.004}}</span>
+<h4>{{programas.005}}</h4>
+<p class="prog-sub">{{programas.006}}</p>
+</div>
+<p>{{programas.007}}</p>
+</article>
+<article class="card prog reveal" data-spot="">
+<span class="status s-live">{{programas.008}}</span>
+<h4>{{programas.009}}</h4>
+<p class="prog-sub">{{programas.010}}</p>
+<p>{{programas.011}}</p>
+</article>
+<article class="card prog reveal" data-spot="" style="--d:.06s">
+<span class="status s-live">{{programas.012}}</span>
+<h4>{{programas.013}}</h4>
+<p class="prog-sub">{{programas.014}}</p>
+<p>{{programas.015}}</p>
+</article>
+<article class="card prog reveal" data-spot="" style="--d:.12s">
+<span class="status s-live">{{programas.016}}</span>
+<h4>{{programas.017}}</h4>
+<p class="prog-sub">{{programas.018}}</p>
+<p>{{programas.019}}</p>
+</article>
+<article class="card prog reveal" data-spot="" style="--d:.18s">
+<span class="status s-done">{{programas.020}}</span>
+<h4>{{programas.021}}</h4>
+<p class="prog-sub">{{programas.022}}</p>
+<p>{{programas.023}}</p>
+</article>
+<article class="card prog reveal" data-spot="" style="--d:.24s">
+<span class="status s-done">{{programas.024}}</span>
+<h4>{{programas.025}}</h4>
+<p class="prog-sub">{{programas.026}}</p>
+<p>{{programas.027}}</p>
+</article>
+<article class="card prog reveal" data-spot="" style="--d:.3s">
+<span class="status s-pause">{{programas.028}}</span>
+<h4>{{programas.029}}</h4>
+<p class="prog-sub">{{programas.030}}</p>
+<p>{{programas.031}}</p>
+</article>
+</div>
+</div>
+</section>
+<!-- ───────────── LOGROS ───────────── -->
+<section class="section" id="logros">
+<span aria-hidden="true" class="ghost-num" data-speed="0.12">∎</span>
+<div class="wrap">
+<header class="sec-head reveal">
+<span class="sec-num">05</span>
+<h2>{{logros.001}}</h2>
+<span aria-hidden="true" class="sec-eq"><span class="tex" data-tex="\blacksquare">{{logros.002}}</span></span>
+</header>
+<div class="win-grid">
+<article class="card win win-main reveal" data-spot="">
+<span aria-hidden="true" class="win-icon">
+<svg viewbox="0 0 24 24"><path d="M8 4h8v5a4 4 0 0 1-8 0zM8 6H4v1a3 3 0 0 0 4 3M16 6h4v1a3 3 0 0 1-4 3M12 13v4M8 21h8M10 17h4v4h-4z"></path></svg>
+</span>
+<p class="win-kind">{{logros.003}}</p>
+<h4>{{logros.004}}</h4>
+<p>{{logros.005}}</p>
+</article>
+<article class="card win reveal" data-spot="" style="--d:.08s">
+<span aria-hidden="true" class="win-icon">
+<svg viewbox="0 0 24 24"><path d="M12 3a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zM6 11a6 6 0 0 0 12 0M12 17v4M9 21h6"></path></svg>
+</span>
+<p class="win-kind">{{logros.006}}</p>
+<h4>{{logros.007}}</h4>
+<p>{{logros.008}}</p>
+</article>
+<article class="card win reveal" data-spot="" style="--d:.16s">
+<span aria-hidden="true" class="win-icon">
+<svg viewbox="0 0 24 24"><path d="M5 19l14-14M5 5h6M5 5v6M19 19h-6M19 19v-6"></path></svg>
+</span>
+<p class="win-kind">{{logros.009}}</p>
+<h4>{{logros.010}}</h4>
+<p>{{logros.011}}</p>
+</article>
+<article class="card win reveal" data-spot="" style="--d:.24s">
+<span aria-hidden="true" class="win-icon">
+<svg viewbox="0 0 24 24"><path d="M4 5h16v11H4zM8 20h8M12 16v4M8 9h8M8 12h5"></path></svg>
+</span>
+<p class="win-kind">{{logros.012}}</p>
+<h4>{{logros.013}}</h4>
+<p>{{logros.014}}</p>
+</article>
+</div>
+</div>
+</section>
+<!-- ───────────── HABILIDADES ───────────── -->
+<section class="section" id="habilidades">
+<span aria-hidden="true" class="ghost-num" data-speed="0.12">λ</span>
+<div class="wrap">
+<header class="sec-head reveal">
+<span class="sec-num">06</span>
+<h2>{{habilidades.001}}</h2>
+<span aria-hidden="true" class="sec-eq"><span class="tex" data-tex="{{habilidades.002}}">{{habilidades.003}}</span></span>
+</header>
+<div class="how card reveal" data-spot="">
+<span class="how-label">{{habilidades.004}}</span>
+<p>{{habilidades.005}}</p>
+</div>
+<div class="skills">
+<div class="skill-group reveal">
+<h4>{{habilidades.006}}</h4>
+<p class="chips big"><span>{{habilidades.007}}</span><span>{{habilidades.008}}</span><span>{{habilidades.009}}</span></p>
+<p class="chips big wip-row"><span class="wip">{{habilidades.010}}</span><span class="wip">{{habilidades.011}}</span><span class="wip">{{habilidades.012}}</span><span class="wip">{{habilidades.013}}</span><span class="wip">{{habilidades.014}}</span></p>
+<p class="legend">{{habilidades.015}}</p>
+</div>
+<div class="skill-group reveal" style="--d:.06s">
+<h4>{{habilidades.016}}</h4>
+<p class="chips big"><span>{{habilidades.017}}</span><span>{{habilidades.018}}</span><span>{{habilidades.019}}</span><span>{{habilidades.020}}</span></p>
+<p class="skill-note">{{habilidades.021}}</p>
+</div>
+<div class="skill-group reveal" style="--d:.12s">
+<h4>{{habilidades.022}}</h4>
+<p class="chips big"><span>{{habilidades.023}}</span><span>{{habilidades.024}}</span><span>{{habilidades.025}}</span><span>{{habilidades.026}}</span><span>{{habilidades.027}}</span><span>{{habilidades.028}}</span><span>{{habilidades.029}}</span><span>{{habilidades.030}}</span></p>
+</div>
+<div class="skill-group reveal" style="--d:.18s">
+<h4>{{habilidades.031}}</h4>
+<p class="chips big"><span>{{habilidades.032}}</span><span>{{habilidades.033}}</span><span>{{habilidades.034}}</span><span>{{habilidades.035}}</span><span>{{habilidades.036}}</span><span>{{habilidades.037}}</span><span>{{habilidades.038}}</span><span>{{habilidades.039}}</span><span>{{habilidades.040}}</span><span>{{habilidades.041}}</span><span>{{habilidades.042}}</span><span>{{habilidades.043}}</span></p>
+</div>
+<div class="skill-group reveal" style="--d:.21s">
+<h4>{{habilidades.044}}</h4>
+<p class="chips big"><span>{{habilidades.045}}</span><span>{{habilidades.046}}</span><span>{{habilidades.047}}</span><span>{{habilidades.048}}</span><span>{{habilidades.049}}</span><span>{{habilidades.050}}</span></p>
+<p class="skill-note">{{habilidades.051}}</p>
+</div>
+<div class="skill-group reveal" style="--d:.24s">
+<h4>{{habilidades.052}}</h4>
+<p class="chips big"><span>{{habilidades.053}}</span><span>{{habilidades.054}}</span><span>{{habilidades.055}}</span><span>{{habilidades.056}}</span><span>{{habilidades.057}}</span><span>{{habilidades.058}}</span><span>{{habilidades.059}}</span><span>{{habilidades.060}}</span><span>{{habilidades.061}}</span></p>
+</div>
+<div class="skill-group reveal" style="--d:.3s">
+<h4>{{habilidades.062}}</h4>
+<p class="chips big"><span>{{habilidades.063}}</span><span>{{habilidades.064}}</span><span>{{habilidades.065}}</span><span>{{habilidades.066}}</span></p>
+<p class="skill-note">{{habilidades.067}}</p>
+</div>
+</div>
+</div>
+</section>
+<!-- ───────────── CERTIFICADOS ───────────── -->
+<section class="section" id="certificados">
+<span aria-hidden="true" class="ghost-num" data-speed="0.12">∀</span>
+<div class="wrap">
+<header class="sec-head reveal">
+<span class="sec-num">07</span>
+<h2>{{certificados.001}}</h2>
+<span aria-hidden="true" class="sec-eq"><span class="tex" data-tex="{{certificados.002}}">{{certificados.003}}</span></span>
+</header>
+<div aria-label="{{certificados.004}}" class="filters reveal" role="group">
+<button class="filter is-on" data-filter="all">{{certificados.005}}</button>
+<button class="filter" data-filter="ml">{{certificados.006}}</button>
+<button class="filter" data-filter="mat">{{certificados.007}}</button>
+<button class="filter" data-filter="idi">{{certificados.008}}</button>
+<button class="filter" data-filter="prog">{{certificados.009}}</button>
+</div>
+<div class="cert-grid" id="certGrid">
+<button class="cert card reveal" data-cat="ml" data-img="{{root}}assets/certs/thumbs/daxus-power-bi-ia.webp" data-pdf="{{root}}assets/certs/daxus-power-bi-ia.pdf" data-spot="" data-title="{{certificados.010}}">
+<span class="cert-img"><img alt="{{certificados.011}}" height="853" loading="lazy" src="{{root}}assets/certs/thumbs/daxus-power-bi-ia.webp" width="1210"/></span>
+<span class="cert-meta"><small>{{certificados.012}}</small><b>{{certificados.013}}</b><em>{{certificados.014}}</em></span>
+</button>
+<div class="cert card badge reveal" data-cat="ml" data-spot="">
+<span aria-hidden="true" class="cert-img badge-art"><span class="badge-t">{{certificados.015}}</span><span class="badge-s">{{certificados.016}}</span><span class="badge-pill">{{certificados.017}}</span></span>
+<span class="cert-meta"><small>{{certificados.018}}</small><b>{{certificados.019}}</b>
+<span class="badge-list">{{certificados.020}}</span>
+<span class="badge-links"><a href="https://g.dev/MarioMarroquin" rel="noopener" target="_blank">{{certificados.021}}</a></span>
+<em>2025 – 2026</em></span>
+</div>
+<button class="cert card reveal" data-cat="idi" data-img="{{root}}assets/certs/thumbs/direct-english-intermediate.webp" data-pdf="{{root}}assets/certs/direct-english-intermediate.pdf" data-spot="" data-title="{{certificados.022}}">
+<span class="cert-img"><img alt="{{certificados.023}}" height="781" loading="lazy" src="{{root}}assets/certs/thumbs/direct-english-intermediate.webp" width="1210"/></span>
+<span class="cert-meta"><small>{{certificados.024}}</small><b>{{certificados.025}}</b><em>{{certificados.026}}</em></span>
+</button>
+<button class="cert card reveal" data-cat="ml" data-img="{{root}}assets/certs/thumbs/cohere-ml-summer-school.webp" data-pdf="{{root}}assets/certs/cohere-ml-summer-school.pdf" data-spot="" data-title="{{certificados.027}}" data-verify="https://credsverse.com/credentials/fadb3379-f0ad-4ca5-b507-8ec345106fd5">
+<span class="cert-img"><img alt="{{certificados.028}}" height="855" loading="lazy" src="{{root}}assets/certs/thumbs/cohere-ml-summer-school.webp" width="1210"/></span>
+<span class="cert-meta"><small>{{certificados.029}}</small><b>{{certificados.030}}</b><em>2026</em></span>
+</button>
+<button class="cert card reveal" data-cat="ml" data-img="{{root}}assets/certs/thumbs/aws-ml-engineer-associate.webp" data-pdf="{{root}}assets/certs/aws-ml-engineer-associate.pdf" data-spot="" data-title="{{certificados.031}}">
+<span class="cert-img"><img alt="{{certificados.032}}" height="935" loading="lazy" src="{{root}}assets/certs/thumbs/aws-ml-engineer-associate.webp" width="1210"/></span>
+<span class="cert-meta"><small>{{certificados.033}}</small><b>{{certificados.034}}</b><em>{{certificados.035}}</em></span>
+</button>
+<button class="cert card reveal" data-cat="prog" data-img="{{root}}assets/certs/thumbs/aws-simulearn-nube.webp" data-pdf="{{root}}assets/certs/aws-simulearn-nube.pdf" data-spot="" data-title="{{certificados.036}}">
+<span class="cert-img"><img alt="{{certificados.037}}" height="935" loading="lazy" src="{{root}}assets/certs/thumbs/aws-simulearn-nube.webp" width="1210"/></span>
+<span class="cert-meta"><small>{{certificados.038}}</small><b>{{certificados.039}}</b><em>{{certificados.040}}</em></span>
+</button>
+<button class="cert card reveal" data-cat="ml" data-img="{{root}}assets/certs/thumbs/aws-intro-machine-learning.webp" data-pdf="{{root}}assets/certs/aws-intro-machine-learning.pdf" data-spot="" data-title="{{certificados.041}}" style="--d:.05s">
+<span class="cert-img"><img alt="{{certificados.042}}" height="935" loading="lazy" src="{{root}}assets/certs/thumbs/aws-intro-machine-learning.webp" width="1210"/></span>
+<span class="cert-meta"><small>{{certificados.043}}</small><b>{{certificados.044}}</b><em>{{certificados.045}}</em></span>
+</button>
+<button class="cert card reveal" data-cat="ml" data-img="{{root}}assets/certs/thumbs/cisco-intro-data-science.webp" data-pdf="{{root}}assets/certs/cisco-intro-data-science.pdf" data-spot="" data-title="{{certificados.046}}" style="--d:.1s">
+<span class="cert-img"><img alt="{{certificados.047}}" height="935" loading="lazy" src="{{root}}assets/certs/thumbs/cisco-intro-data-science.webp" width="1210"/></span>
+<span class="cert-meta"><small>{{certificados.048}}</small><b>{{certificados.049}}</b><em>{{certificados.050}}</em></span>
+</button>
+<button class="cert card reveal" data-cat="ml" data-img="{{root}}assets/certs/thumbs/udacity-aws-ai-practitioner.webp" data-pdf="{{root}}assets/certs/udacity-aws-ai-practitioner.pdf" data-spot="" data-title="{{certificados.051}}" style="--d:.15s">
+<span class="cert-img"><img alt="{{certificados.052}}" height="935" loading="lazy" src="{{root}}assets/certs/thumbs/udacity-aws-ai-practitioner.webp" width="1210"/></span>
+<span class="cert-meta"><small>{{certificados.053}}</small><b>{{certificados.054}}</b><em>{{certificados.055}}</em></span>
+</button>
+<button class="cert card reveal" data-cat="prog" data-img="{{root}}assets/certs/thumbs/stanford-code-in-place.webp" data-pdf="{{root}}assets/certs/stanford-code-in-place.pdf" data-spot="" data-title="{{certificados.056}}">
+<span class="cert-img portrait"><img alt="{{certificados.057}}" height="1210" loading="lazy" src="{{root}}assets/certs/thumbs/stanford-code-in-place.webp" width="935"/></span>
+<span class="cert-meta"><small>{{certificados.058}}</small><b>{{certificados.059}}</b><em>{{certificados.060}}</em></span>
+</button>
+<button class="cert card reveal" data-cat="mat" data-img="{{root}}assets/certs/thumbs/platzi-algebra-lineal.webp" data-pdf="{{root}}assets/certs/platzi-algebra-lineal.pdf" data-spot="" data-title="{{certificados.061}}" style="--d:.05s">
+<span class="cert-img"><img alt="{{certificados.062}}" height="935" loading="lazy" src="{{root}}assets/certs/thumbs/platzi-algebra-lineal.webp" width="1210"/></span>
+<span class="cert-meta"><small>{{certificados.063}}</small><b>{{certificados.064}}</b><em>{{certificados.065}}</em></span>
+</button>
+<button class="cert card reveal" data-cat="mat" data-img="{{root}}assets/certs/thumbs/platzi-funciones-matematicas.webp" data-pdf="{{root}}assets/certs/platzi-funciones-matematicas.pdf" data-spot="" data-title="{{certificados.066}}" style="--d:.1s">
+<span class="cert-img"><img alt="{{certificados.067}}" height="935" loading="lazy" src="{{root}}assets/certs/thumbs/platzi-funciones-matematicas.webp" width="1210"/></span>
+<span class="cert-meta"><small>{{certificados.068}}</small><b>{{certificados.069}}</b><em>{{certificados.070}}</em></span>
+</button>
+<button class="cert card reveal" data-cat="mat" data-img="{{root}}assets/certs/thumbs/platzi-lenguaje-notacion.webp" data-pdf="{{root}}assets/certs/platzi-lenguaje-notacion.pdf" data-spot="" data-title="{{certificados.071}}" style="--d:.15s">
+<span class="cert-img"><img alt="{{certificados.072}}" height="935" loading="lazy" src="{{root}}assets/certs/thumbs/platzi-lenguaje-notacion.webp" width="1210"/></span>
+<span class="cert-meta"><small>{{certificados.073}}</small><b>{{certificados.074}}</b><em>{{certificados.075}}</em></span>
+</button>
+<button class="cert card reveal" data-cat="mat" data-img="{{root}}assets/certs/thumbs/platzi-fundamentos-matematicas.webp" data-pdf="{{root}}assets/certs/platzi-fundamentos-matematicas.pdf" data-spot="" data-title="{{certificados.076}}" style="--d:.2s">
+<span class="cert-img"><img alt="{{certificados.077}}" height="935" loading="lazy" src="{{root}}assets/certs/thumbs/platzi-fundamentos-matematicas.webp" width="1210"/></span>
+<span class="cert-meta"><small>{{certificados.078}}</small><b>{{certificados.079}}</b><em>{{certificados.080}}</em></span>
+</button>
+</div>
+</div>
+</section>
+<!-- ───────────── CONTACTO ───────────── -->
+<section class="section contact" id="contacto">
+<span aria-hidden="true" class="ghost-num" data-speed="0.12">∞</span>
+<div class="wrap">
+<header class="sec-head reveal">
+<span class="sec-num">08</span>
+<h2>{{contacto.001}}</h2>
+<span aria-hidden="true" class="sec-eq"><span class="tex" data-tex="{{contacto.002}}">{{contacto.003}}</span></span>
+</header>
+<p class="contact-lead reveal">{{contacto.004}}</p>
+<a class="mail reveal" href="mailto:mario.marroquin.2007@gmail.com" style="--d:.08s">{{contacto.005}}</a>
+<ul class="social reveal" style="--d:.16s">
+<li><a href="https://github.com/mariomarroquin3" rel="noopener" target="_blank">{{contacto.006}}</a></li>
+<li><a href="https://www.linkedin.com/in/mario-alejandro-marroqu%C3%ADn-305a843a0/" rel="noopener" target="_blank">{{contacto.007}}</a></li>
+<li><a href="https://g.dev/MarioMarroquin" rel="noopener" target="_blank">{{contacto.008}}</a></li>
+<li><a href="https://platzi.com/@mario.marroquin.2007/" rel="noopener" target="_blank">{{contacto.009}}</a></li>
+<li><a href="https://cryptorisk-mauve.vercel.app/" rel="noopener" target="_blank">{{contacto.010}}</a></li>
+<li><a href="{{root}}assets/cv/CV_Mario_Marroquin_ES.pdf" rel="noopener" target="_blank">{{contacto.011}}</a></li>
+<li><a href="{{root}}assets/cv/CV_Mario_Marroquin_EN.pdf" rel="noopener" target="_blank">{{contacto.012}}</a></li>
+</ul>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="wrap">
+<span>{{footer.001}}</span>
+<span class="muted">{{footer.002}}</span>
+<a href="#inicio">{{footer.003}}</a>
+</div>
+</footer>
+<!-- Lightbox -->
+<dialog aria-label="{{lightbox.001}}" id="lightbox">
+<div class="lb-inner">
+<button aria-label="{{lightbox.002}}" class="lb-close" id="lbClose">✕</button>
+<img alt="" id="lbImg"/>
+<div class="lb-bar">
+<span id="lbTitle"></span>
+<span class="lb-links"><a class="link" hidden="" href="#" id="lbVerify" rel="noopener" target="_blank">{{lightbox.003}}</a><a class="link" href="#" id="lbPdf" rel="noopener" target="_blank">{{lightbox.004}}</a></span>
+</div>
+</div>
+</dialog>
+<script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+{{i18n_script}}
+<script src="{{root}}js/main.js"></script>
+</body>
+</html>

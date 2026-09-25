@@ -1,0 +1,1419 @@
+### head.title
+Mario Marroquín — Matemáticas, riesgo y machine learning
+
+### head.description
+Portafolio de Mario Alejandro Marroquín: riesgo financiero cuantitativo, criptografía y machine learning. El Salvador.
+
+### head.og_title
+Mario Marroquín — Matemáticas, riesgo y machine learning
+
+### head.og_description
+Investigación en riesgo cuantitativo, criptografía y ML. Proyectos, trayectoria y certificaciones.
+
+### page.001
+Saltar al contenido
+
+### nav.001
+Inicio
+
+### nav.002
+M<span>.</span>
+
+### nav.003
+Abrir menú
+
+### menu.001
+Principal
+
+### menu.002
+Sobre mí
+
+### menu.003
+Proyectos
+
+### menu.004
+Trayectoria
+
+### menu.005
+Programas
+
+### menu.006
+Logros
+
+### menu.007
+Habilidades
+
+### menu.008
+Certificados
+
+### menu.009
+Contacto
+
+### rail.001
+Secciones
+
+### rail.002
+Inicio
+
+### rail.003
+Sobre mí
+
+### rail.004
+Proyectos
+
+### rail.005
+Trayectoria
+
+### rail.006
+Programas
+
+### rail.007
+Logros
+
+### rail.008
+Habilidades
+
+### rail.009
+Certificados
+
+### rail.010
+Contacto
+
+### inicio.001
+<span class="dot"></span> El Salvador · Portafolio 2026
+
+### inicio.002
+Mario Alejandro
+
+### inicio.003
+Marroquín
+
+### inicio.004
+Estudio y construyo sistemas donde la <strong>matemática</strong> se encuentra con los datos:
+          riesgo financiero, criptografía y aprendizaje automático. Me interesa entender <em>por qué</em> funcionan las cosas, no solo que funcionen.
+
+### inicio.005
+Áreas de interés
+
+### inicio.006
+Ahora me obsesiona
+
+### inicio.007
+Riesgo cuantitativo
+
+### inicio.008
+Ver proyectos <span aria-hidden="true">→</span>
+
+### inicio.009
+Contacto
+
+### inicio.010
+dx/dt = σ(y − x)
+
+### inicio.011
+dy/dt = x(ρ − z) − y
+
+### inicio.012
+dz/dt = xy − βz
+
+### inicio.013
+Bajar
+
+### page.002
+Python
+
+### page.003
+PyTorch
+
+### page.004
+SQL
+
+### page.005
+LaTeX
+
+### page.006
+scikit-learn
+
+### page.007
+statsmodels
+
+### page.008
+Series temporales
+
+### page.009
+Econometría
+
+### page.010
+Criptografía
+
+### page.011
+Álgebra lineal
+
+### page.012
+Probabilidad
+
+### page.013
+Agentes de IA
+
+### page.014
+MCP
+
+### page.015
+Python
+
+### page.016
+PyTorch
+
+### page.017
+SQL
+
+### page.018
+LaTeX
+
+### page.019
+scikit-learn
+
+### page.020
+statsmodels
+
+### page.021
+Series temporales
+
+### page.022
+Econometría
+
+### page.023
+Criptografía
+
+### page.024
+Álgebra lineal
+
+### page.025
+Probabilidad
+
+### page.026
+Agentes de IA
+
+### page.027
+MCP
+
+### sobre-mi.001
+Sobre <em>mí</em>
+
+### sobre-mi.002
+lim (1 + 1/n)ⁿ = e
+
+### sobre-mi.003
+Soy estudiante salvadoreño y me muevo entre la <em>matemática aplicada</em>,
+              el <em>machine learning</em> y la construcción de sistemas.
+
+### sobre-mi.004
+Estoy terminando el Bachillerato Técnico en Infraestructura Tecnológica y Servicios Informáticos.
+              Antes de eso participé dos años consecutivos en olimpiadas de matemáticas, y desde entonces
+              busco el lado riguroso de todo lo que construyo.
+
+### sobre-mi.005
+Mientras tanto investigo por mi cuenta: comparo más de veinte modelos de riesgo para criptoactivos,
+              rompo generadores de números pseudoaleatorios para entender por qué «parecer aleatorio»
+              no es lo mismo que «ser impredecible», y trabajo con agentes de IA: yo decido qué se construye y cómo; ellos me ayudan con gran parte de la sintaxis.
+
+### sobre-mi.006
+modelos de volatilidad y riesgo de cola comparados
+
+### sobre-mi.007
+0.02 s
+
+### sobre-mi.008
+para recuperar el estado completo de un MT19937
+
+### sobre-mi.009
+certificados e insignias en IA, datos, matemáticas y programación
+
+### sobre-mi.010
+artículos en preparación para arXiv
+
+### proyectos.001
+Proyectos de <em>investigación</em>
+
+### proyectos.002
+θ* = argmin L(θ)
+
+### subnav.001
+Índice de proyectos
+
+### subnav.002
+CryptoRisk
+
+### subnav.003
+Entropy Arena
+
+### subnav.004
+RetinoVisionAI
+
+### subnav.005
+Infraestructura e IoT
+
+### subnav.006
+Datos y seguridad
+
+### subnav.007
+Estudios y ERP
+
+### subnav.008
+Side projects
+
+### proyectos.003
+Ilustración · retornos simulados
+
+### proyectos.004
+GARCH-t · VaR 99%
+
+### proyectos.005
+<i class="k-line"></i>retorno
+
+### proyectos.006
+<i class="k-var"></i>−VaR
+
+### proyectos.007
+<i class="k-hit"></i>excedencia
+
+### proyectos.008
+<i></i>En línea
+
+### proyectos.009
+CryptoRisk / CUBO+ Risk Terminal
+
+### proyectos.010
+Riesgo de cola para Bitcoin y Ethereum
+
+### proyectos.011
+¿Qué modelos predicen mejor el riesgo de cola de Bitcoin y Ethereum, y cuáles fallan?
+
+### proyectos.012
+Estudio comparativo <em>out-of-sample</em> de más de 20 modelos de volatilidad que predicen
+              Value-at-Risk y Expected Shortfall a 1 día con protocolo walk-forward sobre una ventana rodante de 500 días.
+
+### proyectos.013
+<b>Modelos.</b> GARCH-t, GJR, EGARCH, EWMA, FHS, GARCH-EVT, HAR-RV, Realized-GARCH, CAViaR, MS-GARCH, RF-QR, LSTM-Vol…
+
+### proyectos.014
+<b>Evaluación.</b> Kupiec, Christoffersen, Dynamic Quantile, Acerbi-Szekely, FZO, Diebold-Mariano, MCS y Berkowitz.
+
+### proyectos.015
+<b>Hallazgo.</b> Realized-GARCH y CAViaR lideran el ranking FZO; MS-GARCH no logra identificar regímenes con 500 días de ventana.
+
+### proyectos.016
+Resumen
+
+### proyectos.017
+Estudio comparativo <em>out-of-sample</em> de más de 20 modelos de volatilidad y riesgo de cola (familia GARCH, HAR, CAViaR, MS-GARCH, RF-QR y LSTM) para BTC y ETH. Cada modelo predice VaR y Expected Shortfall a 1 día con una ventana rodante de 500 días, y se evalúa con pruebas de cobertura (Kupiec, Christoffersen), de pérdida (FZO, Acerbi-Szekely) y de comparación (Diebold-Mariano, MCS). Realized-GARCH y CAViaR lideran el ranking; MS-GARCH no logra identificar regímenes estables con esa ventana.
+
+### proyectos.018
+Python
+
+### proyectos.019
+PyTorch
+
+### proyectos.020
+arch
+
+### proyectos.021
+Next.js
+
+### proyectos.022
+Recharts
+
+### proyectos.023
+LaTeX
+
+### proyectos.024
+Abrir dashboard <span>↗</span>
+
+### proyectos.025
+Código <span>↗</span>
+
+### proyectos.026
+Regla 30 · autómata celular
+
+### proyectos.027
+determinista
+
+### proyectos.028
+“Parecer aleatorio no es ser impredecible.”
+
+### proyectos.029
+Criptografía
+
+### proyectos.030
+Framework matemático
+
+### proyectos.031
+Entropy Arena
+
+### proyectos.032
+¿Qué tan impredecible es una fuente que solo parece aleatoria?
+
+### proyectos.033
+Compara fuentes de aleatoriedad para generar claves criptográficas (BIP39/32/48/67, multisig 2-de-3 y 3-de-5),
+              separando la <em>calidad estadística</em> (NIST SP 800-22) de la <em>entropía real</em> (min-entropía, NIST SP 800-90B).
+
+### proyectos.034
+<b>Fuentes.</b> CSPRNG, Mersenne Twister, RANDU, mapa logístico, atractor de Lorenz, Rule 30, dígitos de π, jitter de CPU, dados y barajas.
+
+### proyectos.035
+<b>Ataques.</b> Recuperación del estado de MT19937 en 0.02 s, de RANDU en 0.26 s, y ataques por offset de π y semilla de reloj.
+
+### proyectos.036
+<b>Pipeline.</b> BIP39 → BIP32 → BIP48 → BIP67, direcciones bech32 (BIP173) y descriptores (BIP380).
+
+### proyectos.037
+Resumen
+
+### proyectos.038
+Parecer aleatorio no es ser impredecible. El framework separa la calidad estadística de una fuente (pruebas NIST SP 800-22) de su entropía real (min-entropía, NIST SP 800-90B) y mide cuánto puede predecirla un atacante. Recupera el estado de MT19937 en 0.02 s y el de RANDU en 0.26 s, y sigue el impacto hasta claves BIP39/32/48 y multisig.
+
+### proyectos.039
+Python
+
+### proyectos.040
+secp256k1
+
+### proyectos.041
+NIST SP 800-22 / 90B
+
+### proyectos.042
+LaTeX
+
+### proyectos.043
+Código <span>↗</span>
+
+### proyectos.044
+Fondo de ojo · ilustración
+
+### proyectos.045
+CNN
+
+### proyectos.046
+Proyecto
+
+### proyectos.047
+Presentado en el desafío EUREKA
+
+### proyectos.048
+RetinoVisionAI
+
+### proyectos.049
+¿Puede una red neuronal ayudar a detectar retinopatía diabética donde faltan oftalmólogos?
+
+### proyectos.050
+Clasificación de retinopatía diabética en imágenes de fondo de ojo con redes neuronales convolucionales.
+              Una herramienta de diagnóstico asistido pensada para comunidades con acceso limitado a oftalmólogos.
+
+### proyectos.051
+<b>Modelo.</b> CNN en PyTorch (EfficientNet-B3) con data augmentation, normalización de iluminación y validación cruzada estratificada.
+
+### proyectos.052
+<b>Interpretabilidad.</b> Aplicación web con Grad-CAM para ver qué zonas de la retina pesan en cada predicción.
+
+### proyectos.053
+<b>Retos.</b> Imágenes médicas ruidosas, desbalance de clases y variabilidad entre pacientes.
+
+### proyectos.054
+Resumen
+
+### proyectos.055
+Una CNN (EfficientNet-B3, PyTorch) clasifica retinopatía diabética en imágenes de fondo de ojo. Se entrena con data augmentation, normalización de iluminación y validación cruzada estratificada para manejar imágenes ruidosas, clases desbalanceadas y variabilidad entre pacientes. Una app web con Grad-CAM muestra qué zonas de la retina pesan en cada predicción.
+
+### proyectos.056
+PyTorch
+
+### proyectos.057
+OpenCV
+
+### proyectos.058
+NumPy
+
+### proyectos.059
+Pandas
+
+### proyectos.060
+Flask
+
+### proyectos.061
+Código <span>↗</span>
+
+### proyectos.062
+Infraestructura e IoT
+
+### proyectos.063
+Proyecto en equipo
+
+### proyectos.064
+Módulo 3.3 · Centros de datos
+
+### proyectos.065
+Monitoreo de un centro de datos
+
+### proyectos.066
+Configuré <b>Zabbix</b> en una máquina virtual con Ubuntu para recolectar ciertas métricas de los equipos de mis compañeros y observar su estado desde un solo lugar.
+
+### proyectos.067
+Además construimos un panel web en React con el reporte del módulo: la entrevista a un ingeniero de un centro de datos Tier 4 y su análisis bajo normas ISO como la 22237 (infraestructura) y la 22301 (continuidad), con fortalezas, debilidades y recomendaciones.
+
+### proyectos.068
+Zabbix
+
+### proyectos.069
+Ubuntu
+
+### proyectos.070
+Máquinas virtuales
+
+### proyectos.071
+React
+
+### proyectos.072
+Framer Motion
+
+### proyectos.073
+Netlify
+
+### proyectos.074
+Código <span>↗</span>
+
+### proyectos.075
+IoT
+
+### proyectos.076
+Hardware + tiempo real
+
+### proyectos.077
+Control de acceso con RFID
+
+### proyectos.078
+Un <b>ESP32</b> con lector RFID valida cada tarjeta contra <b>Firebase Realtime Database</b>, abre las barreras con servomotores (entrada y salida) y registra cada evento como permitido, denegado o inconsistente.
+
+### proyectos.079
+Un panel web en React y TypeScript muestra eventos y estadísticas en vivo, y permite registrar credenciales nuevas conectando la placa desde el navegador con Web Serial.
+
+### proyectos.080
+ESP32
+
+### proyectos.081
+C++
+
+### proyectos.082
+Firebase
+
+### proyectos.083
+React
+
+### proyectos.084
+TypeScript
+
+### proyectos.085
+Recharts
+
+### proyectos.086
+Código <span>↗</span>
+
+### proyectos.087
+Datos y seguridad de la información
+
+### proyectos.088
+Proyecto final de Code in Place
+
+### proyectos.089
+IA generativa
+
+### proyectos.090
+Sintetizador de datos financieros con un VAE
+
+### proyectos.091
+¿Se pueden probar y auditar sistemas contables sin exponer datos reales?
+
+### proyectos.092
+Un <b>Variational Autoencoder</b> en PyTorch aprende los patrones estadísticos de transacciones financieras reales y genera registros nuevos, pensados para probar software contable y auditorías <b>sin exponer datos de clientes</b>.
+
+### proyectos.093
+Incluye el pipeline de preprocesamiento (transformaciones logarítmicas y codificación one-hot) y una app en Streamlit donde se sube una base, se controla el volumen generado, se valida el parecido con PCA y se exporta el CSV.
+
+### proyectos.094
+<b>En mejora:</b> medir el riesgo de re-identificación y comparar la fidelidad de los datos con métricas más completas.
+
+### proyectos.095
+Resumen
+
+### proyectos.096
+Un VAE aprende la distribución conjunta de transacciones financieras (montos con transformación logarítmica y variables categóricas con one-hot) y muestrea su espacio latente para generar registros nuevos. Una app en Streamlit permite subir una base, elegir el volumen, validar el parecido con PCA y exportar el CSV. Falta medir formalmente el riesgo de re-identificación.
+
+### proyectos.097
+PyTorch
+
+### proyectos.098
+VAE
+
+### proyectos.099
+Streamlit
+
+### proyectos.100
+PCA
+
+### proyectos.101
+Altair
+
+### proyectos.102
+Código <span>↗</span>
+
+### proyectos.103
+Bachillerato técnico
+
+### proyectos.104
+ISO/IEC 27001
+
+### proyectos.105
+Auditoría de seguridad de la información
+
+### proyectos.106
+Auditoría interna, basada en la norma <b>ISO 27001</b>, a una cooperativa de ahorro y crédito: análisis de riesgos, revisión de controles de acceso y de políticas, e informe con brechas y recomendaciones de mejora.
+
+### proyectos.107
+<b>El vínculo con el VAE:</b> las auditorías y las pruebas de software suelen tocar datos sensibles. Los datos sintéticos son una forma de aplicar controles de la norma como la protección de la información de prueba y el enmascaramiento de datos, aunque no sustituyen evaluar el riesgo de fuga.
+
+### proyectos.108
+ISO 27001
+
+### proyectos.109
+Análisis de riesgos
+
+### proyectos.110
+Controles de acceso
+
+### proyectos.111
+Seguridad y crecimiento económico en Centroamérica
+
+### proyectos.112
+¿Afecta la violencia al crecimiento a través de las instituciones y la inversión?
+
+### proyectos.113
+Estudia si la violencia afecta el crecimiento a través de la calidad institucional y la inversión extranjera en Centroamérica, Colombia y República Dominicana (2000–2024). Pipeline reproducible de efectos fijos con inferencia robusta para pocos clusters, más una capa de ML como triangulación.
+
+### proyectos.114
+Resumen
+
+### proyectos.115
+Analiza si la violencia (homicidios) deteriora la calidad institucional (WGI) y, por esa vía, la inversión extranjera y el crecimiento, en 8 países de Centroamérica, Colombia y República Dominicana entre 2000 y 2024. Usa efectos fijos de dos vías con inferencia para pocos clusters (wild cluster bootstrap, CR2, Driscoll-Kraay), diagnósticos y ML como triangulación. Sigue en revisión metodológica y no afirma causalidad.
+
+### proyectos.116
+Python
+
+### proyectos.117
+statsmodels
+
+### proyectos.118
+Datos de panel
+
+### proyectos.119
+Código <span>↗</span>
+
+### proyectos.120
+ERP para maquila
+
+### proyectos.121
+Sistema para una empresa maquiladora con inventario, facturación, control de producción y reportes. Nació como proyecto del bachillerato técnico.
+
+### proyectos.122
+TypeScript
+
+### proyectos.123
+Inventario
+
+### proyectos.124
+Facturación
+
+### proyectos.125
+Código <span>↗</span>
+
+### proyectos.126
+Side projects
+
+### proyectos.127
+Por diversión
+
+### proyectos.128
+AVMatrix · Switcher virtual
+
+### proyectos.129
+Simulador web de un switcher de video HVS0403U, con su panel de botones y luces PGM/PVW.
+
+### proyectos.130
+HTML · CSS · JS ↗
+
+### proyectos.131
+Por diversión
+
+### proyectos.132
+GamePort
+
+### proyectos.133
+Portal web con registro, inicio de sesión y perfil de usuario, con base de datos SQL y backend propio.
+
+### proyectos.134
+HTML · SQL · Node ↗
+
+### proyectos.135
+Nacidas en mi trabajo
+
+### proyectos.136
+Herramientas de facturas DTE
+
+### proyectos.137
+Dos apps de escritorio que unen las facturas electrónicas en un solo PDF, una desde la partida contable y otra desde el Libro de Compras. Bajaron una tarea de toda una tarde a menos de un minuto.
+
+### proyectos.138
+Partidas DTE ↗
+
+### proyectos.139
+DTE Joiner ↗
+
+### proyectos.140
+GitHub
+
+### proyectos.141
+Y más experimentos
+
+### proyectos.142
+Más de 30 repositorios entre prácticas, juegos y prototipos.
+
+### proyectos.143
+Ver todos ↗
+
+### trayectoria.001
+Trayectoria
+
+### trayectoria.002
+dx/dt = f(x, t)
+
+### trayectoria.003
+Experiencia
+
+### trayectoria.004
+Feb 2026 — Presente
+
+### trayectoria.005
+Asistente de contador · Automatización de procesos
+
+### trayectoria.006
+<a class="inline-link" href="https://github.com/mariomarroquin3/partidas_dte" rel="noopener" target="_blank">Partidas DTE</a>: app de escritorio que lee los identificadores de una partida contable (PDF) y une las facturas electrónicas correspondientes en un solo archivo. Una tarea de toda una tarde (~4 horas) pasó a menos de un minuto, cada mes y para varios clientes.
+
+### trayectoria.007
+<a class="inline-link" href="https://github.com/mariomarroquin3/IVAs" rel="noopener" target="_blank">DTE Joiner</a>: parte del Libro de Compras en Excel, ubica las facturas en varias carpetas y arma el PDF en el orden del libro, con progreso reanudable, alertas de facturas faltantes y bitácora. Logra una reducción de tiempo similar.
+
+### trayectoria.008
+<b>Macros de planilla y partidas (Excel/VBA)</b>: generan planillas y partidas contables con verificación automática de cuadre. Ahorran un 30 a 40 % del tiempo (estimado).
+
+### trayectoria.009
+<b>Python</b>: extracción, limpieza y validación de datos financieros. También colaboro en la implementación de un ERP para una maquila.
+
+### trayectoria.010
+Educación
+
+### trayectoria.011
+En curso · finalizando 3.er año
+
+### trayectoria.012
+Bachillerato Técnico en Infraestructura Tecnológica y Servicios Informáticos
+
+### trayectoria.013
+Redes, sistemas operativos, seguridad informática y programación. Notas de 10 y primer lugar cada año. Proyecto destacado: auditoría ISO 27001.
+
+### trayectoria.014
+Planificado · tras el bachillerato
+
+### trayectoria.015
+Técnico en Software
+
+### trayectoria.016
+Desarrollo de software, bases de datos y metodologías ágiles.
+
+### trayectoria.017
+En este momento
+
+### trayectoria.018
+Aprendiendo
+
+### trayectoria.019
+Terminar CUBO+ y CUBO_ai, y cursar <b>Probability for AI</b> de Stanford (admitido, empieza en octubre) para reforzar mi base en probabilidad.
+
+### trayectoria.020
+Publicando
+
+### trayectoria.021
+Preparar CryptoRisk y Entropy Arena para publicarlos en arXiv, con sus documentos en LaTeX.
+
+### trayectoria.022
+Compitiendo
+
+### trayectoria.023
+Buscar un <b>destacado en GCI World</b> (Matsuo Lab, Universidad de Tokio), que es la meta más fuerte del año.
+
+### programas.001
+Programas y <em>cursos</em>
+
+### programas.002
+S=\sum_{i}\text{aprendizaje}_{i}
+
+### programas.003
+S = ∑ aprendizajeᵢ
+
+### programas.004
+Miembro
+
+### programas.005
+Cohere Labs · Open Science Community
+
+### programas.006
+Comunidad global de investigación en ML
+
+### programas.007
+Parte de la comunidad de ciencia abierta de Cohere Labs. Participé en su <b>ML Summer School 2026</b> y recibí un diploma por mi participación y contribución.
+              <a class="inline-link" href="https://credsverse.com/credentials/fadb3379-f0ad-4ca5-b507-8ec345106fd5" rel="noopener" target="_blank">Ver credencial ↗</a>
+
+### programas.008
+En curso
+
+### programas.009
+CUBO+
+
+### programas.010
+El Salvador · Educación en Bitcoin
+
+### programas.011
+Programa nacional con asignaciones exigentes, testing, redes y criptografía asimétrica. De aquí salió CryptoRisk.
+
+### programas.012
+En curso
+
+### programas.013
+CUBO_ai
+
+### programas.014
+Inteligencia artificial
+
+### programas.015
+Fundamentos de ML y redes neuronales.
+
+### programas.016
+En curso
+
+### programas.017
+GCI · Matsuo Lab
+
+### programas.018
+University of Tokyo
+
+### programas.019
+Curso online de tres meses en AI, ML y Data Science, con énfasis en series temporales, aprendizaje supervisado, feature engineering y SQL.
+
+### programas.020
+Completado
+
+### programas.021
+AWS ML Scholars
+
+### programas.022
+Amazon Web Services
+
+### programas.023
+Base sólida en machine learning: preprocesamiento, entrenamiento, evaluación y despliegue.
+
+### programas.024
+Completado
+
+### programas.025
+Code in Place
+
+### programas.026
+Stanford University · CS106A
+
+### programas.027
+Introducción a la programación en Python: control de flujo, listas, diccionarios y gráficos. Abril–mayo 2026.
+
+### programas.028
+En pausa
+
+### programas.029
+Kaggle · Enveda CASMI 2026
+
+### programas.030
+Competencia
+
+### programas.031
+Identificación de moléculas a partir de espectros de masas. Inscrito; retomo en 2027.
+
+### logros.001
+Logros y <em>reconocimientos</em>
+
+### logros.002
+Q.E.D.
+
+### logros.003
+Ganador · Nacional · 2025
+
+### logros.004
+Primer Hackathon Nacional de Inteligencia Artificial
+
+### logros.005
+Ganador en la categoría de <b>clasificación de calidad de café</b>, el primer hackathon de IA a nivel nacional. Lo resolví con un modelo <b>Random Forest</b> (<code>RandomForestRegressor</code> de scikit-learn).
+
+### logros.006
+Distrital · Departamental
+
+### logros.007
+Concursos de oratoria
+
+### logros.008
+Participación en múltiples concursos a nivel distrital y departamental, con varias victorias.
+
+### logros.009
+2 años consecutivos
+
+### logros.010
+Olimpiadas de matemáticas
+
+### logros.011
+Participación en dos ediciones seguidas de las olimpiadas de matemáticas.
+
+### logros.012
+200 horas de servicio social
+
+### logros.013
+Enseñanza de matemáticas
+
+### logros.014
+La mayor parte de mis horas sociales fueron dar clases de matemáticas, incluso a grados superiores al mío.
+
+### habilidades.001
+Caja de <em>herramientas</em>
+
+### habilidades.002
+f:\text{ideas}\to\text{código}
+
+### habilidades.003
+f : ideas → código
+
+### habilidades.004
+Cómo trabajo
+
+### habilidades.005
+Yo me encargo de las <b>decisiones, las funcionalidades y la arquitectura</b>. La mayor parte del código y la sintaxis
+            (TypeScript, JavaScript/React, Java, VBA…) la escribo junto a agentes de IA, así que esos lenguajes son un
+            <em>work in progress</em>, no una especialidad. Lo que aporto es el razonamiento detrás: matemáticas, modelos y diseño de sistemas.
+
+### habilidades.006
+Lenguajes
+
+### habilidades.007
+Python
+
+### habilidades.008
+SQL
+
+### habilidades.009
+LaTeX
+
+### habilidades.010
+TypeScript
+
+### habilidades.011
+JavaScript / React
+
+### habilidades.012
+Java
+
+### habilidades.013
+VBA
+
+### habilidades.014
+R
+
+### habilidades.015
+<i></i> en progreso, con asistencia de IA o aprendiendo
+
+### habilidades.016
+IA aplicada
+
+### habilidades.017
+Agentes de IA
+
+### habilidades.018
+MCP (Model Context Protocol)
+
+### habilidades.019
+Diseño de arquitectura
+
+### habilidades.020
+Definición de features
+
+### habilidades.021
+Familiaridad con agentes y servidores MCP, herramientas cada vez más pedidas en equipos de software.
+
+### habilidades.022
+Ciencia de datos y ML
+
+### habilidades.023
+PyTorch
+
+### habilidades.024
+PyTorch Geometric
+
+### habilidades.025
+scikit-learn
+
+### habilidades.026
+NumPy
+
+### habilidades.027
+Pandas
+
+### habilidades.028
+Matplotlib
+
+### habilidades.029
+statsmodels
+
+### habilidades.030
+arch
+
+### habilidades.031
+Web y herramientas
+
+### habilidades.032
+Next.js
+
+### habilidades.033
+Recharts
+
+### habilidades.034
+Visx
+
+### habilidades.035
+TanStack Query
+
+### habilidades.036
+Flask
+
+### habilidades.037
+Firebase
+
+### habilidades.038
+Power BI
+
+### habilidades.039
+Git / GitHub
+
+### habilidades.040
+Vercel
+
+### habilidades.041
+Render
+
+### habilidades.042
+Jupyter
+
+### habilidades.043
+VS Code
+
+### habilidades.044
+Infraestructura e IoT
+
+### habilidades.045
+Zabbix
+
+### habilidades.046
+Ubuntu / Linux
+
+### habilidades.047
+Máquinas virtuales
+
+### habilidades.048
+ESP32
+
+### habilidades.049
+RFID
+
+### habilidades.050
+Firebase RTDB
+
+### habilidades.051
+Monitoreo de equipos y control de acceso con hardware en tiempo real.
+
+### habilidades.052
+Áreas de estudio
+
+### habilidades.053
+Álgebra lineal
+
+### habilidades.054
+Estadística
+
+### habilidades.055
+Econometría
+
+### habilidades.056
+Series temporales
+
+### habilidades.057
+Riesgo financiero
+
+### habilidades.058
+Criptografía
+
+### habilidades.059
+Machine learning
+
+### habilidades.060
+Deep learning
+
+### habilidades.061
+GNNs
+
+### habilidades.062
+Comunicación
+
+### habilidades.063
+Oratoria
+
+### habilidades.064
+Enseñanza de matemáticas
+
+### habilidades.065
+Exposición de resultados técnicos
+
+### habilidades.066
+Inglés · intermedio
+
+### habilidades.067
+Varias victorias en concursos de oratoria distritales y departamentales. Preparando el nivel avanzado de inglés.
+
+### certificados.001
+Certificados
+
+### certificados.002
+\forall\,\text{curso}\;\exists\,\text{evidencia}
+
+### certificados.003
+∀ curso ∃ evidencia
+
+### certificados.004
+Filtrar certificados
+
+### certificados.005
+Todos <small>14</small>
+
+### certificados.006
+IA y datos <small>7</small>
+
+### certificados.007
+Matemáticas <small>4</small>
+
+### certificados.008
+Idiomas <small>1</small>
+
+### certificados.009
+Programación y nube <small>2</small>
+
+### certificados.010
+Daxus LATAM — Acelerador de Carrera con Power BI + IA
+
+### certificados.011
+Certificado de participación Daxus LATAM Acelerador de Carrera con Power BI + IA
+
+### certificados.012
+Daxus LATAM
+
+### certificados.013
+Acelerador de Carrera con Power BI + IA <span class="nowrap">(8 h)</span>
+
+### certificados.014
+30 abr 2026
+
+### certificados.015
+Google
+
+### certificados.016
+8 insignias
+
+### certificados.017
+Miembro · Google Developer Program
+
+### certificados.018
+Google for Developers
+
+### certificados.019
+Insignias del Google Developer Program
+
+### certificados.020
+ML Crash Course: Linear regression y Logistic regression · Gemini Enterprise Agent Ready · Google Cloud &amp; NVIDIA community member · Chrome DevTools · DOM Detective · Android Studio
+
+### certificados.021
+Ver mi perfil público ↗
+
+### certificados.022
+Direct English — Inglés, nivel Intermediate
+
+### certificados.023
+Certificado Direct English nivel Intermediate
+
+### certificados.024
+Direct English
+
+### certificados.025
+Inglés · nivel Intermediate
+
+### certificados.026
+nov 2024
+
+### certificados.027
+Cohere Labs — ML Summer School 2026
+
+### certificados.028
+Certificado de participación Cohere Labs ML Summer School 2026
+
+### certificados.029
+Cohere Labs · Open Science Community
+
+### certificados.030
+ML Summer School 2026 <span class="nowrap">(participación)</span>
+
+### certificados.031
+AWS ML Engineer Associate — Curriculum Overview
+
+### certificados.032
+Certificado AWS ML Engineer Associate Curriculum Overview
+
+### certificados.033
+AWS Training &amp; Certification
+
+### certificados.034
+ML Engineer Associate — Curriculum Overview
+
+### certificados.035
+3 ago 2026
+
+### certificados.036
+AWS SimuLearn — Conceptos básicos de computación en la nube
+
+### certificados.037
+Certificado AWS SimuLearn Conceptos básicos de computación en la nube
+
+### certificados.038
+AWS Training &amp; Certification
+
+### certificados.039
+SimuLearn: Conceptos básicos de computación en la nube
+
+### certificados.040
+2 ago 2026
+
+### certificados.041
+AWS — Introduction to Machine Learning: Art of the Possible
+
+### certificados.042
+Certificado AWS Introduction to Machine Learning
+
+### certificados.043
+AWS Training &amp; Certification
+
+### certificados.044
+Introduction to Machine Learning: Art of the Possible
+
+### certificados.045
+2 ago 2026
+
+### certificados.046
+Cisco — Introduction to Data Science
+
+### certificados.047
+Certificado Cisco Introduction to Data Science
+
+### certificados.048
+Cisco Networking Academy
+
+### certificados.049
+Introduction to Data Science
+
+### certificados.050
+20 jul 2026
+
+### certificados.051
+Udacity — AWS AI Practitioner Challenge
+
+### certificados.052
+Certificado Udacity AWS AI Practitioner Challenge
+
+### certificados.053
+Udacity
+
+### certificados.054
+AWS AI Practitioner Challenge
+
+### certificados.055
+4 jun 2026
+
+### certificados.056
+Stanford — Code in Place 2026
+
+### certificados.057
+Certificado Stanford Code in Place 2026
+
+### certificados.058
+Stanford University
+
+### certificados.059
+Code in Place 2026 <span class="nowrap">(CS106A · Python)</span>
+
+### certificados.060
+20 abr – 29 may 2026
+
+### certificados.061
+Platzi — Álgebra Lineal para Machine Learning
+
+### certificados.062
+Certificado Platzi Álgebra Lineal para Machine Learning
+
+### certificados.063
+Platzi
+
+### certificados.064
+Álgebra Lineal para Machine Learning
+
+### certificados.065
+16 ene 2026 · 11 h
+
+### certificados.066
+Platzi — Funciones Matemáticas para Data Science e IA
+
+### certificados.067
+Certificado Platzi Funciones Matemáticas para Data Science e IA
+
+### certificados.068
+Platzi
+
+### certificados.069
+Funciones Matemáticas para Data Science e IA
+
+### certificados.070
+16 ene 2026 · 12 h
+
+### certificados.071
+Platzi — Lenguaje y Notación Matemática
+
+### certificados.072
+Certificado Platzi Lenguaje y Notación Matemática
+
+### certificados.073
+Platzi
+
+### certificados.074
+Lenguaje y Notación Matemática
+
+### certificados.075
+16 ene 2026 · 12 h
+
+### certificados.076
+Platzi — Fundamentos de Matemáticas
+
+### certificados.077
+Certificado Platzi Fundamentos de Matemáticas
+
+### certificados.078
+Platzi
+
+### certificados.079
+Fundamentos de Matemáticas
+
+### certificados.080
+6 feb 2026 · 3 h
+
+### contacto.001
+Hablemos<em>.</em>
+
+### contacto.002
+P(\text{colaborar}\mid\text{hablar})\uparrow
+
+### contacto.003
+P(colaborar | hablar) ↑
+
+### contacto.004
+Abierto a colaboraciones de investigación, becas y oportunidades en finanzas cuantitativas,
+          machine learning y seguridad de IA.
+
+### contacto.005
+mario.marroquin.2007@gmail.com
+
+### contacto.006
+GitHub <span>↗</span>
+
+### contacto.007
+LinkedIn <span>↗</span>
+
+### contacto.008
+Google Developer <span>↗</span>
+
+### contacto.009
+Platzi <span>↗</span>
+
+### contacto.010
+CryptoRisk <span>↗</span>
+
+### contacto.011
+CV en español <span>↓</span>
+
+### contacto.012
+CV in English <span>↓</span>
+
+### footer.001
+© 2026 Mario Marroquín
+
+### footer.002
+Hecho a mano con HTML, CSS y JavaScript · <span class="tex" data-tex="e^{i\pi}+1=0">e<sup>iπ</sup> + 1 = 0</span>
+
+### footer.003
+Volver arriba ↑
+
+### lightbox.001
+Vista del certificado
+
+### lightbox.002
+Cerrar
+
+### lightbox.003
+Verificar <span>↗</span>
+
+### lightbox.004
+Abrir PDF <span>↗</span>
+
+### lang.label
+Idioma
+
+### lang.hint
+This page is also available in English.
+
+### lang.hint_link
+English version →
+
+### lang.close
+Cerrar aviso
+
+### js.roles
+Riesgo cuantitativo
+Criptografía
+Machine learning
+Series temporales
+Econometría
+Álgebra lineal
+
+### js.certalt
+Certificado: 
+

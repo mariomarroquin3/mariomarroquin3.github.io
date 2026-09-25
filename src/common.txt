@@ -1,0 +1,47 @@
+### Proyectos
+Projects
+
+### Contacto
+Contact
+
+### Resumen
+Summary
+
+### Código <span>↗</span>
+Code <span>↗</span>
+
+### En curso
+In progress
+
+### Completado
+Completed
+
+### Series temporales
+Time series
+
+### Econometría
+Econometrics
+
+### Criptografía
+Cryptography
+
+### Álgebra lineal
+Linear algebra
+
+### Probabilidad
+Probability
+
+### Agentes de IA
+AI agents
+
+### Máquinas virtuales
+Virtual machines
+
+### Estadística
+Statistics
+
+### Riesgo financiero
+Financial risk
+
+### Enseñanza de matemáticas
+Math teaching

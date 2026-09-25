@@ -1,0 +1,800 @@
+### head.title
+Mario Marroquín — Mathematics, risk and machine learning
+
+### head.description
+Portfolio of Mario Alejandro Marroquín: quantitative financial risk, cryptography and machine learning. El Salvador.
+
+### head.og_title
+Mario Marroquín — Mathematics, risk and machine learning
+
+### head.og_description
+Research in quantitative risk, cryptography and ML. Projects, background and certifications.
+
+### page.001
+Skip to content
+
+### nav.001
+Home
+
+### nav.003
+Open menu
+
+### menu.001
+Main
+
+### menu.002
+About me
+
+### menu.004
+Background
+
+### menu.005
+Programs
+
+### menu.006
+Achievements
+
+### menu.007
+Skills
+
+### menu.008
+Certificates
+
+### rail.001
+Sections
+
+### rail.002
+Home
+
+### rail.003
+About me
+
+### rail.005
+Background
+
+### rail.006
+Programs
+
+### rail.007
+Achievements
+
+### rail.008
+Skills
+
+### rail.009
+Certificates
+
+### inicio.001
+<span class="dot"></span> El Salvador · Portfolio 2026
+
+### inicio.004
+I study and build systems where <strong>mathematics</strong> meets data:
+          financial risk, cryptography and machine learning. I care about understanding <em>why</em> things work, not just that they work.
+
+### inicio.005
+Areas of interest
+
+### inicio.006
+Lately I'm obsessed with
+
+### inicio.007
+Quantitative risk
+
+### inicio.008
+View projects <span aria-hidden="true">→</span>
+
+### inicio.010
+dx/dt = σ(y − x)
+
+### inicio.013
+Scroll down
+
+### sobre-mi.001
+About <em>me</em>
+
+### sobre-mi.003
+I'm a Salvadoran student who moves between <em>applied mathematics</em>,
+              <em>machine learning</em> and building systems.
+
+### sobre-mi.004
+I'm finishing my Technical Baccalaureate in Technology Infrastructure and IT Services.
+              Before that I took part in mathematics olympiads for two consecutive years, and ever since
+              I look for the rigorous side of everything I build.
+
+### sobre-mi.005
+Meanwhile I do research on my own: I compare more than twenty risk models for crypto-assets,
+              I break pseudorandom number generators to understand why “looking random”
+              is not the same as “being unpredictable”, and I work with AI agents: I decide what gets built and how; they help me with a lot of the syntax.
+
+### sobre-mi.006
+volatility and tail-risk models compared
+
+### sobre-mi.008
+to recover the full state of an MT19937
+
+### sobre-mi.009
+certificates and badges in AI, data, mathematics and programming
+
+### sobre-mi.010
+papers in preparation for arXiv
+
+### proyectos.001
+<em>Research</em> projects
+
+### subnav.001
+Projects index
+
+### subnav.005
+Infrastructure and IoT
+
+### subnav.006
+Data and security
+
+### subnav.007
+Studies and ERP
+
+### proyectos.003
+Illustration · simulated returns
+
+### proyectos.005
+<i class="k-line"></i>return
+
+### proyectos.007
+<i class="k-hit"></i>exceedance
+
+### proyectos.008
+<i></i>Live
+
+### proyectos.010
+Tail risk for Bitcoin and Ethereum
+
+### proyectos.011
+Which models best predict the tail risk of Bitcoin and Ethereum, and which ones fail?
+
+### proyectos.012
+<em>Out-of-sample</em> comparison of more than 20 volatility models that predict
+              Value-at-Risk and Expected Shortfall one day ahead with a walk-forward protocol on a rolling 500-day window.
+
+### proyectos.013
+<b>Models.</b> GARCH-t, GJR, EGARCH, EWMA, FHS, GARCH-EVT, HAR-RV, Realized-GARCH, CAViaR, MS-GARCH, RF-QR, LSTM-Vol…
+
+### proyectos.014
+<b>Evaluation.</b> Kupiec, Christoffersen, Dynamic Quantile, Acerbi-Szekely, FZO, Diebold-Mariano, MCS and Berkowitz.
+
+### proyectos.015
+<b>Finding.</b> Realized-GARCH and CAViaR lead the FZO ranking; MS-GARCH fails to identify regimes with a 500-day window.
+
+### proyectos.017
+<em>Out-of-sample</em> comparison of more than 20 volatility and tail-risk models (GARCH family, HAR, CAViaR, MS-GARCH, RF-QR and LSTM) for BTC and ETH. Each model predicts one-day VaR and Expected Shortfall on a rolling 500-day window and is evaluated with coverage tests (Kupiec, Christoffersen), loss-based scores (FZO, Acerbi-Szekely) and comparison tests (Diebold-Mariano, MCS). Realized-GARCH and CAViaR lead the ranking; MS-GARCH fails to identify stable regimes with that window.
+
+### proyectos.024
+Open dashboard <span>↗</span>
+
+### proyectos.026
+Rule 30 · cellular automaton
+
+### proyectos.027
+deterministic
+
+### proyectos.028
+“Looking random is not the same as being unpredictable.”
+
+### proyectos.030
+Mathematical framework
+
+### proyectos.032
+How unpredictable is a source that only looks random?
+
+### proyectos.033
+Compares randomness sources for generating cryptographic keys (BIP39/32/48/67, 2-of-3 and 3-of-5 multisig),
+              separating <em>statistical quality</em> (NIST SP 800-22) from <em>real entropy</em> (min-entropy, NIST SP 800-90B).
+
+### proyectos.034
+<b>Sources.</b> CSPRNG, Mersenne Twister, RANDU, logistic map, Lorenz attractor, Rule 30, digits of π, CPU jitter, dice and card shuffles.
+
+### proyectos.035
+<b>Attacks.</b> State recovery of MT19937 in 0.02 s and of RANDU in 0.26 s, plus π-offset and clock-seed attacks.
+
+### proyectos.036
+<b>Pipeline.</b> BIP39 → BIP32 → BIP48 → BIP67, bech32 addresses (BIP173) and descriptors (BIP380).
+
+### proyectos.038
+Looking random is not the same as being unpredictable. The framework separates a source's statistical quality (NIST SP 800-22 tests) from its real entropy (min-entropy, NIST SP 800-90B) and measures how well an attacker can predict it. It recovers the MT19937 state in 0.02 s and the RANDU state in 0.26 s, and follows the impact all the way to BIP39/32/48 keys and multisig.
+
+### proyectos.044
+Fundus · illustration
+
+### proyectos.046
+Project
+
+### proyectos.047
+Presented at the EUREKA challenge
+
+### proyectos.049
+Can a neural network help detect diabetic retinopathy where ophthalmologists are scarce?
+
+### proyectos.050
+Classification of diabetic retinopathy in fundus images with convolutional neural networks.
+              A computer-aided diagnosis tool designed for communities with limited access to ophthalmologists.
+
+### proyectos.051
+<b>Model.</b> CNN in PyTorch (EfficientNet-B3) with data augmentation, illumination normalization and stratified cross-validation.
+
+### proyectos.052
+<b>Interpretability.</b> Web app with Grad-CAM to see which regions of the retina drive each prediction.
+
+### proyectos.053
+<b>Challenges.</b> Noisy medical images, class imbalance and variability between patients.
+
+### proyectos.055
+A CNN (EfficientNet-B3, PyTorch) classifies diabetic retinopathy in fundus images. It is trained with data augmentation, illumination normalization and stratified cross-validation to handle noisy images, imbalanced classes and variability between patients. A web app with Grad-CAM shows which regions of the retina drive each prediction.
+
+### proyectos.062
+Infrastructure and IoT
+
+### proyectos.063
+Team project
+
+### proyectos.064
+Module 3.3 · Data centers
+
+### proyectos.065
+Data center monitoring
+
+### proyectos.066
+I set up <b>Zabbix</b> on an Ubuntu virtual machine to collect certain metrics from my classmates' computers and watch their status from a single place.
+
+### proyectos.067
+We also built a React web dashboard with the module's report: an interview with an engineer from a Tier 4 data center and its analysis under ISO standards such as 22237 (infrastructure) and 22301 (continuity), with strengths, weaknesses and recommendations.
+
+### proyectos.076
+Hardware + real time
+
+### proyectos.077
+RFID access control
+
+### proyectos.078
+An <b>ESP32</b> with an RFID reader validates each card against <b>Firebase Realtime Database</b>, opens the barriers with servo motors (entry and exit) and logs each event as allowed, denied or inconsistent.
+
+### proyectos.079
+A React and TypeScript web dashboard shows events and statistics live, and lets you register new credentials by connecting the board from the browser with Web Serial.
+
+### proyectos.087
+Data and information security
+
+### proyectos.088
+Code in Place final project
+
+### proyectos.089
+Generative AI
+
+### proyectos.090
+Financial data synthesizer with a VAE
+
+### proyectos.091
+Can accounting systems be tested and audited without exposing real data?
+
+### proyectos.092
+A <b>Variational Autoencoder</b> in PyTorch learns the statistical patterns of real financial transactions and generates new records, designed to test accounting software and audits <b>without exposing customer data</b>.
+
+### proyectos.093
+It includes the preprocessing pipeline (log transforms and one-hot encoding) and a Streamlit app where you upload a dataset, control how many records are generated, validate the resemblance with PCA and export the CSV.
+
+### proyectos.094
+<b>Improving:</b> measuring re-identification risk and comparing data fidelity with more complete metrics.
+
+### proyectos.096
+A VAE learns the joint distribution of financial transactions (amounts with a log transform and categorical variables with one-hot encoding) and samples its latent space to generate new records. A Streamlit app lets you upload a dataset, choose the volume, validate the resemblance with PCA and export the CSV. Re-identification risk still needs to be measured formally.
+
+### proyectos.103
+Technical baccalaureate
+
+### proyectos.105
+Information security audit
+
+### proyectos.106
+Internal audit of a savings and credit cooperative based on the <b>ISO 27001</b> standard: risk analysis, review of access controls and policies, and a report with gaps and improvement recommendations.
+
+### proyectos.107
+<b>The link with the VAE:</b> audits and software testing often touch sensitive data. Synthetic data is one way to apply the standard's controls on protecting test information and masking data, though it does not replace assessing leakage risk.
+
+### proyectos.109
+Risk analysis
+
+### proyectos.110
+Access controls
+
+### proyectos.111
+Security and economic growth in Central America
+
+### proyectos.112
+Does violence affect growth through institutions and investment?
+
+### proyectos.113
+Studies whether violence affects growth through institutional quality and foreign direct investment in Central America, Colombia and the Dominican Republic (2000–2024). A reproducible fixed-effects pipeline with inference robust to few clusters, plus an ML layer for triangulation.
+
+### proyectos.115
+Analyzes whether violence (homicides) deteriorates institutional quality (WGI) and, through that channel, foreign investment and growth, in 8 countries of Central America, Colombia and the Dominican Republic between 2000 and 2024. It uses two-way fixed effects with few-cluster inference (wild cluster bootstrap, CR2, Driscoll-Kraay), diagnostics and ML as triangulation. It is still under methodological review and makes no causal claim.
+
+### proyectos.118
+Panel data
+
+### proyectos.120
+ERP for a maquila
+
+### proyectos.121
+A system for a maquila manufacturer with inventory, invoicing, production control and reports. It started as a technical baccalaureate project.
+
+### proyectos.123
+Inventory
+
+### proyectos.124
+Invoicing
+
+### proyectos.127
+For fun
+
+### proyectos.128
+AVMatrix · Virtual switcher
+
+### proyectos.129
+Web simulator of an HVS0403U video switcher, with its button panel and PGM/PVW lights.
+
+### proyectos.131
+For fun
+
+### proyectos.133
+Web portal with sign-up, login and user profile, with a SQL database and its own backend.
+
+### proyectos.135
+Born at work
+
+### proyectos.136
+DTE invoice tools
+
+### proyectos.137
+Two desktop apps that merge electronic invoices into a single PDF, one starting from the accounting entry and the other from the Purchases Ledger. They cut a task that took a whole afternoon to under a minute.
+
+### proyectos.141
+And more experiments
+
+### proyectos.142
+More than 30 repositories of exercises, games and prototypes.
+
+### proyectos.143
+See all ↗
+
+### trayectoria.001
+Background
+
+### trayectoria.003
+Experience
+
+### trayectoria.004
+Feb 2026 — Present
+
+### trayectoria.005
+Accounting assistant · Process automation
+
+### trayectoria.006
+<a class="inline-link" href="https://github.com/mariomarroquin3/partidas_dte" rel="noopener" target="_blank">Partidas DTE</a>: desktop app that reads the identifiers of an accounting entry (PDF) and merges the matching electronic invoices into a single file. A task that took a whole afternoon (~4 hours) now takes under a minute, every month and for several clients.
+
+### trayectoria.007
+<a class="inline-link" href="https://github.com/mariomarroquin3/IVAs" rel="noopener" target="_blank">DTE Joiner</a>: starts from the Purchases Ledger in Excel, finds the invoices across several folders and builds the PDF in ledger order, with resumable progress, missing-invoice alerts and a log. It achieves a similar time reduction.
+
+### trayectoria.008
+<b>Payroll and journal-entry macros (Excel/VBA)</b>: generate payroll sheets and accounting entries with automatic balance checks. They save an estimated 30 to 40% of the time.
+
+### trayectoria.009
+<b>Python</b>: extraction, cleaning and validation of financial data. I also help implement an ERP for a maquila.
+
+### trayectoria.010
+Education
+
+### trayectoria.011
+In progress · finishing 3rd year
+
+### trayectoria.012
+Technical Baccalaureate in Technology Infrastructure and IT Services
+
+### trayectoria.013
+Networks, operating systems, information security and programming. Straight-10 grades and first place every year. Featured project: ISO 27001 audit.
+
+### trayectoria.014
+Planned · after the baccalaureate
+
+### trayectoria.015
+Software Technician
+
+### trayectoria.016
+Software development, databases and agile methodologies.
+
+### trayectoria.017
+Right now
+
+### trayectoria.018
+Learning
+
+### trayectoria.019
+Finish CUBO+ and CUBO_ai, and take Stanford's <b>Probability for AI</b> (admitted, starts in October) to strengthen my foundation in probability.
+
+### trayectoria.020
+Publishing
+
+### trayectoria.021
+Prepare CryptoRisk and Entropy Arena for arXiv, with their LaTeX write-ups.
+
+### trayectoria.022
+Competing
+
+### trayectoria.023
+Aim for a <b>standout result in GCI World</b> (Matsuo Lab, University of Tokyo), the biggest goal of the year.
+
+### programas.001
+Programs and <em>courses</em>
+
+### programas.002
+S=\sum_{i}\text{learning}_{i}
+
+### programas.003
+S = ∑ learningᵢ
+
+### programas.004
+Member
+
+### programas.006
+Global community for ML research
+
+### programas.007
+Part of Cohere Labs' open science community. I took part in its <b>ML Summer School 2026</b> and received a diploma for my participation and contribution.
+              <a class="inline-link" href="https://credsverse.com/credentials/fadb3379-f0ad-4ca5-b507-8ec345106fd5" rel="noopener" target="_blank">View credential ↗</a>
+
+### programas.010
+El Salvador · Bitcoin education
+
+### programas.011
+National program with demanding assignments, testing, networking and asymmetric cryptography. CryptoRisk came out of it.
+
+### programas.014
+Artificial intelligence
+
+### programas.015
+Foundations of ML and neural networks.
+
+### programas.019
+Three-month online course in AI, ML and Data Science, with emphasis on time series, supervised learning, feature engineering and SQL.
+
+### programas.023
+Solid foundation in machine learning: preprocessing, training, evaluation and deployment.
+
+### programas.027
+Introduction to programming in Python: control flow, lists, dictionaries and graphics. April–May 2026.
+
+### programas.028
+Paused
+
+### programas.030
+Competition
+
+### programas.031
+Identifying molecules from mass spectra. Registered; resuming in 2027.
+
+### logros.001
+Achievements and <em>recognition</em>
+
+### logros.003
+Winner · National · 2025
+
+### logros.004
+First National Artificial Intelligence Hackathon
+
+### logros.005
+Winner in the <b>coffee quality classification</b> category of the first national AI hackathon. I solved it with a <b>Random Forest</b> model (scikit-learn's <code>RandomForestRegressor</code>).
+
+### logros.006
+District · Departmental
+
+### logros.007
+Public speaking contests
+
+### logros.008
+Took part in multiple contests at district and departmental level, with several wins.
+
+### logros.009
+2 consecutive years
+
+### logros.010
+Mathematics olympiads
+
+### logros.011
+Took part in two consecutive editions of the mathematics olympiads.
+
+### logros.012
+200 hours of community service
+
+### logros.014
+Most of my community service hours were spent teaching mathematics, including to grades above my own.
+
+### habilidades.001
+My <em>toolbox</em>
+
+### habilidades.002
+f:\text{ideas}\to\text{code}
+
+### habilidades.003
+f : ideas → code
+
+### habilidades.004
+How I work
+
+### habilidades.005
+I take care of the <b>decisions, the features and the architecture</b>. Most of the code and syntax
+            (TypeScript, JavaScript/React, Java, VBA…) I write together with AI agents, so those languages are a
+            <em>work in progress</em>, not a specialty. What I bring is the reasoning behind it: mathematics, models and systems design.
+
+### habilidades.006
+Languages
+
+### habilidades.015
+<i></i> in progress, AI-assisted or learning
+
+### habilidades.016
+Applied AI
+
+### habilidades.019
+Architecture design
+
+### habilidades.020
+Feature definition
+
+### habilidades.021
+Familiar with AI agents and MCP servers, tools that software teams increasingly ask for.
+
+### habilidades.022
+Data science and ML
+
+### habilidades.031
+Web and tools
+
+### habilidades.044
+Infrastructure and IoT
+
+### habilidades.051
+Host monitoring and access control with hardware in real time.
+
+### habilidades.052
+Areas of study
+
+### habilidades.062
+Communication
+
+### habilidades.063
+Public speaking
+
+### habilidades.065
+Presenting technical results
+
+### habilidades.066
+English · intermediate
+
+### habilidades.067
+Several wins in district and departmental public speaking contests. Preparing for the advanced English level.
+
+### certificados.001
+Certificates
+
+### certificados.002
+\forall\,\text{course}\;\exists\,\text{evidence}
+
+### certificados.003
+∀ course ∃ evidence
+
+### certificados.004
+Filter certificates
+
+### certificados.005
+All <small>14</small>
+
+### certificados.006
+AI and data <small>7</small>
+
+### certificados.007
+Mathematics <small>4</small>
+
+### certificados.008
+Languages <small>1</small>
+
+### certificados.009
+Programming and cloud <small>2</small>
+
+### certificados.010
+Daxus LATAM — Career Accelerator with Power BI + AI
+
+### certificados.011
+Daxus LATAM participation certificate, Career Accelerator with Power BI + AI
+
+### certificados.013
+Career Accelerator with Power BI + AI <span class="nowrap">(8 h)</span>
+
+### certificados.014
+Apr 30, 2026
+
+### certificados.016
+8 badges
+
+### certificados.017
+Member · Google Developer Program
+
+### certificados.019
+Google Developer Program badges
+
+### certificados.020
+ML Crash Course: Linear regression and Logistic regression · Gemini Enterprise Agent Ready · Google Cloud &amp; NVIDIA community member · Chrome DevTools · DOM Detective · Android Studio
+
+### certificados.021
+View my public profile ↗
+
+### certificados.022
+Direct English — English, Intermediate level
+
+### certificados.023
+Direct English Intermediate certificate
+
+### certificados.025
+English · Intermediate level
+
+### certificados.026
+Nov 2024
+
+### certificados.028
+Cohere Labs ML Summer School 2026 participation certificate
+
+### certificados.030
+ML Summer School 2026 <span class="nowrap">(participation)</span>
+
+### certificados.032
+AWS ML Engineer Associate Curriculum Overview certificate
+
+### certificados.035
+Aug 3, 2026
+
+### certificados.036
+AWS SimuLearn — Cloud Computing Fundamentals
+
+### certificados.037
+AWS SimuLearn Cloud Computing Fundamentals certificate
+
+### certificados.039
+SimuLearn: Cloud Computing Fundamentals
+
+### certificados.040
+Aug 2, 2026
+
+### certificados.042
+AWS Introduction to Machine Learning certificate
+
+### certificados.045
+Aug 2, 2026
+
+### certificados.047
+Cisco Introduction to Data Science certificate
+
+### certificados.050
+Jul 20, 2026
+
+### certificados.052
+Udacity AWS AI Practitioner Challenge certificate
+
+### certificados.055
+Jun 4, 2026
+
+### certificados.057
+Stanford Code in Place 2026 certificate
+
+### certificados.060
+Apr 20 – May 29, 2026
+
+### certificados.061
+Platzi — Linear Algebra for Machine Learning
+
+### certificados.062
+Platzi Linear Algebra for Machine Learning certificate
+
+### certificados.064
+Linear Algebra for Machine Learning
+
+### certificados.065
+Jan 16, 2026 · 11 h
+
+### certificados.066
+Platzi — Math Functions for Data Science and AI
+
+### certificados.067
+Platzi Math Functions for Data Science and AI certificate
+
+### certificados.069
+Math Functions for Data Science and AI
+
+### certificados.070
+Jan 16, 2026 · 12 h
+
+### certificados.071
+Platzi — Math Language and Notation
+
+### certificados.072
+Platzi Math Language and Notation certificate
+
+### certificados.074
+Math Language and Notation
+
+### certificados.075
+Jan 16, 2026 · 12 h
+
+### certificados.076
+Platzi — Math Fundamentals
+
+### certificados.077
+Platzi Math Fundamentals certificate
+
+### certificados.079
+Math Fundamentals
+
+### certificados.080
+Feb 6, 2026 · 3 h
+
+### contacto.001
+Let's talk<em>.</em>
+
+### contacto.002
+P(\text{collaborate}\mid\text{talk})\uparrow
+
+### contacto.003
+P(collaborate | talk) ↑
+
+### contacto.004
+Open to research collaborations, scholarships and opportunities in quantitative finance,
+          machine learning and AI safety.
+
+### contacto.011
+CV in Spanish <span>↓</span>
+
+### footer.002
+Handmade with HTML, CSS and JavaScript · <span class="tex" data-tex="e^{i\pi}+1=0">e<sup>iπ</sup> + 1 = 0</span>
+
+### footer.003
+Back to top ↑
+
+### lightbox.001
+Certificate view
+
+### lightbox.002
+Close
+
+### lightbox.003
+Verify <span>↗</span>
+
+### lightbox.004
+Open PDF <span>↗</span>
+
+### lang.label
+Language
+
+### lang.hint
+Esta página también está disponible en español.
+
+### lang.hint_link
+Versión en español →
+
+### lang.close
+Dismiss
+
+### js.roles
+Quantitative risk
+Cryptography
+Machine learning
+Time series
+Econometrics
+Linear algebra
+
+### js.certalt
+Certificate: 
