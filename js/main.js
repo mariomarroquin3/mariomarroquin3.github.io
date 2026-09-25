@@ -41,15 +41,41 @@
     document.body.style.overflow = '';
   }));
 
-  const links = $$('.menu a[href^="#"]');
-  const sections = links.map((a) => $(a.getAttribute('href'))).filter(Boolean);
+  // Menú superior + riel lateral comparten el mismo scrollspy
+  const links = $$('.menu a[href^="#"], .rail a[href^="#"]');
+  const here = $('#here');
+  const sections = [...new Set(links.map((a) => a.getAttribute('href')))].map((h) => $(h)).filter(Boolean);
   const spy = new IntersectionObserver((es) => {
     es.forEach((e) => {
       if (!e.isIntersecting) return;
-      links.forEach((a) => a.classList.toggle('active', a.getAttribute('href') === '#' + e.target.id));
+      const id = '#' + e.target.id;
+      links.forEach((a) => a.classList.toggle('active', a.getAttribute('href') === id));
+      const rail = $(`.rail a[href="${id}"]`);
+      if (here) here.textContent = id === '#inicio' ? '' : (rail ? rail.dataset.label : '');
     });
   }, { rootMargin: '-45% 0px -50% 0px' });
   sections.forEach((s) => spy.observe(s));
+
+  // Sub-índice fijo dentro de Proyectos: resalta el proyecto que se está leyendo (el último cuyo borde superior ya pasó el 45 % de la pantalla)
+  const sub = $$('#subnav a');
+  const subTargets = sub.map((a) => $(a.getAttribute('href')));
+  let subCur = -1;
+  const updateSub = () => {
+    const bar = $('#subnav');
+    if (!bar) return;
+    const r = bar.parentElement.getBoundingClientRect();
+    let idx = -1;
+    if (r.top < innerHeight && r.bottom > 0) {
+      subTargets.forEach((t, i) => { if (t && t.getBoundingClientRect().top < innerHeight * 0.45) idx = i; });
+    }
+    if (idx === subCur) return;
+    subCur = idx;
+    sub.forEach((a, i) => a.classList.toggle('active', i === idx));
+    if (idx >= 0) {
+      const a = sub[idx];
+      bar.scrollTo({ left: a.offsetLeft - bar.clientWidth / 2 + a.clientWidth / 2, behavior: reduced ? 'auto' : 'smooth' });
+    }
+  };
 
   /* ───────── Reveal ───────── */
   // El hero se revela al cargar: los .line con overflow:hidden esconden el texto del IntersectionObserver.
@@ -102,6 +128,7 @@
         p.el.style.setProperty('--py', p.py + 'px');
       }
     }
+    updateSub();
     ticking = false;
   };
   addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });

@@ -33,6 +33,7 @@
   <!-- ───────────── NAV ───────────── -->
   <header class="nav" id="nav">
     <a class="brand" href="#inicio" aria-label="Inicio">M<span>.</span></a>
+    <span class="here" id="here" aria-hidden="true"></span>
     <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><i></i><i></i></button>
     <nav id="menu" class="menu" aria-label="Principal">
       <a href="#sobre-mi">Sobre mí</a>
@@ -45,6 +46,18 @@
       <a href="#contacto" class="menu-cta">Contacto</a>
     </nav>
   </header>
+
+  <nav class="rail" id="rail" aria-label="Secciones">
+    <a href="#inicio" data-label="Inicio"><i></i><span>Inicio</span></a>
+    <a href="#sobre-mi" data-label="Sobre mí"><i></i><span>Sobre mí</span></a>
+    <a href="#proyectos" data-label="Proyectos"><i></i><span>Proyectos</span></a>
+    <a href="#trayectoria" data-label="Trayectoria"><i></i><span>Trayectoria</span></a>
+    <a href="#programas" data-label="Programas"><i></i><span>Programas</span></a>
+    <a href="#logros" data-label="Logros"><i></i><span>Logros</span></a>
+    <a href="#habilidades" data-label="Habilidades"><i></i><span>Habilidades</span></a>
+    <a href="#certificados" data-label="Certificados"><i></i><span>Certificados</span></a>
+    <a href="#contacto" data-label="Contacto"><i></i><span>Contacto</span></a>
+  </nav>
 
   <main>
     <!-- ───────────── HERO ───────────── -->
@@ -137,8 +150,18 @@
           <span class="sec-eq" aria-hidden="true"><span class="tex" data-tex="\theta^{*}=\arg\min_{\theta}\,\mathcal{L}(\theta)">θ* = argmin L(θ)</span></span>
         </header>
 
+        <nav class="subnav" id="subnav" aria-label="Índice de proyectos">
+          <a href="#p-cryptorisk">CryptoRisk</a>
+          <a href="#p-entropy">Entropy Arena</a>
+          <a href="#p-retina">RetinoVisionAI</a>
+          <a href="#p-infra">Infraestructura e IoT</a>
+          <a href="#p-datos">Datos y seguridad</a>
+          <a href="#p-otros">Estudios y ERP</a>
+          <a href="#p-side">Side projects</a>
+        </nav>
+
         <!-- CryptoRisk -->
-        <article class="feature">
+        <article id="p-cryptorisk" class="feature">
           <div class="feature-visual reveal">
             <div class="viz-frame card" data-spot>
               <div class="viz-bar"><span>Ilustración · retornos simulados</span><span class="mono-gold">GARCH-t · VaR 99%</span></div>
@@ -159,13 +182,14 @@
               <li><b>Evaluación.</b> Kupiec, Christoffersen, Dynamic Quantile, Acerbi-Szekely, FZO, Diebold-Mariano, MCS y Berkowitz.</li>
               <li><b>Hallazgo.</b> Realized-GARCH y CAViaR lideran el ranking FZO; MS-GARCH no logra identificar regímenes con 500 días de ventana.</li>
             </ul>
+            <details class="abs reveal" style="--d:.18s"><summary>Resumen</summary><p>Estudio comparativo <em>out-of-sample</em> de más de 20 modelos de volatilidad y riesgo de cola (familia GARCH, HAR, CAViaR, MS-GARCH, RF-QR y LSTM) para BTC y ETH. Cada modelo predice VaR y Expected Shortfall a 1 día con una ventana rodante de 500 días, y se evalúa con pruebas de cobertura (Kupiec, Christoffersen), de pérdida (FZO, Acerbi-Szekely) y de comparación (Diebold-Mariano, MCS). Realized-GARCH y CAViaR lideran el ranking; MS-GARCH no logra identificar regímenes estables con esa ventana.</p></details>
             <p class="chips reveal" style="--d:.2s"><span>Python</span><span>PyTorch</span><span>arch</span><span>Next.js</span><span>Recharts</span><span>LaTeX</span></p>
             <p class="links reveal" style="--d:.25s"><a class="link" href="https://cryptorisk-mauve.vercel.app/" target="_blank" rel="noopener">Abrir dashboard <span>↗</span></a><a class="link" href="https://github.com/mariomarroquin3/cryptorisk" target="_blank" rel="noopener">Código <span>↗</span></a></p>
           </div>
         </article>
 
         <!-- Entropy Arena -->
-        <article class="feature flip">
+        <article id="p-entropy" class="feature flip">
           <div class="feature-visual reveal">
             <div class="viz-frame card" data-spot>
               <div class="viz-bar"><span>Regla 30 · autómata celular</span><span class="mono-gold">determinista</span></div>
@@ -186,13 +210,14 @@
               <li><b>Ataques.</b> Recuperación del estado de MT19937 en 0.02 s, de RANDU en 0.26 s, y ataques por offset de π y semilla de reloj.</li>
               <li><b>Pipeline.</b> BIP39 → BIP32 → BIP48 → BIP67, direcciones bech32 (BIP173) y descriptores (BIP380).</li>
             </ul>
+            <details class="abs reveal" style="--d:.18s"><summary>Resumen</summary><p>Parecer aleatorio no es ser impredecible. El framework separa la calidad estadística de una fuente (pruebas NIST SP 800-22) de su entropía real (min-entropía, NIST SP 800-90B) y mide cuánto puede predecirla un atacante. Recupera el estado de MT19937 en 0.02 s y el de RANDU en 0.26 s, y sigue el impacto hasta claves BIP39/32/48 y multisig.</p></details>
             <p class="chips reveal" style="--d:.2s"><span>Python</span><span>secp256k1</span><span>NIST SP 800-22 / 90B</span><span>LaTeX</span></p>
             <p class="links reveal" style="--d:.25s"><a class="link" href="https://github.com/mariomarroquin3/entropy-arena" target="_blank" rel="noopener">Código <span>↗</span></a></p>
           </div>
         </article>
 
         <!-- RetinoVision -->
-        <article class="feature">
+        <article id="p-retina" class="feature">
           <div class="feature-visual reveal">
             <div class="viz-frame card viz-retina" data-spot>
               <div class="viz-bar"><span>Fondo de ojo · ilustración</span><span class="mono-gold">CNN</span></div>
@@ -212,13 +237,14 @@
               <li><b>Interpretabilidad.</b> Aplicación web con Grad-CAM para ver qué zonas de la retina pesan en cada predicción.</li>
               <li><b>Retos.</b> Imágenes médicas ruidosas, desbalance de clases y variabilidad entre pacientes.</li>
             </ul>
+            <details class="abs reveal" style="--d:.18s"><summary>Resumen</summary><p>Una CNN (EfficientNet-B3, PyTorch) clasifica retinopatía diabética en imágenes de fondo de ojo. Se entrena con data augmentation, normalización de iluminación y validación cruzada estratificada para manejar imágenes ruidosas, clases desbalanceadas y variabilidad entre pacientes. Una app web con Grad-CAM muestra qué zonas de la retina pesan en cada predicción.</p></details>
             <p class="chips reveal" style="--d:.2s"><span>PyTorch</span><span>OpenCV</span><span>NumPy</span><span>Pandas</span><span>Flask</span></p>
             <p class="links reveal" style="--d:.25s"><a class="link" href="https://github.com/mariomarroquin3/Diabetic-Retinopathy-Classifier" target="_blank" rel="noopener">Código <span>↗</span></a></p>
           </div>
         </article>
 
         <!-- Infraestructura e IoT -->
-        <h3 class="col-title reveal side-title" style="margin-top:0">Infraestructura e IoT</h3>
+        <h3 id="p-infra" class="col-title reveal side-title" style="margin-top:0">Infraestructura e IoT</h3>
         <div class="pair-grid">
           <article class="card pair reveal" data-spot>
             <p class="tag-row"><span class="pill">Proyecto en equipo</span><span class="mono muted">Módulo 3.3 · Centros de datos</span></p>
@@ -239,7 +265,7 @@
         </div>
 
         <!-- Datos y seguridad de la información -->
-        <h3 class="col-title reveal side-title" style="margin-top:3rem">Datos y seguridad de la información</h3>
+        <h3 id="p-datos" class="col-title reveal side-title" style="margin-top:3rem">Datos y seguridad de la información</h3>
         <div class="pair-grid">
           <article class="card pair reveal" data-spot>
             <p class="tag-row"><span class="pill">Proyecto final de Code in Place</span><span class="mono muted">IA generativa</span></p>
@@ -248,6 +274,7 @@
             <p>Un <b>Variational Autoencoder</b> en PyTorch aprende los patrones estadísticos de transacciones financieras reales y genera registros nuevos, pensados para probar software contable y auditorías <b>sin exponer datos de clientes</b>.</p>
             <p>Incluye el pipeline de preprocesamiento (transformaciones logarítmicas y codificación one-hot) y una app en Streamlit donde se sube una base, se controla el volumen generado, se valida el parecido con PCA y se exporta el CSV.</p>
             <p class="pair-next"><b>En mejora:</b> medir el riesgo de re-identificación y comparar la fidelidad de los datos con métricas más completas.</p>
+            <details class="abs"><summary>Resumen</summary><p>Un VAE aprende la distribución conjunta de transacciones financieras (montos con transformación logarítmica y variables categóricas con one-hot) y muestrea su espacio latente para generar registros nuevos. Una app en Streamlit permite subir una base, elegir el volumen, validar el parecido con PCA y exportar el CSV. Falta medir formalmente el riesgo de re-identificación.</p></details>
             <p class="chips"><span>PyTorch</span><span>VAE</span><span>Streamlit</span><span>PCA</span><span>Altair</span></p>
             <a class="link" href="https://github.com/mariomarroquin3/data_generator" target="_blank" rel="noopener">Código <span>↗</span></a>
           </article>
@@ -261,7 +288,7 @@
         </div>
 
         <!-- Otros -->
-        <div class="mini-grid">
+        <div class="mini-grid" id="p-otros">
           <article class="card mini reveal" data-spot>
             <span class="mini-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24"><path d="M3 20h18M6 16V9m5 7V5m5 11v-6m5 6V8" /></svg>
@@ -269,6 +296,7 @@
             <h4>Seguridad y crecimiento económico en Centroamérica</h4>
             <p class="rq">¿Afecta la violencia al crecimiento a través de las instituciones y la inversión?</p>
             <p>Estudia si la violencia afecta el crecimiento a través de la calidad institucional y la inversión extranjera en Centroamérica, Colombia y República Dominicana (2000–2024). Pipeline reproducible de efectos fijos con inferencia robusta para pocos clusters, más una capa de ML como triangulación.</p>
+            <details class="abs"><summary>Resumen</summary><p>Analiza si la violencia (homicidios) deteriora la calidad institucional (WGI) y, por esa vía, la inversión extranjera y el crecimiento, en 8 países de Centroamérica, Colombia y República Dominicana entre 2000 y 2024. Usa efectos fijos de dos vías con inferencia para pocos clusters (wild cluster bootstrap, CR2, Driscoll-Kraay), diagnósticos y ML como triangulación. Sigue en revisión metodológica y no afirma causalidad.</p></details>
             <p class="chips"><span>Python</span><span>statsmodels</span><span>Datos de panel</span></p>
             <a class="link" href="https://github.com/mariomarroquin3/data_analyzer" target="_blank" rel="noopener">Código <span>↗</span></a>
           </article>
@@ -283,7 +311,7 @@
           </article>
         </div>
 
-        <h3 class="col-title reveal side-title">Side projects</h3>
+        <h3 id="p-side" class="col-title reveal side-title">Side projects</h3>
         <div class="side-grid">
           <a class="card side reveal" href="https://github.com/mariomarroquin3/av-matrix" target="_blank" rel="noopener" data-spot>
             <span class="side-tag">Por diversión</span>
