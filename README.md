@@ -19,8 +19,17 @@ y abrir <http://localhost:8000>.
 
 ## Publicar
 
-1. Crear en GitHub un repositorio llamado `mariomarroquin3.github.io` (sitio de usuario) y subir esta carpeta a `main`.
-2. En *Settings → Pages* elegir *Deploy from a branch → main / (root)*.
+1. En <https://github.com/new> crear un repositorio **público** llamado exactamente `mariomarroquin3.github.io`, sin README ni .gitignore.
+2. Desde esta carpeta:
+
+   ```bash
+   git remote add origin https://github.com/mariomarroquin3/mariomarroquin3.github.io.git
+   git push -u origin main
+   ```
+
+3. En *Settings → Pages* elegir *Deploy from a branch → main / (root)*. El sitio queda en <https://mariomarroquin3.github.io> en uno o dos minutos.
+
+Las fórmulas usan KaTeX desde el CDN de jsDelivr y las tipografías vienen de Google Fonts; sin conexión la página sigue funcionando con texto de respaldo.
 
 ## Agregar un certificado
 
