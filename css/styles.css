@@ -407,3 +407,6 @@ dialog#lightbox[open] { display: grid; place-items: center; animation: fade .3s 
 @media (max-width: 600px) { .side-grid { grid-template-columns: 1fr; } .how { padding: 1.4rem; } }
 
 .mini .link { justify-self: start; }
+
+.inline-link { color: var(--ink); border-bottom: 1px solid var(--gold); transition: color .2s; }
+.inline-link:hover { color: var(--gold-2); }
