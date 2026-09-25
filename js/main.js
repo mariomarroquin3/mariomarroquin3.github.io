@@ -439,7 +439,7 @@
   }));
 
   const lb = $('#lightbox');
-  certs.forEach((c) => c.addEventListener('click', () => {
+  certs.filter((c) => c.dataset.img).forEach((c) => c.addEventListener('click', () => {
     $('#lbImg').src = c.dataset.img;
     $('#lbImg').alt = 'Certificado: ' + c.dataset.title;
     $('#lbTitle').textContent = c.dataset.title;
