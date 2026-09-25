@@ -508,3 +508,16 @@ dialog#lightbox[open] { display: grid; place-items: center; animation: fade .3s 
   .subnav { top: 3.7rem; margin: -1rem calc(var(--gut) * -1) 2rem; border-radius: 0; width: auto; max-width: none; border-left: 0; border-right: 0; padding: .4rem var(--gut); }
 }
 @media (prefers-reduced-motion: reduce) { .abs p { animation: none; } }
+
+/* ───────── Táctil: áreas de toque cómodas (≥ 40 px) ───────── */
+@media (hover: none), (max-width: 760px) {
+  .abs summary { padding: .85rem 0; min-height: 44px; }
+  .abs { padding-top: 0; }
+  .link { padding: .7rem 0 .55rem; }
+  .subnav a { padding: .8rem 1rem; }
+  .badge-links a, .side-links a { padding: .45rem 0; display: inline-block; }
+  .filter { padding: .7rem 1.05rem; }
+  .social a { display: inline-block; padding: .45rem 0; }
+  .menu a { padding: .4rem .6rem; }
+  .cert-meta .badge-links { gap: .1rem 1.2rem; }
+}
