@@ -422,3 +422,11 @@ dialog#lightbox[open] { display: grid; place-items: center; animation: fade .3s 
 .pair .link { justify-self: start; }
 .skill-group:last-child:nth-child(odd) { grid-column: 1 / -1; }
 @media (max-width: 960px) { .pair-grid { grid-template-columns: 1fr; } }
+
+.lb-links { display: flex; gap: 1.6rem; }
+.lb-links [hidden] { display: none; }
+.prog-wide { grid-column: 1 / -1; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 1.5rem 3rem; align-items: center; background: linear-gradient(160deg, rgba(127, 166, 255, .09), rgba(255, 255, 255, .012)); }
+.prog-wide > div { display: grid; gap: .55rem; }
+.prog-wide > p { margin: 0 !important; }
+.prog-wide p b { color: var(--ink); }
+@media (max-width: 960px) { .prog-wide { grid-template-columns: 1fr; } }

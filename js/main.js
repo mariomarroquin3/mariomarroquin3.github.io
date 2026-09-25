@@ -444,6 +444,9 @@
     $('#lbImg').alt = 'Certificado: ' + c.dataset.title;
     $('#lbTitle').textContent = c.dataset.title;
     $('#lbPdf').href = c.dataset.pdf;
+    const v = $('#lbVerify');
+    v.hidden = !c.dataset.verify;
+    if (c.dataset.verify) v.href = c.dataset.verify;
     lb.showModal();
   }));
   $('#lbClose').addEventListener('click', () => lb.close());
