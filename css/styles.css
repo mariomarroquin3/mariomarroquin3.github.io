@@ -410,3 +410,15 @@ dialog#lightbox[open] { display: grid; place-items: center; animation: fade .3s 
 
 .inline-link { color: var(--ink); border-bottom: 1px solid var(--gold); transition: color .2s; }
 .inline-link:hover { color: var(--gold-2); }
+
+/* ───────── Infraestructura e IoT ───────── */
+.pair-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; margin-bottom: 1.2rem; }
+.pair { padding: 2rem; display: grid; gap: 1rem; align-content: start; }
+.pair:hover { transform: translateY(-4px); }
+.pair h4 { font: 400 clamp(1.7rem, 2.6vw, 2.1rem)/1.1 var(--serif); letter-spacing: -.01em; }
+.pair p { color: var(--ink-2); font-size: .95rem; }
+.pair p b { color: var(--ink); }
+.pair .tag-row { margin-bottom: .2rem; }
+.pair .link { justify-self: start; }
+.skill-group:last-child:nth-child(odd) { grid-column: 1 / -1; }
+@media (max-width: 960px) { .pair-grid { grid-template-columns: 1fr; } }
