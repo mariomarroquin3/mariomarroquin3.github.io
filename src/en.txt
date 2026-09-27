@@ -109,8 +109,11 @@ Meanwhile I do research on my own: I compare more than twenty risk models for cr
 ### sobre-mi.006
 volatility and tail-risk models compared
 
+### sobre-mi.007
+0.02 s
+
 ### sobre-mi.008
-to recover the full state of an MT19937
+to predict a PRNG’s next output (MT19937)
 
 ### sobre-mi.009
 certificates and badges in AI, data, mathematics and programming

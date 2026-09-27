@@ -224,7 +224,7 @@ modelos de volatilidad y riesgo de cola comparados
 0.02 s
 
 ### sobre-mi.008
-para recuperar el estado completo de un MT19937
+para predecir la salida de un PRNG (MT19937)
 
 ### sobre-mi.009
 certificados e insignias en IA, datos, matemáticas y programación
