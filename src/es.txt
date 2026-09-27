@@ -221,10 +221,10 @@ Mientras tanto investigo por mi cuenta: comparo más de veinte modelos de riesgo
 modelos de volatilidad y riesgo de cola comparados
 
 ### sobre-mi.007
-0.02 s
+240×
 
 ### sobre-mi.008
-para predecir la salida de un PRNG (MT19937)
+menos tiempo en una tarea mensual de conciliación de facturas (~4h a menos de 1 min)
 
 ### sobre-mi.009
 certificados e insignias en IA, datos, matemáticas y programación
