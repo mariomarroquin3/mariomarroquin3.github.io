@@ -749,7 +749,7 @@ Terminar CUBO+ y CUBO_ai, y cursar <b>Probability for AI</b> de Stanford (admiti
 Publicando
 
 ### trayectoria.021
-Preparar CryptoRisk y Entropy Arena para publicarlos en arXiv, con sus documentos en LaTeX.
+Preparar CryptoRisk, Entropy Arena y el paper de seguridad e instituciones (primer borrador de 10 páginas) para arXiv, con sus documentos en LaTeX.
 
 ### trayectoria.022
 Compitiendo

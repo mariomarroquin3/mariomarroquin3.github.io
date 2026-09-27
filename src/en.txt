@@ -425,7 +425,7 @@ Finish CUBO+ and CUBO_ai, and take Stanford's <b>Probability for AI</b> (admitte
 Publishing
 
 ### trayectoria.021
-Prepare CryptoRisk and Entropy Arena for arXiv, with their LaTeX write-ups.
+Prepare CryptoRisk, Entropy Arena and the security/institutions paper (10-page draft) for arXiv, with their LaTeX write-ups.
 
 ### trayectoria.022
 Competing
