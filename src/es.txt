@@ -1450,3 +1450,20 @@ Entrena un <code>RandomForestRegressor</code> (500 árboles) y un <code>RandomFo
 ### grainy.010
 Repositorio próximamente
 
+### proyectos.144
+Synapse · Base de datos de un banco
+
+### proyectos.145
+Sistema para un banco ficticio con la base de datos en Access, conectada a Python con <code>pyodbc</code> y una interfaz en Streamlit. Yo diseñé la base de datos; fue un proyecto de la escuela en equipo.
+
+### proyectos.146
+Diseño de bases de datos
+
+### proyectos.147
+Access
+
+### proyectos.148
+Streamlit
+
+### proyectos.149
+Proyecto escolar

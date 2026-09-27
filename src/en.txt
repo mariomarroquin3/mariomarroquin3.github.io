@@ -832,3 +832,20 @@ Trains a <code>RandomForestRegressor</code> (500 trees) and a <code>RandomForest
 ### grainy.010
 Repository coming soon
 
+### proyectos.144
+Synapse · Bank database
+
+### proyectos.145
+A system for a fictional bank with its database in Access, connected to Python through <code>pyodbc</code> and a Streamlit interface. I designed the database; it was a team project at school.
+
+### proyectos.146
+Database design
+
+### proyectos.147
+Access
+
+### proyectos.148
+Streamlit
+
+### proyectos.149
+School project
