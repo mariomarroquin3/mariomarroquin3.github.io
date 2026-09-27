@@ -836,16 +836,16 @@ Repository coming soon
 Synapse · Bank database
 
 ### proyectos.145
-A system for a fictional bank with its database in Access, connected to Python through <code>pyodbc</code> and a Streamlit interface. I designed the database; it was a team project at school.
+Banking system for a fictional bank, built as a school team project. I designed the Access database around a <b>double-entry ledger</b> (symmetric accounting entries: every transaction produces a debit and a credit) and wrote queries, models and services in Python with <code>pyodbc</code>: atomic transfers that roll back on error, business rules based on account status, cards and role-based access control. Streamlit interface.
 
 ### proyectos.146
-Database design
+Double-entry ledger
 
 ### proyectos.147
-Access
+Access + pyodbc
 
 ### proyectos.148
 Streamlit
 
 ### proyectos.149
-School project
+Code <span>↗</span>

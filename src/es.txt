@@ -1454,16 +1454,16 @@ Repositorio próximamente
 Synapse · Base de datos de un banco
 
 ### proyectos.145
-Sistema para un banco ficticio con la base de datos en Access, conectada a Python con <code>pyodbc</code> y una interfaz en Streamlit. Yo diseñé la base de datos; fue un proyecto de la escuela en equipo.
+Sistema bancario de un banco ficticio, hecho en equipo en la escuela. Yo diseñé la base de datos en Access con un <b>ledger de partida doble</b> (asientos contables simétricos: cada transacción genera un débito y un crédito) y escribí consultas, modelos y servicios en Python con <code>pyodbc</code>: transferencias atómicas con reversión ante errores, reglas de negocio según el estado de la cuenta, tarjetas y control de acceso por roles. Interfaz en Streamlit.
 
 ### proyectos.146
-Diseño de bases de datos
+Ledger de partida doble
 
 ### proyectos.147
-Access
+Access + pyodbc
 
 ### proyectos.148
 Streamlit
 
 ### proyectos.149
-Proyecto escolar
+Código <span>↗</span>
