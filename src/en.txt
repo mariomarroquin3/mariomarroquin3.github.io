@@ -116,7 +116,7 @@ volatility and tail-risk models compared
 less time on a recurring monthly invoice-reconciliation task (~4h to under 1 min)
 
 ### sobre-mi.009
-certificates and badges in AI, data, mathematics and programming
+certificates and badges in AI, data, mathematics, programming and research
 
 ### sobre-mi.010
 papers in preparation for arXiv
@@ -596,7 +596,7 @@ Certificates
 Filter certificates
 
 ### certificados.005
-All <small>14</small>
+All <small>15</small>
 
 ### certificados.006
 AI and data <small>7</small>
@@ -852,3 +852,21 @@ Streamlit
 
 ### proyectos.149
 Code <span>↗</span>
+
+### certificados.081
+Research
+
+### certificados.082
+Certamen de Investigación Técnica Bachiller 2026
+
+### certificados.083
+Diploma: participation in the XXV Certamen de Investigación Técnica Bachiller 2026
+
+### certificados.084
+Central Reserve Bank of El Salvador
+
+### certificados.085
+XXV Certamen de Investigación Técnica Bachiller
+
+### certificados.086
+2026 · Participation
