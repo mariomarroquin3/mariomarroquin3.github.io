@@ -890,7 +890,7 @@ Data Miner · An agent team for unknown data
 How can AI agents analyze a company's data without exposing personal information, and with figures you can verify?
 
 ### dataminer.006
-A coordinator and three specialist agents (data, analysis and machine learning), built with <b>BoxLang AI</b>, take a business question and work on the file as it arrives (Excel, CSV, JSON or a database over MCP). Personal data is anonymized before the model sees anything. Every fact in the answer carries the SQL that proves it, and that SQL is re-run to verify it. It delivers an HTML report that works offline.
+You ask a business question to a team of AI agents and they analyze the company’s file (Excel, CSV or a database). Personal data is hidden before the AI sees it, and every figure in the answer comes with the query that lets you check it.
 
 ### dataminer.007
 <b>My part:</b> the agent architecture and the backend (anonymization, read-only SQL, figure verification, MCP connection), built with the help of AI agents. From that work I extracted <b>bx-datatools</b>, a reusable BoxLang module. The rest of the team did the interface and the presentation.
@@ -899,7 +899,7 @@ A coordinator and three specialist agents (data, analysis and machine learning),
 Summary
 
 ### dataminer.009
-Designed for the mid-sized company that already has data in an ERP, a point of sale or spreadsheets but no data team. It detects quality and normalization problems, proposes a SQL schema, flags data leakage and forecasts stock-outs; the ML agent uses Tribuo models. It was tested with synthetic data and a mock AI provider, and then with Claude (Sonnet to coordinate, Haiku for the subagents). It is a hackathon prototype, not a finished product.
+A coordinator and three agents (data, analysis and machine learning), built with <b>BoxLang AI</b>. It uses read-only SQL, connects to databases over MCP and re-runs the SQL behind every figure to verify it. It delivers an HTML report that works offline. It is a hackathon prototype, tested with synthetic data and with Claude.
 
 ### dataminer.010
 Project code <span>↗</span>
