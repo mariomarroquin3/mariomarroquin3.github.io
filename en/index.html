@@ -145,6 +145,7 @@
 <a href="#p-entropy">Entropy Arena</a>
 <a href="#p-retina">RetinoVisionAI</a>
 <a href="#p-grainy">Grainy</a>
+<a href="#p-dataminer">Data Miner</a>
 <a href="#p-infra">Infrastructure and IoT</a>
 <a href="#p-datos">Data and security</a>
 <a href="#p-otros">Studies and ERP</a>
@@ -224,6 +225,21 @@
 <p class="links reveal" style="--d:.25s"><a class="link" href="https://github.com/mariomarroquin3/Diabetic-Retinopathy-Classifier" rel="noopener" target="_blank">Code <span>↗</span></a></p>
 </div>
 </article>
+<!-- Data Miner: hackathon BoxLang -->
+<h3 class="col-title reveal side-title" id="p-dataminer" style="margin-top:0">AI agents · Hackathon</h3>
+<div class="pair-grid one">
+<article class="card pair reveal" data-spot="">
+<p class="tag-row"><span class="pill"><i></i>BoxLang AI Hackathon 2026 · Ortus × ANIA</span><span class="mono muted">Oct 10–11, 2026 · team of 4</span></p>
+<h4>Data Miner · An agent team for unknown data</h4>
+<p class="rq">How can AI agents analyze a company's data without exposing personal information, and with figures you can verify?</p>
+<p>A coordinator and three specialist agents (data, analysis and machine learning), built with <b>BoxLang AI</b>, take a business question and work on the file as it arrives (Excel, CSV, JSON or a database over MCP). Personal data is anonymized before the model sees anything. Every fact in the answer carries the SQL that proves it, and that SQL is re-run to verify it. It delivers an HTML report that works offline.</p>
+<p class="pair-next"><b>My part:</b> the agent architecture and the backend (anonymization, read-only SQL, figure verification, MCP connection), built with the help of AI agents. From that work I extracted <b>bx-datatools</b>, a reusable BoxLang module. The rest of the team did the interface and the presentation.</p>
+<details class="abs"><summary>Summary</summary><p>Designed for the mid-sized company that already has data in an ERP, a point of sale or spreadsheets but no data team. It detects quality and normalization problems, proposes a SQL schema, flags data leakage and forecasts stock-outs; the ML agent uses Tribuo models. It was tested with synthetic data and a mock AI provider, and then with Claude (Sonnet to coordinate, Haiku for the subagents). It is a hackathon prototype, not a finished product.</p></details>
+<p class="chips"><span>BoxLang</span><span>BoxLang AI</span><span>MCP</span><span>SQL</span><span>Tribuo</span><span>Claude</span></p>
+<p class="links"><a class="link" href="https://github.com/mariomarroquin3/dataMiner" rel="noopener" target="_blank">Project code <span>↗</span></a> <a class="link" href="https://github.com/mariomarroquin3/bx-datatools" rel="noopener" target="_blank">bx-datatools module <span>↗</span></a></p>
+</article>
+</div>
+
 <!-- Infraestructura e IoT -->
 <!-- Grainy: hackathon -->
 <h3 class="col-title reveal side-title" id="p-grainy" style="margin-top:0">Applied AI · Hackathon</h3>

@@ -1485,3 +1485,39 @@ XXV Certamen de Investigación Técnica Bachiller
 
 ### certificados.086
 2026 · Participación
+
+### subnav.010
+Data Miner
+
+### dataminer.001
+Agentes de IA · Hackathon
+
+### dataminer.002
+Hackathon BoxLang AI 2026 · Ortus × ANIA
+
+### dataminer.003
+10–11 oct 2026 · equipo de 4
+
+### dataminer.004
+Data Miner · Equipo de agentes para datos desconocidos
+
+### dataminer.005
+¿Cómo dejar que agentes de IA analicen los datos de una empresa sin exponer datos personales y con cifras que se puedan comprobar?
+
+### dataminer.006
+Un coordinador y tres agentes especialistas (datos, análisis y machine learning), hechos con <b>BoxLang AI</b>, reciben una pregunta de negocio y trabajan sobre el archivo tal como llega (Excel, CSV, JSON o una base de datos por MCP). Antes de que el modelo vea nada, los datos personales se anonimizan. Cada hecho de la respuesta trae el SQL que lo demuestra y se vuelve a ejecutar para verificarlo. Entrega un informe HTML que funciona sin internet.
+
+### dataminer.007
+<b>Mi parte:</b> la arquitectura de los agentes y el backend (anonimización, SQL de solo lectura, verificación de cifras, conexión MCP), construido con ayuda de agentes de IA. De ese trabajo saqué <b>bx-datatools</b>, un módulo de BoxLang reutilizable. El resto del equipo hizo la interfaz y la presentación.
+
+### dataminer.008
+Resumen
+
+### dataminer.009
+Pensado para la empresa mediana que ya tiene datos en un ERP, un punto de venta u hojas de cálculo pero no un equipo de datos. Detecta problemas de calidad y de normalización, propone un esquema SQL, avisa de fuga de datos y pronostica quiebres de stock; el agente de ML usa modelos de Tribuo. Las pruebas se hicieron con datos sintéticos y el proveedor de IA simulado, y luego con Claude (Sonnet para coordinar, Haiku para los subagentes). Es un prototipo de hackathon, no un producto terminado.
+
+### dataminer.010
+Código del proyecto <span>↗</span>
+
+### dataminer.011
+Módulo bx-datatools <span>↗</span>
