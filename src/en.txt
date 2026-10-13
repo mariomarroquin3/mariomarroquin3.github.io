@@ -419,7 +419,7 @@ Right now
 Learning
 
 ### trayectoria.019
-Finish CUBO+ and CUBO_ai, and take Stanford's <b>Probability for AI</b> (admitted, starts in October) to strengthen my foundation in probability.
+Finish CUBO+ and CUBO_ai, and keep taking Stanford's <b>Probability for AI</b> (ongoing) to strengthen my foundation in probability.
 
 ### trayectoria.020
 Publishing
@@ -906,3 +906,6 @@ Project code <span>↗</span>
 
 ### dataminer.011
 bx-datatools module <span>↗</span>
+
+### contacto.013
+ORCID <span>↗</span>

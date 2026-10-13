@@ -743,7 +743,7 @@ En este momento
 Aprendiendo
 
 ### trayectoria.019
-Terminar CUBO+ y CUBO_ai, y cursar <b>Probability for AI</b> de Stanford (admitido, empieza en octubre) para reforzar mi base en probabilidad.
+Terminar CUBO+ y CUBO_ai, y seguir cursando <b>Probability for AI</b> de Stanford (en curso) para reforzar mi base en probabilidad.
 
 ### trayectoria.020
 Publicando
@@ -1521,3 +1521,6 @@ Código del proyecto <span>↗</span>
 
 ### dataminer.011
 Módulo bx-datatools <span>↗</span>
+
+### contacto.013
+ORCID <span>↗</span>
