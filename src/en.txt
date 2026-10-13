@@ -474,7 +474,7 @@ Solid foundation in machine learning: preprocessing, training, evaluation and de
 Introduction to programming in Python: control flow, lists, dictionaries and graphics. April–May 2026.
 
 ### programas.028
-Ongoing
+In progress
 
 ### programas.030
 Competition
