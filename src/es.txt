@@ -743,7 +743,7 @@ En este momento
 Aprendiendo
 
 ### trayectoria.019
-Terminar CUBO+ y CUBO_ai, y seguir cursando <b>Probability for AI</b> de Stanford (en curso) para reforzar mi base en probabilidad.
+Seguir cursando <b>Probability for AI</b> de Stanford (en curso) para reforzar mi base en probabilidad.
 
 ### trayectoria.020
 Publicando
@@ -813,7 +813,7 @@ GCI · Matsuo Lab
 University of Tokyo
 
 ### programas.019
-Curso online de tres meses en AI, ML y Data Science, con énfasis en series temporales, aprendizaje supervisado, feature engineering y SQL.
+Curso online de tres meses en AI, ML y Data Science, con énfasis en series temporales, aprendizaje supervisado, feature engineering y SQL. Ahora participo en su competencia final de riesgo de crédito (predicción de impago, métrica ROC-AUC), que cierra el 20 de noviembre de 2026.
 
 ### programas.020
 Completado
@@ -840,7 +840,7 @@ Stanford University · CS106A
 Introducción a la programación en Python: control de flujo, listas, diccionarios y gráficos. Abril–mayo 2026.
 
 ### programas.028
-En pausa
+En curso
 
 ### programas.029
 Kaggle · Enveda CASMI 2026
@@ -849,7 +849,7 @@ Kaggle · Enveda CASMI 2026
 Competencia
 
 ### programas.031
-Identificación de moléculas a partir de espectros de masas. Inscrito; retomo en 2027.
+Identificación de moléculas a partir de espectros de masas. Estoy participando.
 
 ### logros.001
 Logros y <em>reconocimientos</em>

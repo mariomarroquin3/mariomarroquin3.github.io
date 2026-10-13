@@ -419,7 +419,7 @@ Right now
 Learning
 
 ### trayectoria.019
-Finish CUBO+ and CUBO_ai, and keep taking Stanford's <b>Probability for AI</b> (ongoing) to strengthen my foundation in probability.
+Keep taking Stanford's <b>Probability for AI</b> (ongoing) to strengthen my foundation in probability.
 
 ### trayectoria.020
 Publishing
@@ -465,7 +465,7 @@ Artificial intelligence
 Foundations of ML and neural networks.
 
 ### programas.019
-Three-month online course in AI, ML and Data Science, with emphasis on time series, supervised learning, feature engineering and SQL.
+Three-month online course in AI, ML and Data Science, with emphasis on time series, supervised learning, feature engineering and SQL. I am now in its final competition on credit risk (default prediction, ROC-AUC metric), which closes on November 20, 2026.
 
 ### programas.023
 Solid foundation in machine learning: preprocessing, training, evaluation and deployment.
@@ -474,13 +474,13 @@ Solid foundation in machine learning: preprocessing, training, evaluation and de
 Introduction to programming in Python: control flow, lists, dictionaries and graphics. April–May 2026.
 
 ### programas.028
-Paused
+Ongoing
 
 ### programas.030
 Competition
 
 ### programas.031
-Identifying molecules from mass spectra. Registered; resuming in 2027.
+Identifying molecules from mass spectra. I am taking part now.
 
 ### logros.001
 Achievements and <em>recognition</em>
