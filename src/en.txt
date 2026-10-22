@@ -356,7 +356,7 @@ Born at work
 DTE invoice tools
 
 ### proyectos.137
-Two desktop apps that merge electronic invoices into a single PDF, one starting from the accounting entry and the other from the Purchases Ledger. They cut a task that took a whole afternoon to under a minute.
+Two desktop apps of the BookiFi suite that merge electronic invoices into a single PDF, one starting from the accounting entry and the other from the Purchases Ledger. They cut a task that took a whole afternoon to under a minute.
 
 ### proyectos.141
 And more experiments
@@ -872,7 +872,7 @@ XXV Certamen de Investigación Técnica Bachiller
 2026 · Participation
 
 ### subnav.010
-Data Miner
+VeriMine
 
 ### dataminer.001
 AI agents · Hackathon
@@ -884,7 +884,7 @@ BoxLang AI Hackathon 2026 · Ortus × ANIA
 Oct 10–11, 2026 · team of 4
 
 ### dataminer.004
-Data Miner · An agent team for unknown data
+VeriMine · An agent team for unknown data (Data Miner challenge)
 
 ### dataminer.005
 How can AI agents analyze a company's data without exposing personal information, and with figures you can verify?

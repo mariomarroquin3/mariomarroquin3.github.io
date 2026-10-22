@@ -668,7 +668,7 @@ Nacidas en mi trabajo
 Herramientas de facturas DTE
 
 ### proyectos.137
-Dos apps de escritorio que unen las facturas electrónicas en un solo PDF, una desde la partida contable y otra desde el Libro de Compras. Bajaron una tarea de toda una tarde a menos de un minuto.
+Dos apps de escritorio de la suite BookiFi que unen las facturas electrónicas en un solo PDF, una desde la partida contable y otra desde el Libro de Compras. Bajaron una tarea de toda una tarde a menos de un minuto.
 
 ### proyectos.138
 Partidas DTE ↗
@@ -1487,7 +1487,7 @@ XXV Certamen de Investigación Técnica Bachiller
 2026 · Participación
 
 ### subnav.010
-Data Miner
+VeriMine
 
 ### dataminer.001
 Agentes de IA · Hackathon
@@ -1499,7 +1499,7 @@ Hackathon BoxLang AI 2026 · Ortus × ANIA
 10–11 oct 2026 · equipo de 4
 
 ### dataminer.004
-Data Miner · Equipo de agentes para datos desconocidos
+VeriMine · Equipo de agentes para datos desconocidos (reto Data Miner)
 
 ### dataminer.005
 ¿Cómo dejar que agentes de IA analicen los datos de una empresa sin exponer datos personales y con cifras que se puedan comprobar?
