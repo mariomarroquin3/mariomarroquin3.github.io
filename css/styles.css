@@ -336,6 +336,8 @@ dialog#lightbox[open] { display: grid; place-items: center; animation: fade .3s 
   .hero-vignette { background: linear-gradient(0deg, var(--bg), transparent 30%), rgba(7, 8, 11, .35); }
 }
 @media (max-width: 760px) {
+  #lorenz { opacity: .3; }
+  .hero-vignette { background: linear-gradient(0deg, var(--bg), transparent 30%), rgba(7, 8, 11, .55); }
   .burger { display: block; }
   .menu {
     position: fixed; inset: 0; z-index: 105; flex-direction: column; justify-content: center; gap: 1.6rem;

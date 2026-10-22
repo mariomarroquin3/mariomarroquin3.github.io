@@ -353,7 +353,7 @@ Web portal with sign-up, login and user profile, with a SQL database and its own
 Born at work
 
 ### proyectos.136
-DTE invoice tools
+BookiFi · DTE invoice tools
 
 ### proyectos.137
 Two desktop apps of the BookiFi suite that merge electronic invoices into a single PDF, one starting from the accounting entry and the other from the Purchases Ledger. They cut a task that took a whole afternoon to under a minute.
@@ -362,7 +362,7 @@ Two desktop apps of the BookiFi suite that merge electronic invoices into a sing
 And more experiments
 
 ### proyectos.142
-More than 30 repositories of exercises, games and prototypes.
+More than 20 public repositories of exercises, games and prototypes.
 
 ### proyectos.143
 See all ↗
@@ -854,7 +854,7 @@ Streamlit
 Code <span>↗</span>
 
 ### certificados.081
-Research
+Research <small>1</small>
 
 ### certificados.082
 Certamen de Investigación Técnica Bachiller 2026
@@ -909,3 +909,9 @@ bx-datatools module <span>↗</span>
 
 ### contacto.013
 ORCID <span>↗</span>
+
+### proyectos.061
+Training code <span>↗</span>
+
+### proyectos.150
+Web app <span>↗</span>

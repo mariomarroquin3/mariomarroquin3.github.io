@@ -440,7 +440,7 @@ Pandas
 Flask
 
 ### proyectos.061
-Código <span>↗</span>
+Código de entrenamiento <span>↗</span>
 
 ### proyectos.062
 Infraestructura e IoT
@@ -665,7 +665,7 @@ HTML · SQL · Node ↗
 Nacidas en mi trabajo
 
 ### proyectos.136
-Herramientas de facturas DTE
+BookiFi · herramientas de facturas DTE
 
 ### proyectos.137
 Dos apps de escritorio de la suite BookiFi que unen las facturas electrónicas en un solo PDF, una desde la partida contable y otra desde el Libro de Compras. Bajaron una tarea de toda una tarde a menos de un minuto.
@@ -683,7 +683,7 @@ GitHub
 Y más experimentos
 
 ### proyectos.142
-Más de 30 repositorios entre prácticas, juegos y prototipos.
+Más de 20 repositorios públicos entre prácticas, juegos y prototipos.
 
 ### proyectos.143
 Ver todos ↗
@@ -1469,7 +1469,7 @@ Streamlit
 Código <span>↗</span>
 
 ### certificados.081
-Investigación
+Investigación <small>1</small>
 
 ### certificados.082
 Certamen de Investigación Técnica Bachiller 2026
@@ -1524,3 +1524,6 @@ Módulo bx-datatools <span>↗</span>
 
 ### contacto.013
 ORCID <span>↗</span>
+
+### proyectos.150
+App web <span>↗</span>
