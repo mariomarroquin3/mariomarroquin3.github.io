@@ -440,7 +440,7 @@ Pandas
 Flask
 
 ### proyectos.061
-Código de entrenamiento <span>↗</span>
+Código <span>↗</span>
 
 ### proyectos.062
 Infraestructura e IoT
@@ -1524,6 +1524,3 @@ Módulo bx-datatools <span>↗</span>
 
 ### contacto.013
 ORCID <span>↗</span>
-
-### proyectos.150
-App web <span>↗</span>

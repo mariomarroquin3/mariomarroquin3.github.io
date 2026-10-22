@@ -911,7 +911,4 @@ bx-datatools module <span>↗</span>
 ORCID <span>↗</span>
 
 ### proyectos.061
-Training code <span>↗</span>
-
-### proyectos.150
-Web app <span>↗</span>
+Code <span>↗</span>
