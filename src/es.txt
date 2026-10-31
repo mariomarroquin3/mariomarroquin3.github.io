@@ -1569,3 +1569,6 @@ Primer Hackathon en Inteligencia Artificial
 
 ### certificados.101
 10–11 dic 2025
+
+### trayectoria.100
+<b>Asistente de facturas DTE</b> (extensión del navegador y app de escritorio): lleva una lista de clientes leída desde facturas en PDF y autocompleta los datos del receptor al crear facturas en el portal de Hacienda. Ahorra cerca de un 70 % del tiempo que toma normalmente.
