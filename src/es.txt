@@ -1109,10 +1109,10 @@ Certificados
 Filtrar certificados
 
 ### certificados.005
-Todos <small>15</small>
+Todos <small>18</small>
 
 ### certificados.006
-IA y datos <small>7</small>
+IA y datos <small>10</small>
 
 ### certificados.007
 Matemáticas <small>4</small>
@@ -1524,3 +1524,48 @@ Módulo bx-datatools <span>↗</span>
 
 ### contacto.013
 ORCID <span>↗</span>
+
+### certificados.087
+Superintelligence Bootcamp
+
+### certificados.088
+Certificado: Superintelligence Bootcamp, Talent Academy
+
+### certificados.089
+Talent Academy · NVIDIA GeForce RTX × ASUS
+
+### certificados.090
+Superintelligence Bootcamp
+
+### certificados.091
+30 oct 2026
+
+### certificados.092
+Bootcamp en Inteligencia Artificial (40 h)
+
+### certificados.093
+Diploma: Bootcamp en Inteligencia Artificial del Ministerio de Educación
+
+### certificados.094
+Ministerio de Educación de El Salvador
+
+### certificados.095
+Bootcamp en Inteligencia Artificial · 40 h
+
+### certificados.096
+24–28 nov 2025
+
+### certificados.097
+Primer Hackathon en Inteligencia Artificial
+
+### certificados.098
+Diploma: destacable participación en el primer Hackathon en Inteligencia Artificial del Ministerio de Educación
+
+### certificados.099
+Ministerio de Educación de El Salvador
+
+### certificados.100
+Primer Hackathon en Inteligencia Artificial
+
+### certificados.101
+10–11 dic 2025
