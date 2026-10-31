@@ -1571,4 +1571,4 @@ Primer Hackathon en Inteligencia Artificial
 10–11 dic 2025
 
 ### trayectoria.100
-<b>Asistente de facturas DTE</b> (extensión del navegador y app de escritorio): lleva una lista de clientes leída desde facturas en PDF y autocompleta los datos del receptor al crear facturas en el portal de Hacienda. Ahorra cerca de un 70 % del tiempo que toma normalmente.
+<b>Asistente de facturas DTE</b> (extensión del navegador y app de escritorio): lleva una lista de clientes leída desde facturas en PDF y autocompleta los datos del receptor al crear facturas en el portal de Hacienda. Ahorra cerca de un 70 % del tiempo que toma normalmente (estimado): en lugar de copiar y pegar los datos uno por uno, se rellenan en menos de un segundo.

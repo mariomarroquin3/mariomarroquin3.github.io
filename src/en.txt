@@ -959,4 +959,4 @@ First Artificial Intelligence Hackathon
 Dec 10–11, 2025
 
 ### trayectoria.100
-<b>DTE invoice assistant</b> (browser extension and desktop app): keeps a client list read from PDF invoices and autofills the recipient data when creating invoices on the tax authority portal. It saves about 70% of the time the task normally takes.
+<b>DTE invoice assistant</b> (browser extension and desktop app): keeps a client list read from PDF invoices and autofills the recipient data when creating invoices on the tax authority portal. It saves about 70% of the time the task normally takes (estimate): instead of copying and pasting each field, the data is filled in under a second.
