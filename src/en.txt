@@ -465,7 +465,7 @@ Artificial intelligence
 Foundations of ML and neural networks.
 
 ### programas.019
-Three-month online course in AI, ML and Data Science, with emphasis on time series, supervised learning, feature engineering and SQL. I am now in its final competition on credit risk (default prediction, ROC-AUC metric), which closes on November 20, 2026.
+Three-month online course in AI, ML and Data Science, with emphasis on time series, supervised learning, feature engineering and SQL. I am now in its credit-risk competition (default prediction, ROC-AUC metric) and in its final project on customer churn in telecommunications.
 
 ### programas.023
 Solid foundation in machine learning: preprocessing, training, evaluation and deployment.
@@ -1001,13 +1001,19 @@ Browser games portal where every achievement earns simulated sats (no real value
 El Rescate del Contexto · Hackathon
 
 ### proyectos.157
-Cooperative sci-fi escape room for two players, one per world, where every room is a real machine-learning concept: classifying, training, searching by meaning, agents and context budget. Real-time matches over WebSocket. Built by a team of two at The Game Studio hackathon, November 6–7, 2026.
+Cooperative sci-fi escape room for two players, one per world, where every room is a real machine-learning concept: classifying, training, searching by meaning, agents and context budget. Real-time matches over WebSocket. Built by a team of two at the CUBO_ai The Game Studio hackathon, November 6–7, 2026.
 
 ### proyectos.158
 GCI 2026 · Credit risk
 
 ### proyectos.159
-Final competition of the GCI course (Matsuo Lab, University of Tokyo): predict default probability in Home Credit Default Risk, scored by ROC-AUC. Pipeline with stratified cross-validation and out-of-fold predictions to avoid leakage, structural features and a 24-page mathematical guide explaining each tool. In progress.
+Competition of the GCI course (Matsuo Lab, University of Tokyo): predict default probability in Home Credit Default Risk, scored by ROC-AUC. Pipeline with stratified cross-validation and out-of-fold predictions to avoid leakage, structural features and a 24-page mathematical guide explaining each tool. In progress.
 
 ### programas.032
 View competition <span>↗</span>
+
+### proyectos.160
+GCI 2026 · Telecom churn
+
+### proyectos.161
+Final project of the GCI course: a business proposal for an anonymous mobile operator (about 100k customers). An XGBoost model ranks customers by churn risk (0.70 ROC-AUC on the test set; the per-customer signal is weak, so it is used to prioritize, not to decide case by case) and a device-refresh program with an explicit ROI model and an A/B pilot plan. Due on November 28, 2026.

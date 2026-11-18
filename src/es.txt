@@ -813,7 +813,7 @@ GCI · Matsuo Lab
 University of Tokyo
 
 ### programas.019
-Curso online de tres meses en AI, ML y Data Science, con énfasis en series temporales, aprendizaje supervisado, feature engineering y SQL. Ahora participo en su competencia final de riesgo de crédito (predicción de impago, métrica ROC-AUC), que cierra el 20 de noviembre de 2026.
+Curso online de tres meses en AI, ML y Data Science, con énfasis en series temporales, aprendizaje supervisado, feature engineering y SQL. Ahora participo en su competencia de riesgo de crédito (predicción de impago, métrica ROC-AUC) y en su proyecto final sobre abandono de clientes en telecomunicaciones.
 
 ### programas.020
 Completado
@@ -1613,13 +1613,19 @@ Portal de juegos para el navegador donde cada logro suma sats simulados (sin val
 El Rescate del Contexto · Hackathon
 
 ### proyectos.157
-Escape room cooperativo de ciencia ficción para dos jugadores, uno por mundo, donde cada sala es un concepto real de machine learning: clasificar, entrenar, buscar por significado, agentes y presupuesto de contexto. Partidas en tiempo real por WebSocket. Hecho en equipo de dos en el hackathon de The Game Studio, 6–7 de noviembre de 2026.
+Escape room cooperativo de ciencia ficción para dos jugadores, uno por mundo, donde cada sala es un concepto real de machine learning: clasificar, entrenar, buscar por significado, agentes y presupuesto de contexto. Partidas en tiempo real por WebSocket. Hecho en equipo de dos en el hackathon CUBO_ai The Game Studio, 6–7 de noviembre de 2026.
 
 ### proyectos.158
 GCI 2026 · Riesgo de crédito
 
 ### proyectos.159
-Competencia final del curso GCI (Matsuo Lab, University of Tokyo): predecir la probabilidad de impago en Home Credit Default Risk, con ROC-AUC como métrica. Pipeline con validación cruzada estratificada y predicciones out-of-fold para evitar la fuga de información, features estructurales y una guía matemática de 24 páginas que explica cada herramienta. En curso.
+Competencia del curso GCI (Matsuo Lab, University of Tokyo): predecir la probabilidad de impago en Home Credit Default Risk, con ROC-AUC como métrica. Pipeline con validación cruzada estratificada y predicciones out-of-fold para evitar la fuga de información, features estructurales y una guía matemática de 24 páginas que explica cada herramienta. En curso.
 
 ### programas.032
 Ver competencia <span>↗</span>
+
+### proyectos.160
+GCI 2026 · Churn en telecomunicaciones
+
+### proyectos.161
+Proyecto final del curso GCI: propuesta de negocio para un operador móvil anónimo (unos 100 mil clientes). Un modelo XGBoost ordena a los clientes por riesgo de abandono (ROC-AUC de 0.70 en prueba; la señal por cliente es débil, así que sirve para priorizar, no para decidir caso por caso) y un programa de renovación de equipos con modelo de ROI explícito y plan de piloto A/B. Entrega el 28 de noviembre de 2026.
