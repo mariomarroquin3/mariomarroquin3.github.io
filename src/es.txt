@@ -1109,7 +1109,7 @@ Certificados
 Filtrar certificados
 
 ### certificados.005
-Todos <small>18</small>
+Todos <small>19</small>
 
 ### certificados.006
 IA y datos <small>10</small>
@@ -1572,3 +1572,54 @@ Primer Hackathon en Inteligencia Artificial
 
 ### trayectoria.100
 <b>Asistente de facturas DTE</b> (extensión del navegador y app de escritorio): lleva una lista de clientes leída desde facturas en PDF y autocompleta los datos del receptor al crear facturas en el portal de Hacienda. Ahorra cerca de un 70 % del tiempo que toma normalmente (estimado): en lugar de copiar y pegar los datos uno por uno, se rellenan en menos de un segundo.
+
+### certificados.102
+Feria de Estudiantes Emprendedores de Educación Media
+
+### certificados.103
+Diploma: destacada participación en la Feria de Estudiantes Emprendedores de Educación Media, Región Occidental
+
+### certificados.104
+MINEDUCYT · Expertise France (Agustine, Unión Europea)
+
+### certificados.105
+Feria de Estudiantes Emprendedores · Región Occidental
+
+### certificados.106
+15 nov 2026
+
+### certificados.107
+Emprendimiento <small>1</small>
+
+### proyectos.150
+Kerni · IA para la salud del PC
+
+### proyectos.151
+Mascota de escritorio con IA que cuida tu PC con Windows: mira CPU, memoria, disco y procesos, te lo explica en español salvadoreño y solo propone acciones. Tú apruebas cada una y se valida dos veces (en el backend y en Rust). Proyecto en equipo; con él participé en la Feria de Estudiantes Emprendedores de Educación Media, Región Occidental (nov 2026).
+
+### proyectos.152
+Bitoo · Agente de voz que enseña Bitcoin
+
+### proyectos.153
+Agente de IA con personaje que enseña Bitcoin por voz y hace cosas reales: cobra por Lightning, toma quizzes y responde con libros de apoyo. Corre sobre un harness propio de tool calling con Claude, sin framework de agentes, con reglas deterministas tras el modelo y más de 300 pruebas. CUBO AI Challenge 2026, equipo L4Labs de cuatro; soy codesarrollador.
+
+### proyectos.154
+SAT₿ERSE · Portal de juegos retro
+
+### proyectos.155
+Portal de juegos para el navegador donde cada logro suma sats simulados (sin valor real) que se gastan en trajes y suben al ranking. El servidor decide qué logros pagan, no el navegador. Dos juegos jugables hechos sin motor, 37 logros y cuentas con usuario o Nostr. Proyecto final de CUBO+ Build Sprint 2026, Grupo 4.
+
+### proyectos.156
+El Rescate del Contexto · Hackathon
+
+### proyectos.157
+Escape room cooperativo de ciencia ficción para dos jugadores, uno por mundo, donde cada sala es un concepto real de machine learning: clasificar, entrenar, buscar por significado, agentes y presupuesto de contexto. Partidas en tiempo real por WebSocket. Hecho en equipo de dos en el hackathon de The Game Studio, 6–7 de noviembre de 2026.
+
+### proyectos.158
+GCI 2026 · Riesgo de crédito
+
+### proyectos.159
+Competencia final del curso GCI (Matsuo Lab, University of Tokyo): predecir la probabilidad de impago en Home Credit Default Risk, con ROC-AUC como métrica. Pipeline con validación cruzada estratificada y predicciones out-of-fold para evitar la fuga de información, features estructurales y una guía matemática de 24 páginas que explica cada herramienta. En curso.
+
+### programas.032
+Ver competencia <span>↗</span>

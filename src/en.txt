@@ -596,7 +596,7 @@ Certificates
 Filter certificates
 
 ### certificados.005
-All <small>18</small>
+All <small>19</small>
 
 ### certificados.006
 AI and data <small>10</small>
@@ -960,3 +960,54 @@ Dec 10–11, 2025
 
 ### trayectoria.100
 <b>DTE invoice assistant</b> (browser extension and desktop app): keeps a client list read from PDF invoices and autofills the recipient data when creating invoices on the tax authority portal. It saves about 70% of the time the task normally takes (estimate): instead of copying and pasting each field, the data is filled in under a second.
+
+### certificados.102
+Student Entrepreneurs Fair for Secondary Education
+
+### certificados.103
+Diploma: outstanding participation in the Student Entrepreneurs Fair for Secondary Education, Western Region
+
+### certificados.104
+MINEDUCYT · Expertise France (Agustine, European Union)
+
+### certificados.105
+Student Entrepreneurs Fair · Western Region
+
+### certificados.106
+Nov 15, 2026
+
+### certificados.107
+Entrepreneurship <small>1</small>
+
+### proyectos.150
+Kerni · AI for PC health
+
+### proyectos.151
+AI desktop pet that looks after your Windows PC: it watches CPU, memory, disk and processes, explains it in Salvadoran Spanish and only proposes actions. You approve each one, and it is validated twice (in the backend and in Rust). Team project; with it I took part in the Student Entrepreneurs Fair for Secondary Education, Western Region (Nov 2026).
+
+### proyectos.152
+Bitoo · Voice agent that teaches Bitcoin
+
+### proyectos.153
+AI agent with a character that teaches Bitcoin by voice and does real things: it charges over Lightning, runs quizzes and answers from supporting books. It runs on a custom tool-calling harness with Claude, no agent framework, with deterministic rules after the model and over 300 tests. CUBO AI Challenge 2026, L4Labs team of four; I am a co-developer.
+
+### proyectos.154
+SAT₿ERSE · Retro games portal
+
+### proyectos.155
+Browser games portal where every achievement earns simulated sats (no real value) that are spent on outfits and climb the ranking. The server decides which achievements pay, not the browser. Two playable games built without an engine, 37 achievements and accounts with username or Nostr. Final project of CUBO+ Build Sprint 2026, Group 4.
+
+### proyectos.156
+El Rescate del Contexto · Hackathon
+
+### proyectos.157
+Cooperative sci-fi escape room for two players, one per world, where every room is a real machine-learning concept: classifying, training, searching by meaning, agents and context budget. Real-time matches over WebSocket. Built by a team of two at The Game Studio hackathon, November 6–7, 2026.
+
+### proyectos.158
+GCI 2026 · Credit risk
+
+### proyectos.159
+Final competition of the GCI course (Matsuo Lab, University of Tokyo): predict default probability in Home Credit Default Risk, scored by ROC-AUC. Pipeline with stratified cross-validation and out-of-fold predictions to avoid leakage, structural features and a 24-page mathematical guide explaining each tool. In progress.
+
+### programas.032
+View competition <span>↗</span>
