@@ -215,7 +215,7 @@ Estoy terminando el Bachillerato Técnico en Infraestructura Tecnológica y Serv
 ### sobre-mi.005
 Mientras tanto investigo por mi cuenta: comparo más de veinte modelos de riesgo para criptoactivos,
               rompo generadores de números pseudoaleatorios para entender por qué «parecer aleatorio»
-              no es lo mismo que «ser impredecible», y trabajo con agentes de IA: yo decido qué se construye y cómo; ellos me ayudan con gran parte de la sintaxis.
+              no es lo mismo que «ser impredecible», y desarrollo sistemas multiagente y herramientas de automatización para flujos de trabajo reales.
 
 ### sobre-mi.006
 modelos de volatilidad y riesgo de cola comparados

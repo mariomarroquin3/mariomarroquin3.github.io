@@ -104,7 +104,7 @@ I'm finishing my Technical Baccalaureate in Technology Infrastructure and IT Ser
 ### sobre-mi.005
 Meanwhile I do research on my own: I compare more than twenty risk models for crypto-assets,
               I break pseudorandom number generators to understand why “looking random”
-              is not the same as “being unpredictable”, and I work with AI agents: I decide what gets built and how; they help me with a lot of the syntax.
+              is not the same as “being unpredictable”, and I develop multi-agent systems and automation tools for real-world workflows.
 
 ### sobre-mi.006
 volatility and tail-risk models compared
